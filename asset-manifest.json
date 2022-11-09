@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/toytherapy_room/static/css/main.073c9b0a.css",
+    "main.js": "/toytherapy_room/static/js/main.9d23d9ae.js",
+    "static/js/787.360ae466.chunk.js": "/toytherapy_room/static/js/787.360ae466.chunk.js",
+    "index.html": "/toytherapy_room/index.html",
+    "main.073c9b0a.css.map": "/toytherapy_room/static/css/main.073c9b0a.css.map",
+    "main.9d23d9ae.js.map": "/toytherapy_room/static/js/main.9d23d9ae.js.map",
+    "787.360ae466.chunk.js.map": "/toytherapy_room/static/js/787.360ae466.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9d23d9ae.js"
+  ]
+}
