@@ -3,7 +3,7 @@ import navbar__helpToy from '../assets/navbar__helpToy.webp';
 
 const images = {
     navbar__charity,
-    navbar__helpToy
+    navbar__helpToy,
 };
 
 export default images;

@@ -1,0 +1,26 @@
+.poweredByWebElefont{
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-poweredBy);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--color-darkPink);
+}
+
+.poweredByWebELEFONT-webelefont{
+    font-family: var(--font-webElefont);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+    margin: 0;
+
+    color: var(--color-darkPink);
+}

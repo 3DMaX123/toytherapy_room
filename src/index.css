@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Neucha&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Raleway&display=swap');
 
 :root{
-  --font-main: 'Neucha', cursive;
-  --font-additional: 'Nunito', sans-serif;
+  --font-main: 'Nunito', sans-serif;
+  --font-additional: 'Neucha', cursive;
+  --font-poweredBy: 'Raleway', sans-serif;
+  --font-webElefont: 'Josefin Sans', sans-serif;
   --color-pink: #D7BEFF;
+  --color-darkPink: #8787C4;
   --color-black: #394253;
   --color-white: #FFFFFF;
   --drop-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2); 

@@ -1,3 +1,121 @@
 .app__footer{
     display: flex;
+
+    flex-direction: column;
+}
+
+.footer__mainContentANDsocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 100%;
+}
+
+.footer__mainContent-logo{
+    width: 101px;
+    height: 58px;
+}
+
+.footer__mainContent_navigation{
+    display: flex;
+}
+
+.footer__mainContent_navigation div{
+    border: 3px solid var(--color-pink);
+    border-radius: 16px;
+
+    margin-right: 60px;
+}
+
+.footer__mainContent_navigation div:last-child{
+    margin-right: 0px;
+}
+
+.footer_navigation-text{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: var(--color-black);
+
+    margin: 14px 45px;
+}
+
+.footer__mainContent_social{
+    display: flex;
+    position: relative;
+
+    align-items: flex-end;
+}
+
+.footer__mainContent_social-arrow{
+    position: relative;
+
+    width: 123px;
+    height: 69px;
+
+    margin-bottom: 14px;
+}
+
+.footer__social_socialMedia{
+    display: flex;
+}
+
+.footer__social_socialMedia-icons{
+    position: absolute;
+    
+    width: 35px;
+    height: 35px;
+}
+
+.footer__social_socialMedia-facebook{
+    position: relative;
+    
+    left: -18px;
+
+    margin-right: 20px;
+}
+.footer__social_socialMedia-instagram{
+    position: relative;
+
+    left: -18px;
+}
+
+.footer__credits{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 75px;
+    margin-top: 57px;
+}
+
+.footer__credits_Phone{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+    margin: 0;
+    color: var(--color-darkPink);
+}
+
+.footer__credits_Phone a{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: var(--color-darkPink);
+
+    text-decoration: none;
 }
