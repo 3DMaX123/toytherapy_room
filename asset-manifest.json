@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.02da8e0f.css",
-    "main.js": "/toytherapy_room/static/js/main.536015bd.js",
+    "main.css": "/toytherapy_room/static/css/main.45632538.css",
+    "main.js": "/toytherapy_room/static/js/main.e497c024.js",
     "static/js/787.360ae466.chunk.js": "/toytherapy_room/static/js/787.360ae466.chunk.js",
+    "static/media/navbar__charity.webp": "/toytherapy_room/static/media/navbar__charity.e90570a01275a157f808.webp",
+    "static/media/navbar__helpToy.webp": "/toytherapy_room/static/media/navbar__helpToy.e16d9e12d4d3641816b3.webp",
     "index.html": "/toytherapy_room/index.html",
-    "main.02da8e0f.css.map": "/toytherapy_room/static/css/main.02da8e0f.css.map",
-    "main.536015bd.js.map": "/toytherapy_room/static/js/main.536015bd.js.map",
+    "main.45632538.css.map": "/toytherapy_room/static/css/main.45632538.css.map",
+    "main.e497c024.js.map": "/toytherapy_room/static/js/main.e497c024.js.map",
     "787.360ae466.chunk.js.map": "/toytherapy_room/static/js/787.360ae466.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02da8e0f.css",
-    "static/js/main.536015bd.js"
+    "static/css/main.45632538.css",
+    "static/js/main.e497c024.js"
   ]
 }
