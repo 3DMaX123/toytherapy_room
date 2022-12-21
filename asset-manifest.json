@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.45632538.css",
-    "main.js": "/toytherapy_room/static/js/main.e497c024.js",
+    "main.css": "/toytherapy_room/static/css/main.b93a343b.css",
+    "main.js": "/toytherapy_room/static/js/main.4fd2731a.js",
     "static/js/787.360ae466.chunk.js": "/toytherapy_room/static/js/787.360ae466.chunk.js",
+    "static/media/header__logotype.webp": "/toytherapy_room/static/media/header__logotype.8bcb61bd6c0de60b7a1c.webp",
+    "static/media/header__bottomHeartAndZigZag-hearts.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-hearts.c4f31991127eeb1deda5.webp",
+    "static/media/header__clouds.webp": "/toytherapy_room/static/media/header__clouds.f236f26b6b0847250a4e.webp",
+    "static/media/header__bottomHeartAndZigZag-zigZag.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-zigZag.d23606586c964a97b0f1.webp",
     "static/media/navbar__charity.webp": "/toytherapy_room/static/media/navbar__charity.e90570a01275a157f808.webp",
     "static/media/navbar__helpToy.webp": "/toytherapy_room/static/media/navbar__helpToy.e16d9e12d4d3641816b3.webp",
+    "static/media/header__textWithStars-stars.webp": "/toytherapy_room/static/media/header__textWithStars-stars.e42aa218190132b80541.webp",
     "index.html": "/toytherapy_room/index.html",
-    "main.45632538.css.map": "/toytherapy_room/static/css/main.45632538.css.map",
-    "main.e497c024.js.map": "/toytherapy_room/static/js/main.e497c024.js.map",
+    "static/media/header__bottomHeartAndZigZag-scroll.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-scroll.e96e2642b04ff99a4b46.webp",
+    "static/media/header__textithHeart-heart.webp": "/toytherapy_room/static/media/header__textithHeart-heart.c292870b207da12ea5ad.webp",
+    "main.b93a343b.css.map": "/toytherapy_room/static/css/main.b93a343b.css.map",
+    "main.4fd2731a.js.map": "/toytherapy_room/static/js/main.4fd2731a.js.map",
     "787.360ae466.chunk.js.map": "/toytherapy_room/static/js/787.360ae466.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45632538.css",
-    "static/js/main.e497c024.js"
+    "static/css/main.b93a343b.css",
+    "static/js/main.4fd2731a.js"
   ]
 }
