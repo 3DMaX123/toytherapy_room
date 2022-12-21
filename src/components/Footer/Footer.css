@@ -6,8 +6,9 @@
 
 .footer__mainContentANDsocial{
     display: flex;
+    position: relative;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
     width: 100%;
 }
@@ -19,6 +20,11 @@
 
 .footer__mainContent_navigation{
     display: flex;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer__mainContent_navigation div{
@@ -33,17 +39,24 @@
 }
 
 .footer_navigation-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20px; /*20xp*/
     line-height: 22px;
     /* identical to box height */
 
 
     color: var(--color-black);
 
-    margin: 14px 45px;
+   /*width: 236px;  236 
+    height: 51px; /*51*/
+
+    margin: 15px 45px;
 }
 
 .footer__mainContent_social{

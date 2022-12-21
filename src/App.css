@@ -6,6 +6,8 @@
     padding-bottom: 18px;
     border-radius: 140px;
 
+    margin: 0 3.958vw;
+
     background: var(--color-white);
 
     flex-direction: column;

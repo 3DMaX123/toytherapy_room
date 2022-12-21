@@ -12,7 +12,30 @@
   --drop-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2); 
 }
 
+* {
+margin: 0;
+padding: 0;
+}
 
 body {
   background-color: var(--color-pink);
 }
+
+.flex{
+  display: flex;
+}
+
+.flex_center{
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+/* .img{
+  image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+} */

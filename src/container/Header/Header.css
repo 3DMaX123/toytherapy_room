@@ -1,9 +1,132 @@
-.test{
-    font-family: 'Segoe UI';
+.app__header{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.header__clouds{
+    display: flex;
+
+    width: 45vw;
+}
+
+.header__mainContent_textAndLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__textAndLogo_header{
+    display: inline-flex;
+    position: relative;
+    align-items: baseline;
+
+    margin-bottom: 1.354vw;
+
+    flex-direction: column;
+}
+
+.header__header-header{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.771vw;
+    color: var(--color-black);
+}
+
+.header__header-note{
+    position: absolute;
+
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
-    font-size: 200px;
-    text-align: center;
+    font-size: 0.885vw;
 
-    color: #000000;
+    color: var(--color-pink);
+
+    right: 0.521vw;
+    bottom: 0.677vw;
+}
+
+.header__textAndLogo_description{
+    display: block;
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.031vw;
+
+    color: var(--color-black);
+
+}
+
+.header__description_textWithStars{
+    display: inline-flex;
+    position: relative;
+}
+
+.header__textWithStart-secondText{
+    font-size: 1em;
+
+    margin: 0 0.521vw;
+}
+
+.header__textWithStars-stars{
+    position: absolute;
+
+    width: 9.427vw;
+
+    top: -0.938vw;
+}
+
+.header__description_textWithHeart{
+    display: inline-flex;
+}
+
+.header__textithHeart-heart{
+    width: 0.938vw;
+    height: 0.833vw;
+}
+
+.header__textAndLogo-logo{
+    width: 31vw;
+    height: 31vw;
+}
+
+.header__bottomHeartsAndZigZag{
+    display: flex;
+    position: relative;
+}
+
+.header__bottomHeartAndZigZag_ScrollAndZigZag{
+    display: flex;
+    position: absolute;
+
+    width: 100%;
+}
+
+.header__bottomHeartAndZigZag-hearts{
+    width: 73.125vw;
+    height: 13.802vw;
+}
+
+.header__bottomHeartAndZigZag-zigZag{
+    width: 100%;
+
+    margin-top: 7vw;
+}
+
+.header__bottomHeartAndZigZag-scroll{
+    display: flex;
+    position: absolute;
+
+    margin-top: 6vw;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 1.354vw;
+    height: 3.594vw;
+
+
 }
