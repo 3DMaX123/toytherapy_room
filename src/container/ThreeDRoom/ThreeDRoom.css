@@ -1,0 +1,60 @@
+.app__threeDRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 43.490vw;
+
+    margin-bottom: 4.010vw;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url('%PUBLIC_URL%/../../../assets/3Droom__roomImage.webp');
+    background-size: cover;
+    box-shadow: var(--drop-shadow);
+    border-radius: 3.750vw;
+}
+
+.threeDRoom_textAndButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.threeDRoom_textAndButton-text{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.865vw;
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+.threeDRoom_TextAndButton-button{
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.146vw;
+
+    color: var(--color-white);
+
+    padding: 0.573vw 3vw;
+    margin-top: 1.302vw;
+
+    background: rgba(0, 0, 0, 0.2);
+    border: 0.078vw solid var(--color-pink);
+    box-shadow: var(--drop-shadow);
+    border-radius: 0.573vw;
+}
+
+.threeDRoom-stars{
+    position: absolute;
+
+    width: 75.104vw;
+    height: 32.031vw;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+}

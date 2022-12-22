@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Header, MagickSpace } from './container';
+import { Header, MagickSpace, ThreeDRoom, Catalog } from './container';
 import { NavBar, Footer } from './components';
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
       <div className='app__container'>
         <Header />
         <MagickSpace />
+        <ThreeDRoom />
+        <Catalog />
       </div>
       <Footer />
     </div>

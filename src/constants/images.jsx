@@ -10,6 +10,7 @@ import header__scroll from '../assets/header__bottomHeartAndZigZag-scroll.webp';
 import magickSpace__cloudRight from '../assets/magickSpace__cloudsRight.webp';
 import magickSpace__cloudLeft from '../assets/magickSpace__cloudsLeft.webp';
 import magickSpace__stars from '../assets/magickSpace__textAndStars-stars.webp';
+import threeDRoom from '../assets/threeDRoom-stars.webp';
 
 const images = {
     navbar__charity,
@@ -23,7 +24,8 @@ const images = {
     header__scroll,
     magickSpace__cloudRight,
     magickSpace__cloudLeft,
-    magickSpace__stars
+    magickSpace__stars,
+    threeDRoom
 };
 
 export default images;
