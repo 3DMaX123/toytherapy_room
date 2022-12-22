@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Header } from './container';
+import { Header, MagickSpace } from './container';
 import { NavBar, Footer } from './components';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       {/* app__container - це div в якого повинні додаватися елементи з папки container !!!! НІ В ЯКОМУ ВИПАДКУ ЕЛЕМЕНТИ - COMPONENTS (NavBar, Footer etc.)!!!! */}
       <div className='app__container'>
         <Header />
+        <MagickSpace />
       </div>
       <Footer />
     </div>
