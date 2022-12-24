@@ -1,0 +1,50 @@
+.app__feedback{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin-bottom: 1.354vw;
+}
+
+.feedback__-props{
+    width: 83.385vw;
+    height: 24.010vw;
+}
+
+.feedback__textAndButton{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback__textAndButton-text{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.646vw;
+
+    color: var(--color-black);
+
+    margin-right: 9.896vw;
+}
+
+.feedback__textAndButton-button{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+
+    color: var(--color-black);
+
+    padding: 0.781vw 2.500vw;
+
+    background: var(--color-pink);
+    box-shadow: var(--drop-shadow);
+    border-radius: 0.677vw;
+
+    cursor: pointer;
+}

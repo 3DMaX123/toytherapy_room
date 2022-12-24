@@ -1,0 +1,64 @@
+.app__catalog{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__-props{
+    display: flex;
+    
+    width: 81.094vw;
+    height: 33.490vw;
+}
+
+.catalog__textAndButton{
+    display: flex;
+    position: absolute;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.catalog__headerDescription-header{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.729vw;
+
+    text-align: center;
+
+    margin-bottom: 0.260vw;
+
+    color: var(--color-black);
+}
+
+.catalog__headerDescription-description{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.563vw;
+
+    text-align: center;
+
+    margin-bottom: 2.500vw;
+
+    color: var(--color-black);
+}
+
+.catalog__textAndButton-button{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    
+    color: var(--color-black);
+
+    padding: 0.781vw 2.552vw;
+
+    background: var(--color-pink);
+    box-shadow: var(--drop-shadow);
+    border-radius: 0.677vw;
+
+    cursor: pointer;
+}

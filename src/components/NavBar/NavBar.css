@@ -23,6 +23,8 @@
     background: var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 13px;
+
+    cursor: pointer;
 }
 
 .navbar__buttons_helptoy-text{
@@ -59,6 +61,8 @@
     background: var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 13px;
+
+    cursor: pointer;
 }
 
 .navbar__charityIcon{

@@ -1,7 +1,8 @@
 import './App.css';
 
-import { Header, MagickSpace, ThreeDRoom, Catalog } from './container';
+import { Header, MagickSpace, ThreeDRoom, Catalog, Pony, Feedback } from './container';
 import { NavBar, Footer } from './components';
+import Partners from './container/Partners/Partners';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <MagickSpace />
         <ThreeDRoom />
         <Catalog />
+        <Pony />
+        <Feedback />
+        <Partners />
       </div>
       <Footer />
     </div>

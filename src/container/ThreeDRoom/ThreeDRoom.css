@@ -14,12 +14,25 @@
     border-radius: 3.750vw;
 }
 
+.threeDRoom-stars{
+    position: absolute;
+
+    width: 75.104vw;
+    height: 32.031vw;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    z-index: 0;
+}
+
 .threeDRoom_textAndButton{
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column;
+    z-index: 1;
 }
 
 .threeDRoom_textAndButton-text{
@@ -47,14 +60,6 @@
     border: 0.078vw solid var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 0.573vw;
-}
 
-.threeDRoom-stars{
-    position: absolute;
-
-    width: 75.104vw;
-    height: 32.031vw;
-
-    left: 50%;
-    transform: translate(-50%, 0);
+    cursor: pointer;
 }

@@ -1,0 +1,46 @@
+.pony__ponyPlates{
+    display: flex;
+    position: relative;
+
+    width: 20.156vw; /*329*/
+    height: 20.156vw; /*251*/
+
+    background: var(--color-pink);
+    border-radius: 1.719vw;
+
+    flex-direction: column;
+}
+
+.ponyPlates-text{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+
+    color: var(--color-black);
+
+    margin: 1.771vw 1.510vw 0 1.510vw;
+}
+
+.pony__ponyPlates img{
+    position: absolute;
+
+    bottom: 0;
+}
+
+.ponyPlates__-ponyOne{
+    width: 12.031vw;
+    height: 13.490vw;
+}
+.ponyPlates__-ponyTwo{
+    width: 15.417vw;
+    height: 12.917vw;
+}
+.ponyPlates__-ponyThree{
+    width: 19.427vw;
+    height: 12.500vw;
+}
+.ponyPlates__-ponyFour{
+    width: 16.927vw;
+    height: 13.125vw;
+}
