@@ -10,6 +10,8 @@
     /* identical to box height */
 
     color: var(--color-darkPink);
+
+    cursor: pointer;
 }
 
 .poweredByWebELEFONT-webelefont{

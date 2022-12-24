@@ -32,6 +32,8 @@
     border-radius: 16px;
 
     margin-right: 60px;
+
+    cursor: pointer;
 }
 
 .footer__mainContent_navigation div:last-child{
@@ -77,6 +79,10 @@
 
 .footer__social_socialMedia{
     display: flex;
+}
+
+.footer__social_socialMedia svg{
+    cursor: pointer;
 }
 
 .footer__social_socialMedia-icons{
@@ -131,4 +137,5 @@
     color: var(--color-darkPink);
 
     text-decoration: none;
+    cursor: pointer;
 }
