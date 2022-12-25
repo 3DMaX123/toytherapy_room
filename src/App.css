@@ -1,14 +1,42 @@
 .app{
     display: flex;
+    position: relative;
 
     padding: 0 80px;
     padding-top: 66px;
     padding-bottom: 18px;
-    border-radius: 140px;
+    border-radius: 7.292vw;
 
     margin: 0 3.958vw;
 
     background: var(--color-white);
 
     flex-direction: column;
+    z-index: -1;
+}
+
+.app__gradients{
+    display: flex;
+    position: absolute;
+
+    width: 100%;
+
+    left: 0;
+    top: 0;
+
+    z-index: -2;
+    flex-direction: column;
+}
+
+.app__gradients img{
+    opacity: 0.67;
+    width: 100%;
+}
+
+.gradients__headerGrad{
+    border-radius: 7.292vw 7.292vw 0px 0px;
+}
+
+.gradients__magickSpaceGrad{
+    
 }

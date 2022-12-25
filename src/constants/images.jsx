@@ -18,6 +18,8 @@ import pony__ponyPlatesThree from '../assets/ponyPlates__-ponyThree.webp';
 import pony__ponyPlatesFour from '../assets/ponyPlates__-ponyFour.webp';
 import feedback__props from '../assets/feedback__-props.webp';
 import partners__img from '../assets/partners__-img.webp';
+import gradients__headerGrad from '../assets/gradients__headerGrad.webp';
+import gradients__magickSpaceGrad from '../assets/gradients__magickSpaceGrad.webp';
 
 const images = {
     navbar__charity,
@@ -39,7 +41,9 @@ const images = {
     pony__ponyPlatesThree,
     pony__ponyPlatesFour,
     feedback__props,
-    partners__img
+    partners__img,
+    gradients__headerGrad,
+    gradients__magickSpaceGrad
 };
 
 export default images;
