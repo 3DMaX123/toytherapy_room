@@ -46,7 +46,7 @@
 }
 
 .threeDRoom_TextAndButton-button{
-    font-family: 'Neucha';
+    font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
     font-size: 1.146vw;

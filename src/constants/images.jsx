@@ -20,6 +20,9 @@ import feedback__props from '../assets/feedback__-props.webp';
 import partners__img from '../assets/partners__-img.webp';
 import gradients__headerGrad from '../assets/gradients__headerGrad.webp';
 import gradients__magickSpaceGrad from '../assets/gradients__magickSpaceGrad.webp';
+import gradients__threeDRoomGrad from '../assets/gradients__threeDRoomGrad.webp';
+import gradients__catalogGrad from '../assets/gradients__catalogGrad.webp';
+import gradients__feedbackGrad from '../assets/gradients__feedbackGrad.webp';
 
 const images = {
     navbar__charity,
@@ -43,7 +46,10 @@ const images = {
     feedback__props,
     partners__img,
     gradients__headerGrad,
-    gradients__magickSpaceGrad
+    gradients__magickSpaceGrad,
+    gradients__threeDRoomGrad,
+    gradients__catalogGrad,
+    gradients__feedbackGrad
 };
 
 export default images;

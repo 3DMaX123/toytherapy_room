@@ -8,7 +8,14 @@
     background: var(--color-pink);
     border-radius: 1.719vw;
 
+    transition: all .5s ease;
+
     flex-direction: column;
+}
+
+.pony__ponyPlates:hover{
+    background: linear-gradient(134.7deg, #D7BEFF 43.09%, #EADDFF 65.96%, #D7BEFF 91.06%), #D7BEFF;
+    filter: drop-shadow(var(--drop-shadow));
 }
 
 .ponyPlates-text{

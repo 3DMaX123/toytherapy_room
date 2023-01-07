@@ -68,3 +68,9 @@
 .navbar__charityIcon{
     margin-left: 13px;
 }
+
+@media screen and (max-width: 992px){
+    .navbar__buttons_helptoy-text{
+        font-size: 40px;
+    }
+}
