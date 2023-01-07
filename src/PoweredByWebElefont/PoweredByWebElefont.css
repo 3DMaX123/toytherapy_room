@@ -5,9 +5,7 @@
     font-family: var(--font-poweredBy);
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    /* identical to box height */
+    font-size: 0.625vw;
 
     color: var(--color-darkPink);
 
@@ -18,11 +16,20 @@
     font-family: var(--font-webElefont);
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 17px;
-    /* identical to box height */
+    font-size: 0.885vw;
 
     margin: 0;
 
     color: var(--color-darkPink);
+}
+
+@media screen and (max-width: 992px){
+
+    .poweredByWebElefont{
+        font-size: .9vw;
+    }
+
+    .poweredByWebELEFONT-webelefont{
+        font-size: 1.6vw;
+    }
 }

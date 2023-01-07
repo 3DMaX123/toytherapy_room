@@ -26,6 +26,7 @@ function App() {
         <img className='gradients__magickSpaceGrad' src={images.gradients__magickSpaceGrad} alt='Градієнт' />
         <img className='gradients__ThreeDRoomGrad' src={images.gradients__threeDRoomGrad} alt='Градієнт' />
         <img className='gradients__CatalogGrad' src={images.gradients__catalogGrad} alt='Градієнт' />
+        <img className='gradients__PonyMaxW992' src={images.gradients__threeDRoomGrad} alt='Градієнт' />
         <img className='gradients__FeedbackGrad' src={images.gradients__feedbackGrad} alt='Градієнт' />
         <img className='gradients__partnersGrad' src={images.gradients__magickSpaceGrad} alt='Градієнт' />
       </div>

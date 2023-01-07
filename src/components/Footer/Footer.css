@@ -29,15 +29,15 @@
 
 .footer__mainContent_navigation div{
     border: 3px solid var(--color-pink);
-    border-radius: 16px;
+    border-radius: 0.833vw;
 
-    margin-right: 60px;
+    margin-right: 3.125vw;
 
     cursor: pointer;
 }
 
 .footer__mainContent_navigation div:last-child{
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .footer_navigation-text{
@@ -48,9 +48,7 @@
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
-    font-size: 20px; /*20xp*/
-    line-height: 22px;
-    /* identical to box height */
+    font-size: 1.042vw;
 
 
     color: var(--color-black);
@@ -58,7 +56,7 @@
    /*width: 236px;  236 
     height: 51px; /*51*/
 
-    margin: 15px 45px;
+    margin: 0.781vw 2.344vw;
 }
 
 .footer__mainContent_social{
@@ -71,10 +69,10 @@
 .footer__mainContent_social-arrow{
     position: relative;
 
-    width: 123px;
-    height: 69px;
+    width: 6.406vw;
+    height: 3.594vw;
 
-    margin-bottom: 14px;
+    margin-bottom: 1.488vw;
 }
 
 .footer__social_socialMedia{
@@ -88,38 +86,36 @@
 .footer__social_socialMedia-icons{
     position: absolute;
     
-    width: 35px;
-    height: 35px;
+    width: 1.823vw;
+    height: 1.823vw;
 }
 
 .footer__social_socialMedia-facebook{
     position: relative;
     
-    left: -18px;
+    left: -1.913vw;
 
-    margin-right: 20px;
+    margin-right: 2.125vw;
 }
 .footer__social_socialMedia-instagram{
     position: relative;
 
-    left: -18px;
+    left: -1.913vw;
 }
 
 .footer__credits{
     display: flex;
     justify-content: space-between;
 
-    margin: 0px 75px;
-    margin-top: 57px;
+    margin: 0 3vw;
+    margin-top: 3.177vw;
 }
 
 .footer__credits_Phone{
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 17px;
-    /* identical to box height */
+    font-size: 0.781vw;
 
     margin: 0;
     color: var(--color-darkPink);
@@ -129,13 +125,70 @@
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 17px;
-    /* identical to box height */
+    font-size: 0.781vw;
 
 
     color: var(--color-darkPink);
 
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+    .footer_navigation-text{
+        font-size: 1.6vw;
+    }
+
+    .footer__mainContent-logo{
+        width: 10.096vw;
+        height: 5.313vw;
+    }
+
+    .footer__social_socialMedia-icons{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .footer__mainContent_social-arrow{
+        width: 12vw;
+        height: 6.262vw;
+
+        left: 3vw;
+    }
+
+    .footer__social_socialMedia-facebook{
+        margin-right: 1.5vw;
+
+        left: 0;
+    }
+
+    .footer__social_socialMedia-instagram{
+        left: 0vw;
+    }
+
+    .footer__mainContent_navigation div{
+        border-radius: 1.3vw;
+    }
+
+    .footer_navigation-text{
+        text-align: center;
+
+        margin: 0.531vw 1.913vw;
+    }
+
+    .footer__credits{
+        display: flex;
+        justify-content: space-between;
+    
+        margin: 0 3vw;
+        margin-top: 6vw;
+    }
+
+    .footer__credits_Phone{
+        font-size: 1.5vw;
+    }
+
+    .footer__credits_Phone a{
+        font-size: 1.5vw;
+    }
 }

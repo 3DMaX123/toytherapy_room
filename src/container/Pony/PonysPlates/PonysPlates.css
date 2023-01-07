@@ -51,3 +51,36 @@
     width: 16.927vw;
     height: 13.125vw;
 }
+
+@media screen and (max-width: 992px){
+    .pony__ponyPlates{
+        width: 32.200vw;
+        height: 32.200vw;
+
+        border-radius: 3.507vw;
+    }
+
+    .ponyPlates-text{
+        font-size: 2.550vw;
+
+        margin: 2vw 2.4vw 0 2.4vw;
+    }
+
+    .ponyPlates__-ponyOne{
+        width: 22.423vw;
+        height: 22.210vw;
+    }
+    .ponyPlates__-ponyTwo{
+        width: 24.548vw;
+        height: 21.148vw;
+    }
+    .ponyPlates__-ponyThree{
+        width: 30.925vw;
+        height: 19.872vw;
+    }
+    .ponyPlates__-ponyFour{
+        width: 27.205vw;
+        height: 20.935vw;
+    }
+
+}

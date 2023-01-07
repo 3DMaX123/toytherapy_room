@@ -3,7 +3,7 @@
 
     width: 100%;
 
-    margin: 86px 0 98px 0;
+    margin: 5vw 0 7vw 0;
 }
 
 .app__pony div{
@@ -12,4 +12,20 @@
 
 .app__pony div:last-child{
     margin: 0;
+}
+
+@media screen and (max-width: 992px){
+    .app__pony{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        grid-template-rows: repeat(2, 1fr);
+        grid-auto-flow: column;
+        gap: .8vw;
+    }
+
+    .app__pony div{
+        margin: 0;
+    }
 }

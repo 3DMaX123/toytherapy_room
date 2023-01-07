@@ -48,3 +48,10 @@
 
     cursor: pointer;
 }
+
+@media screen and (max-width: 992px){
+    .feedback__textAndButton-button{
+        font-size: 1.7vw;
+        border-radius: .8vw;
+    }
+}

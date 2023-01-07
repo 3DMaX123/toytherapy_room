@@ -79,3 +79,9 @@
 
     color: var(--color-purpule);
 }
+
+@media screen and (max-width: 992px){
+    .magickSpace__text-note{
+        font-size: 1.4vw;
+    }
+}

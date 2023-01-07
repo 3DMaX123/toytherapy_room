@@ -130,3 +130,26 @@
 
 
 }
+
+@media screen and (max-width: 992px){
+    .header__header-note{
+        font-size: 1.3vw;
+
+        bottom: 0;
+    }
+
+    .header__clouds{
+        margin-top: 1.2vw;
+        width: 55vw;
+    }
+
+    .header__bottomHeartAndZigZag-hearts{
+        width: 77vw;
+        height: 14.5vw;
+    }
+
+    .header__bottomHeartAndZigZag-scroll{
+        width: 1.6vw;
+        height: 3.8vw;
+    }
+}
