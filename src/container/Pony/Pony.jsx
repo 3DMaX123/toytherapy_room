@@ -1,6 +1,5 @@
 import React from 'react'
-import images from '../../constants/images';
-import PonysPlates from './PonysPlates/PonysPlates';
+import {PonysPlates} from '../../components';
 
 import './Pony.css';
 
