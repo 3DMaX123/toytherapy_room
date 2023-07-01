@@ -1,9 +1,25 @@
 import NavBar from './NavBar/NavBar';
 import Footer from './Footer/Footer';
 import PonysPlates from './PonysPlates/PonysPlates';
+import Catalog from './Catalog/Catalog';
+import Header from './Header/Header';
+import MagickSpace from './MagickSpace/MagickSpace';
+import Partners from './Partners/Partners';
+import Pony from './Pony/Pony';
+import ThreeDRoom from './ThreeDRoom/ThreeDRoom';
+import Feedback from './Feedback/Feedback';
+import Gradients from './Gradients/Gradients';
 
 export{
     Footer,
     NavBar,
-    PonysPlates
+    PonysPlates,
+    Catalog,
+    Header,
+    MagickSpace,
+    Partners,
+    Pony,
+    ThreeDRoom,
+    Feedback,
+    Gradients
 }
