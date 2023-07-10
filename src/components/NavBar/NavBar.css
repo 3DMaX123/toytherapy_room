@@ -79,3 +79,9 @@
         height: 1.6vw;
     }
 }
+
+@media screen and (max-width: 688px){
+    .navbar__buttons_helpToy{
+        padding: 1.402vw 3.037vw;
+    }
+}

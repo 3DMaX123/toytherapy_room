@@ -14,3 +14,11 @@
     flex-direction: column;
     z-index: 0;
 }
+
+@media screen and (max-width: 688px){
+    .app{
+        margin: 0;
+        padding: 0 4.206vw;
+        border-radius: 0;
+    }
+}
