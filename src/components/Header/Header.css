@@ -1,22 +1,22 @@
-.app__header{
+.app__header {
     display: flex;
 
     flex-direction: column;
 }
 
-.header__clouds{
+.header__clouds {
     display: flex;
 
     width: 45vw;
 }
 
-.header__mainContent_textAndLogo{
+.header__mainContent_textAndLogo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__textAndLogo_header{
+.header__textAndLogo_header {
     display: inline-flex;
     position: relative;
     align-items: baseline;
@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 
-.header__header-header{
+.header__header-header {
     font-family: var(--font-main);
     font-style: normal;
     font-weight: 700;
@@ -34,7 +34,7 @@
     color: var(--color-black);
 }
 
-.header__header-note{
+.header__header-note {
     position: absolute;
 
     font-family: var(--font-main);
@@ -48,7 +48,7 @@
     bottom: 0.677vw;
 }
 
-.header__textAndLogo_description{
+.header__textAndLogo_description {
     display: block;
 
     font-family: var(--font-main);
@@ -60,18 +60,18 @@
 
 }
 
-.header__description_textWithStars{
+.header__description_textWithStars {
     display: inline-flex;
     position: relative;
 }
 
-.header__textWithStart-secondText{
+.header__textWithStart-secondText {
     font-size: 1em;
 
     margin: 0 0.521vw;
 }
 
-.header__textWithStars-stars{
+.header__textWithStars-stars {
     position: absolute;
 
     width: 9.427vw;
@@ -79,44 +79,44 @@
     top: -0.938vw;
 }
 
-.header__description_textWithHeart{
+.header__description_textWithHeart {
     display: inline-flex;
 }
 
-.header__textithHeart-heart{
+.header__textithHeart-heart {
     width: 0.938vw;
     height: 0.833vw;
 }
 
-.header__textAndLogo-logo{
+.header__textAndLogo-logo {
     width: 31vw;
     height: 31vw;
 }
 
-.header__bottomHeartsAndZigZag{
+.header__bottomHeartsAndZigZag {
     display: flex;
     position: relative;
 }
 
-.header__bottomHeartAndZigZag_ScrollAndZigZag{
+.header__bottomHeartAndZigZag_ScrollAndZigZag {
     display: flex;
     position: absolute;
 
     width: 100%;
 }
 
-.header__bottomHeartAndZigZag-hearts{
+.header__bottomHeartAndZigZag-hearts {
     width: 73.125vw;
     height: 13.802vw;
 }
 
-.header__bottomHeartAndZigZag-zigZag{
+.header__bottomHeartAndZigZag-zigZag {
     width: 100%;
 
     margin-top: 7vw;
 }
 
-.header__bottomHeartAndZigZag-scroll{
+.header__bottomHeartAndZigZag-scroll {
     display: flex;
     position: absolute;
 
@@ -131,29 +131,60 @@
 
 }
 
-@media screen and (max-width: 992px){
-    .header__header-note{
+.header__clouds_phone {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .header__header-note {
         font-size: 1.3vw;
 
         bottom: 0;
     }
 
-    .header__clouds{
+    .header__clouds {
         margin-top: 1.2vw;
         width: 55vw;
     }
 
-    .header__bottomHeartAndZigZag-hearts{
+    .header__bottomHeartAndZigZag-hearts {
         width: 77vw;
         height: 14.5vw;
     }
 
-    .header__bottomHeartAndZigZag-scroll{
+    .header__bottomHeartAndZigZag-scroll {
         width: 1.6vw;
         height: 3.8vw;
     }
 }
 
-@media screen and (max-width: 688px){
-    
+@media screen and (max-width: 688px) {
+    .header__clouds {
+        display: none;
+    }
+
+    .header__textAndLogo_phone {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__clouds_phone {
+        display: block;
+        position: absolute;
+
+        width: 130%;
+        z-index: 1;
+    }
+
+    .header__mainContent_textAndLogo {
+        flex-direction: column-reverse;
+    }
+
+    .header__textAndLogo-logo {
+        width: 67.948vw;
+        height: 64.871vw;
+        z-index: 2;
+    }
 }
