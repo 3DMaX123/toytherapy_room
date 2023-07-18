@@ -81,7 +81,27 @@
 }
 
 @media screen and (max-width: 688px){
+    .app__navbar{
+        margin-bottom: 7.179vw;
+    }
+
     .navbar__buttons_helpToy{
-        padding: 1.402vw 3.037vw;
+        padding: 1.282vw 2.820vw;
+        border-radius: 12px;
+    }
+    
+    .navbar__buttons_charity{
+        padding: 1.794vw 2.820vw;
+
+        border-radius: 12px;
+    }
+
+    .navbar__buttons_helptoy-text{
+        font-size: 4.102vw;
+    }
+
+    .navbar__buttons_helptoy-icon{
+        width: 5.128vw;
+        height: 5.128vw;
     }
 }

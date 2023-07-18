@@ -18,7 +18,8 @@
 @media screen and (max-width: 688px){
     .app{
         margin: 0;
-        padding: 0 4.206vw;
+        padding: 0 4.615vw;
+        padding-top: 6.410vw;
         border-radius: 0;
     }
 }

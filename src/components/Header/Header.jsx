@@ -5,11 +5,11 @@ import './Header.css';
 
 class Header extends React.Component {
 
-    render(){
+    render() {
         return (
             <div className='app__header'>
                 <div className='flex flex_center'>
-                    <img className='header__clouds' src={images.header__clouds} alt='Хмаринки'/>
+                    <img className='header__clouds' src={images.header__clouds} alt='Хмаринки' />
                 </div>
                 <div className='header__mainContent_textAndLogo'>
                     <div className='header__textAndLogo'>
@@ -32,17 +32,20 @@ class Header extends React.Component {
                             <p className='header__description-fourText'>в якому можливо знайти силу для власного<br />відновлення та відчути новий подих</p>
                         </div>
                     </div>
-                    <img className='header__textAndLogo-logo img' src={images.logotype} alt='Логотип ToyTherapyRoom'/>
+                    <div class="header__textAndLogo_phone">
+                        <img className='header__clouds_phone' src={images.header_clouds_phone} alt='Хмаринки' />
+                        <img className='header__textAndLogo-logo img' src={images.logotype} alt='Логотип ToyTherapyRoom' />
+                    </div>
                 </div>
                 <div className='header__bottomHeartsAndZigZag'>
-                    <img className='header__bottomHeartAndZigZag-hearts img' src={images.header__bottomHearts} alt='Сердечки'/>
+                    <img className='header__bottomHeartAndZigZag-hearts img' src={images.header__bottomHearts} alt='Сердечки' />
                     <div className='header__bottomHeartAndZigZag_ScrollAndZigZag'>
-                        <img className='header__bottomHeartAndZigZag-zigZag img' src={images.header__zigZag} alt='Зіг-заг та скролл'/>
-                        <img className='header__bottomHeartAndZigZag-scroll img' src={images.header__scroll} alt='Скролл'/>
+                        <img className='header__bottomHeartAndZigZag-zigZag img' src={images.header__zigZag} alt='Зіг-заг та скролл' />
+                        <img className='header__bottomHeartAndZigZag-scroll img' src={images.header__scroll} alt='Скролл' />
                     </div>
                 </div>
             </div>
-          )
+        )
     }
 }
 

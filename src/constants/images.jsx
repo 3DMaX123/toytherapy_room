@@ -23,6 +23,7 @@ import gradients__magickSpaceGrad from '../assets/gradients__magickSpaceGrad.web
 import gradients__threeDRoomGrad from '../assets/gradients__threeDRoomGrad.webp';
 import gradients__catalogGrad from '../assets/gradients__catalogGrad.webp';
 import gradients__feedbackGrad from '../assets/gradients__feedbackGrad.webp';
+import header_clouds_phone from '../assets/header_clouds_phone.svg';
 
 const images = {
     navbar__charity,
@@ -49,7 +50,8 @@ const images = {
     gradients__magickSpaceGrad,
     gradients__threeDRoomGrad,
     gradients__catalogGrad,
-    gradients__feedbackGrad
+    gradients__feedbackGrad,
+    header_clouds_phone
 };
 
 export default images;
