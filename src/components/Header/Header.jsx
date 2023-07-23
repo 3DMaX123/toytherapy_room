@@ -22,7 +22,7 @@ class Header extends React.Component {
                                 <p className='header__description-firstText'>- це</p>
                                 <div className='header__description_textWithStars'>
                                     <p className='header__textWithStart-secondText'>чарівний</p>
-                                    <img className='header__textWithStars-stars img' src={images.header__stars} alt='Зірочки' />
+                                <img className='header__textWithStars-stars img' src={images.header__stars} alt='Зірочки' />
                                 </div>
                                 <div className='header__description_textWithHeart'>
                                     <p className='header__textWithHeart-thirdText'> простір для дітей і дорослих, </p>
@@ -30,6 +30,7 @@ class Header extends React.Component {
                                 </div>
                             </div>
                             <p className='header__description-fourText'>в якому можливо знайти силу для власного<br />відновлення та відчути новий подих</p>
+                            <img className='header__bottomHeartAndZigZag_hearts-phone' src={images.header__bottomHeartAndZigZag_phone} alt='Сердця з зіг загом' />
                         </div>
                     </div>
                     <div class="header__textAndLogo_phone">
