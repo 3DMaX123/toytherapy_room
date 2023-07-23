@@ -5,11 +5,23 @@
     align-items: center;
 }
 
-.catalog__-props{
+.catalog__props{
     display: flex;
     
     width: 81.094vw;
     height: 33.490vw;
+}
+
+.catalog__aboveProps_phone{
+    display: none;
+}
+
+.catalog__hearts_phone{
+    display: none;
+}
+
+.catalog__rabbit_phone{
+    display: none;
 }
 
 .catalog__textAndButton{
@@ -68,5 +80,35 @@
         font-size: 1.6vw;
 
         border-radius: .9vw;
+    }
+}
+
+@media screen and (max-width: 688px){
+
+    .catalog__props{
+        display: none;
+    }
+
+    .catalog__aboveProps_phone{
+        display: block;
+        width: 73.130vw;
+    }
+
+    .catalog__hearts_phone{
+        display: block;
+        width: 7.710vw;
+    }
+
+    .catalog__rabbit_phone{
+        display: block;
+        width: 6.453vw;
+    }
+    
+    .catalog__headerDescription-header{
+        font-size: 8.644vw;
+    }
+    
+    .catalog__headerDescription-description{
+        font-size: 4.672vw;
     }
 }

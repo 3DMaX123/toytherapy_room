@@ -85,3 +85,33 @@
     }
 
 }
+
+@media screen and (max-width: 688px){
+    .pony__ponyPlates{
+        width: 44.626vw;
+        height: 44.626vw;
+    }
+
+    .ponyPlates-text{
+        font-size: 4.192vw;
+
+        text-align: center;
+    }
+
+    .ponyPlates__-ponyOne{
+        width: 27vw;
+        height: 32vw;
+    }
+    .ponyPlates__-ponyTwo{
+        width: 37vw;
+        height: 30vw;
+    }
+    .ponyPlates__-ponyThree{
+        width: 42vw;
+        height: 27vw;
+    }
+    .ponyPlates__-ponyFour{
+        width: 37vw;
+        height: 30vw;
+    }
+}

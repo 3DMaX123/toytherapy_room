@@ -14,6 +14,10 @@
     height: 24.010vw;
 }
 
+.feedback__props_phone{
+    display: none;
+}
+
 .feedback__textAndButton{
     display: flex;
     position: absolute;
@@ -53,5 +57,32 @@
     .feedback__textAndButton-button{
         font-size: 1.7vw;
         border-radius: .8vw;
+    }
+}
+
+@media screen and (max-width: 688px){
+
+    .feedback__-props{
+        display: none;
+    }
+    
+    .feedback__props_phone{
+        display: block;
+    }
+
+    .feedback__textAndButton{
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .feedback__textAndButton-text{
+        font-size: 7.009vw;
+        margin-right: 0;
+    }
+
+    .feedback__textAndButton-button{
+        font-size: 3.738vw;
+        padding: 0.781vw 2.500vw;
+        border-radius: 1.635vw;
     }
 }

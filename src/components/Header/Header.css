@@ -163,6 +163,10 @@
         display: none;
     }
 
+    .header__bottomHeartsAndZigZag{
+        display: none;
+    }
+
     .header__textAndLogo_phone {
         position: relative;
         display: flex;
@@ -186,5 +190,26 @@
         width: 67.948vw;
         height: 64.871vw;
         z-index: 2;
+    }
+
+    .header__header-header {
+        font-size: 13.084vw;
+    }
+
+    .header__header-note{
+        font-size: 3.037vw;
+    }
+
+    .header__textAndLogo_description {
+        font-size: 4.205vw;
+    }
+
+    .header__textWithStars-stars{
+        display: none;
+    }
+    
+    .header__textithHeart-heart{
+        width: 2vw;
+        height: 1.8vw;
     }
 }

@@ -11,6 +11,7 @@ class MagickSpace extends React.Component {
           <div className='magickSpace__clouds'>
             <img className='magickSpace__clouds-cloudLeft' src={images.magickSpace__cloudLeft} alt='Хмаринки'/>
             <img className='magickSpace__clouds-cloudRight' src={images.magickSpace__cloudRight} alt='Хмаринки'/>
+            <img className='magickSpace__cloudsAndHearts_phone' src={images.magickSpace__cloudsAndHearts_phone} alt='Хмаринки та Сердце'></img>
           </div>
           <div className='magickSpace__text'>
             <div className='magickSpace__text_textAndStars'>
