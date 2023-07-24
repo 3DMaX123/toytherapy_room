@@ -8,7 +8,7 @@ class Catalog extends React.Component {
         return (
             <div className='app__catalog'>
                 <img className='catalog__props' src={images.catalog__props} alt='Різні пропси' />
-                <img className='catalog__aboveProps_phone' src={images.catalog__aboveProps_phone} alt='Різні пропси телефон' />
+                <img className='catalog__props_phone' src={images.catalog__props_phone} alt='Різні пропси телефон' />
                 <div className='catalog__textAndButton'>
                     <div className='catalog__textAndButton_headerDescription'>
                         <p className='catalog__headerDescription-header'>Каталог іграшок</p>
@@ -16,8 +16,6 @@ class Catalog extends React.Component {
                     </div>
                     <a className='catalog__textAndButton-button'>Обрати іграшку</a>
                 </div>
-                <img className='catalog__hearts_phone' src={images.catalog__hearts_phone} alt='Сердце каталог телефон' />
-                <img className='catalog__rabbit_phone' src={images.catalog__rabbit_phone} alt='заєць каталог телефон' />
             </div>
         )
     }

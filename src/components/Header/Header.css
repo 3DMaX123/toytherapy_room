@@ -135,6 +135,10 @@
     display: none;
 }
 
+.header__bottomHeartAndZigZag_hearts-phone{
+    display: none;
+}
+
 @media screen and (max-width: 992px) {
     .header__header-note {
         font-size: 1.3vw;
@@ -156,6 +160,7 @@
         width: 1.6vw;
         height: 3.8vw;
     }
+
 }
 
 @media screen and (max-width: 688px) {
@@ -165,6 +170,14 @@
 
     .header__bottomHeartsAndZigZag{
         display: none;
+    }
+
+    .header__clouds_phone {
+        display: block;
+    }
+    
+    .header__bottomHeartAndZigZag_hearts-phone{
+        display: block;
     }
 
     .header__textAndLogo_phone {

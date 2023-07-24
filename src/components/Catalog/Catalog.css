@@ -12,15 +12,7 @@
     height: 33.490vw;
 }
 
-.catalog__aboveProps_phone{
-    display: none;
-}
-
-.catalog__hearts_phone{
-    display: none;
-}
-
-.catalog__rabbit_phone{
+.catalog__props_phone{
     display: none;
 }
 
@@ -88,27 +80,29 @@
     .catalog__props{
         display: none;
     }
-
-    .catalog__aboveProps_phone{
-        display: block;
-        width: 73.130vw;
-    }
-
-    .catalog__hearts_phone{
-        display: block;
-        width: 7.710vw;
-    }
-
-    .catalog__rabbit_phone{
-        display: block;
-        width: 6.453vw;
-    }
     
+    .catalog__props_phone{
+        display: block;
+        width: 74.065vw;
+    }
+
     .catalog__headerDescription-header{
         font-size: 8.644vw;
     }
     
     .catalog__headerDescription-description{
         font-size: 4.672vw;
+    }
+
+    .catalog__textAndButton-button{
+        font-size: 3.738vw;
+
+        padding: 1.635vw 3.971vw;
+
+        border-radius: 1.635vw;
+    }
+
+    .catalog__textAndButton{
+        margin-top: 4vw;
     }
 }

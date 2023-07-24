@@ -26,7 +26,11 @@
     }
 
     .app__pony div{
-        margin: 0;
+        margin: 1vw;
+    }
+
+    .app__pony div:last-child{
+        margin: 1vw;
     }
 }
 

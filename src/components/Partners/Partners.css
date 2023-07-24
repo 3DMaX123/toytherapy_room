@@ -4,3 +4,18 @@
 
     margin-bottom: 1.771vw;
 }
+
+.partners__img_phone{
+    display: none;
+}
+
+@media screen and (max-width: 688px){
+    .partners__-img{
+        display: none;
+    }
+
+    .partners__img_phone{
+        display: block;
+        margin-top: 8vw;
+    }
+}

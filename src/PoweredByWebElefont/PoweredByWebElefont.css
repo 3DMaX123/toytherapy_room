@@ -33,3 +33,14 @@
         font-size: 1.6vw;
     }
 }
+
+@media screen and (max-width: 688px){
+
+    .poweredByWebElefont{
+        font-size: 1.985vw;
+    }
+
+    .poweredByWebELEFONT-webelefont{
+        font-size: 3.154vw;
+    }
+}

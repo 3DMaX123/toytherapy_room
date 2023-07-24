@@ -26,10 +26,10 @@ import gradients__feedbackGrad from '../assets/gradients__feedbackGrad.webp';
 import header_clouds_phone from '../assets/header_clouds_phone.svg';
 import header__bottomHeartAndZigZag_phone from '../assets/header__bottomHeartAndZigZag_phone.svg';
 import magickSpace__cloudsAndHearts_phone from '../assets/magickSpace__cloudsAndHearts_phone.svg';
-import catalog__aboveProps_phone from '../assets/catalog__aboveProps_phone.svg';
-import catalog__hearts_phone from '../assets/catalog__hearts_phone.svg';
-import catalog__rabbit_phone from '../assets/catalog__rabbit_phone.svg';
-import feedback__props_phone from '../assets/feedback__props_phone.svg'
+import feedback__props_phone from '../assets/feedback__props_phone.svg';
+import partners__img_phone from '../assets/partners__img_phone.svg';
+import catalog__props_phone from '../assets/catalog__props_phone.svg';
+import footer__clouds_phone from '../assets/footer__clouds_phone.svg';
 
 const images = {
     navbar__charity,
@@ -60,10 +60,10 @@ const images = {
     header_clouds_phone,
     header__bottomHeartAndZigZag_phone,
     magickSpace__cloudsAndHearts_phone,
-    catalog__aboveProps_phone,
-    catalog__hearts_phone,
-    catalog__rabbit_phone,
-    feedback__props_phone
+    feedback__props_phone,
+    partners__img_phone,
+    catalog__props_phone,
+    footer__clouds_phone
 };
 
 export default images;

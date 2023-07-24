@@ -1,10 +1,10 @@
-.app__footer{
+.app__footer {
     display: flex;
 
     flex-direction: column;
 }
 
-.footer__mainContentANDsocial{
+.footer__mainContentANDsocial {
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -13,12 +13,16 @@
     width: 100%;
 }
 
-.footer__mainContent-logo{
+.footer__mainContentANDsocial_phone {
+    display: none;
+}
+
+.footer__mainContent-logo {
     width: 101px;
     height: 58px;
 }
 
-.footer__mainContent_navigation{
+.footer__mainContent_navigation {
     display: flex;
     position: absolute;
 
@@ -27,7 +31,7 @@
     transform: translate(-50%, -50%);
 }
 
-.footer__mainContent_navigation div{
+.footer__mainContent_navigation div {
     border: 3px solid var(--color-pink);
     border-radius: 0.833vw;
 
@@ -36,11 +40,11 @@
     cursor: pointer;
 }
 
-.footer__mainContent_navigation div:last-child{
+.footer__mainContent_navigation div:last-child {
     margin-right: 0;
 }
 
-.footer_navigation-text{
+.footer_navigation-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,20 +57,20 @@
 
     color: var(--color-black);
 
-   /*width: 236px;  236 
+    /*width: 236px;  236 
     height: 51px; /*51*/
 
     margin: 0.781vw 2.344vw;
 }
 
-.footer__mainContent_social{
+.footer__mainContent_social {
     display: flex;
     position: relative;
 
     align-items: flex-end;
 }
 
-.footer__mainContent_social-arrow{
+.footer__mainContent_social-arrow {
     position: relative;
 
     width: 6.406vw;
@@ -75,35 +79,36 @@
     margin-bottom: 1.488vw;
 }
 
-.footer__social_socialMedia{
+.footer__social_socialMedia {
     display: flex;
 }
 
-.footer__social_socialMedia svg{
+.footer__social_socialMedia svg {
     cursor: pointer;
 }
 
-.footer__social_socialMedia-icons{
+.footer__social_socialMedia-icons {
     position: absolute;
-    
+
     width: 1.823vw;
     height: 1.823vw;
 }
 
-.footer__social_socialMedia-facebook{
+.footer__social_socialMedia-facebook {
     position: relative;
-    
+
     left: -1.913vw;
 
     margin-right: 2.125vw;
 }
-.footer__social_socialMedia-instagram{
+
+.footer__social_socialMedia-instagram {
     position: relative;
 
     left: -1.913vw;
 }
 
-.footer__credits{
+.footer__credits {
     display: flex;
     justify-content: space-between;
 
@@ -111,7 +116,7 @@
     margin-top: 3.177vw;
 }
 
-.footer__credits_Phone{
+.footer__credits_Phone {
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -121,7 +126,7 @@
     color: var(--color-darkPink);
 }
 
-.footer__credits_Phone a{
+.footer__credits_Phone a {
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -134,61 +139,149 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 992px){
-    .footer_navigation-text{
+.footer__phone{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .footer_navigation-text {
         font-size: 1.6vw;
     }
 
-    .footer__mainContent-logo{
+    .footer__mainContent-logo {
         width: 10.096vw;
         height: 5.313vw;
     }
 
-    .footer__social_socialMedia-icons{
+    .footer__social_socialMedia-icons {
         width: 3vw;
         height: 3vw;
     }
 
-    .footer__mainContent_social-arrow{
+    .footer__mainContent_social-arrow {
         width: 12vw;
         height: 6.262vw;
 
         left: 3vw;
     }
 
-    .footer__social_socialMedia-facebook{
+    .footer__social_socialMedia-facebook {
         margin-right: 1.5vw;
 
         left: 0;
     }
 
-    .footer__social_socialMedia-instagram{
+    .footer__social_socialMedia-instagram {
         left: 0vw;
     }
 
-    .footer__mainContent_navigation div{
+    .footer__mainContent_navigation div {
         border-radius: 1.3vw;
     }
 
-    .footer_navigation-text{
+    .footer_navigation-text {
         text-align: center;
 
         margin: 0.531vw 1.913vw;
     }
 
-    .footer__credits{
+    .footer__credits {
         display: flex;
         justify-content: space-between;
-    
+
         margin: 0 3vw;
         margin-top: 6vw;
     }
 
-    .footer__credits_Phone{
+    .footer__credits_Phone {
         font-size: 1.5vw;
     }
 
-    .footer__credits_Phone a{
+    .footer__credits_Phone a {
         font-size: 1.5vw;
     }
+}
+
+@media screen and (max-width: 688px) {
+
+    .footer__phone{
+        display: block;
+    }
+
+    .footer__phone_navigationPhone {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__phone_navigationPhone div {
+        border: 1.5px solid var(--color-pink);
+        border-radius: 1.635vw;
+        margin-right: 3.125vw;
+        cursor: pointer;
+        margin-top: 6vw;
+    }
+
+    .footer_navigationPhone-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-additional);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.005vw;
+        color: var(--color-black);
+        margin: 1.635vw 3.738vw;
+    }
+
+    .footer__mainContentANDsocial {
+        display: none;
+    }
+
+    .footer__phone_logoAndSocial {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__logoANDsocial-logo {
+        width: 22vw;
+    }
+
+    .footer__logoANDsocial-clouds {
+        width: 14vw;
+        margin-left: -6.5vw;
+        margin-top: 4vw;
+    }
+
+    .footer__credits_Phone {
+        font-size: 3.077vw;
+    }
+
+    .footer__credits_Phone a {
+        font-size: 3.077vw;
+    }
+
+    .footer__mainContent_social-arrow {
+        width: 25.700vw;
+        height: 10vw;
+        left: -17vw;
+        top: 5vw;
+    }
+
+    .footer__phone-social {
+        margin-right: -12vw;
+    }
+
+    .footer__social_socialMedia-facebook {
+        margin-right: 1.5vw;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .footer__social_socialMedia-instagram {
+        width: 5vw;
+        height: 5vw;
+    }
+
+
+
 }

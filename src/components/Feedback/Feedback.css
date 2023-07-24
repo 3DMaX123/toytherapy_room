@@ -68,6 +68,7 @@
     
     .feedback__props_phone{
         display: block;
+        width: 80.373vw;
     }
 
     .feedback__textAndButton{
@@ -76,13 +77,15 @@
     }
 
     .feedback__textAndButton-text{
-        font-size: 7.009vw;
+        font-size: 6.5vw;
         margin-right: 0;
+        text-align: center;
     }
 
     .feedback__textAndButton-button{
+        margin-top: 3.738vw;
         font-size: 3.738vw;
-        padding: 0.781vw 2.500vw;
+        padding: 1.635vw 3.504vw;
         border-radius: 1.635vw;
     }
 }
