@@ -30,6 +30,9 @@ import feedback__props_phone from '../assets/feedback__props_phone.svg';
 import partners__img_phone from '../assets/partners__img_phone.svg';
 import catalog__props_phone from '../assets/catalog__props_phone.svg';
 import footer__clouds_phone from '../assets/footer__clouds_phone.svg';
+import catalog__props_cloud1 from '../assets/catalog__props_cloud1.png';
+import catalog__props_cloud2 from '../assets/catalog__props_cloud2.png';
+import bunny1 from '../assets/Bunny1.png'
 
 const images = {
     navbar__charity,
@@ -63,7 +66,10 @@ const images = {
     feedback__props_phone,
     partners__img_phone,
     catalog__props_phone,
-    footer__clouds_phone
+    footer__clouds_phone,
+    catalog__props_cloud1,
+    catalog__props_cloud2,
+    bunny1,
 };
 
 export default images;

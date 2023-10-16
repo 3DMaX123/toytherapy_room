@@ -1,0 +1,51 @@
+.app__products{
+    background-color: white;
+    height: 44.271vw;
+    width: 82.292vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.042vw;
+    grid-row-gap: 0vw;
+}
+.catalog__toys{
+    height: 19.689vw;
+    background-color: white;
+    border-radius: 1.302vw;
+    border: 0.156vw solid #D7BEFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 25px ;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog__toysText{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.catalog__toysText p{
+    color: #8787C4;
+    font-family: Neucha;
+    font-size: 0.833vw;
+}
+.catalog__toys img{
+    display: block;
+
+    width: 30%;
+
+}
+.catalog__toysButton{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    width: 100%;
+    height: 1.135vw;
+    padding: 0.781vw 0;
+
+    background: var(--color-pink);
+    text-align: center;
+    border-radius: 0.677vw;
+    cursor: pointer;
+    color: #394253;
+}

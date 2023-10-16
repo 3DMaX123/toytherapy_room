@@ -1,0 +1,66 @@
+.app__catalog1{
+    background-color: white;
+    height: 44.271vw;
+    width: 82.292vw;
+    margin-top: 1.042vw;
+}
+.catalog__Header{
+    width: 100%;
+    height: 4.167vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.604vw;
+}
+.catalog__Header p{
+    color: #9DA2AB;
+    font-size: 0.833vw;
+    font-family: Neucha;
+}
+.catalog__Header button{
+    font-family: var(--font-additional);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+
+    color: var(--color-black);
+
+    padding: 0.781vw 2.552vw;
+
+    background: var(--color-pink);
+    box-shadow: var(--drop-shadow);
+    border-radius: 0.677vw;
+
+    cursor: pointer;
+}
+.catalog__props_cloud1{
+    position: absolute;
+    top: 6.573vw;
+    left: 12.396vw;
+    width: 5.052vw;
+    height: 3.253vw;
+    z-index: 1;
+}
+.catalog__props_cloud2{
+    position: absolute;
+    top: 2.771vw;
+    height: 4.829vw;
+    width: 7.500vw;
+    left: 24.583vw;
+}
+.catalog__props_cloud3{
+    position: absolute;
+    top: 1.979vw;
+    left: 57.094vw;
+    width: 5.573vw;
+    height: 3.589vw;
+}
+.catalog__props_cloud4{
+    position: absolute;
+    top: 5.115vw;
+    left: 65.573vw;
+    height: 4.829vw;
+    width: 7.500vw;
+    z-index: 1;
+}
