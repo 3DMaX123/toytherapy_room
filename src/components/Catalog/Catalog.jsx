@@ -2,6 +2,7 @@ import React from 'react'
 import images from '../../constants/images';
 
 import './Catalog.css';
+import {Link} from "react-router-dom";
 
 class Catalog extends React.Component {
     render() {
@@ -14,7 +15,7 @@ class Catalog extends React.Component {
                         <p className='catalog__headerDescription-header'>Каталог іграшок</p>
                         <p className='catalog__headerDescription-description'>Вони різні, але кожна має свою особливу силу... Серед них є та єдина,<br />що чекала саме тебе, адже її сила здатна допомогти тобі</p>
                     </div>
-                    <a className='catalog__textAndButton-button'>Обрати іграшку</a>
+                    <Link to={"/toytherapy_room/catalog"} className='catalog__textAndButton-button'>Обрати іграшку</Link>
                 </div>
             </div>
         )
