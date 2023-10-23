@@ -1,0 +1,104 @@
+.app__payment {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment__backGround {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(3.5px);
+}
+
+.payment__content {
+    display: flex;
+    width: 60.468vw;
+    height: 47.0833vw;
+    background-color: white;
+    z-index: 11;
+    margin: 0;
+    border-radius: 1.8750vw;
+    box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.payment__text {
+    font-family: var(--font-additional);
+    font-style: normal;
+    color: #394253;
+}
+
+.payment__content_title{
+    display: contents;
+}
+
+.payment__title-title {
+    font-size: 3.1250vw;
+    font-weight: 400;
+    margin-bottom: 1.197vw;
+}
+
+.payment__title-description {
+    text-align: center;
+    font-size: 1.6667vw;
+    font-weight: 400;
+    margin-bottom: 4.687vw;
+}
+
+
+
+.payment__button {
+    display: flex;
+    background-color: #D7BEFF;
+    width: 51.666vw;
+    height: 5.4vw;
+    border-radius: 1.8750vw;
+    margin-bottom: 1.406vw;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.payment__text-title {
+    font-size: 1.25vw;
+    margin-bottom: -0.7vw;
+}
+
+.payment__text-content{
+    font-size: 1.8229vw;
+}
+
+.payment__content-backGround {
+    position: absolute;
+    width: 57vw;
+    height: 44.0833vw;
+    margin-top: 0.7vw;
+    z-index: -1;
+}
+
+.payment__content-gradient {
+    position: absolute;
+    width: 60.468vw;
+    height: 47.0833vw;
+    opacity: 0.67;
+    z-index: -1;
+    border-radius: 1.8750vw;
+}
