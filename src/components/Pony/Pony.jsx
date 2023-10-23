@@ -1,20 +1,28 @@
-import React from 'react'
-import {PonysPlates} from '../../components';
+import React, { useState } from 'react'
+import { PonysPlates } from '../../components';
 
 import './Pony.css';
+import {FindRoom} from '../../components';
 
-class Pony extends React.Component {
+const Pony = () => {
+    const [whichWindow, setWhichWindows] = useState();
 
-    render(){
-        return (
-            <div className='app__pony'>
-                <PonysPlates Text='Допомогти іграшкою' Pony='1'/>
-                <PonysPlates Text='Долучитися до роботи однієї з фізичних кімнати' Pony='2'/>
-                <PonysPlates Text='Стати керівником кімнати у своєму місті ' Pony='3'/>
-                <PonysPlates Text='Підтримати проєкт' Pony='4'/>
-            </div>
-        )
+    const ChangeWindow = (whichOne) => {
+        setWhichWindows(whichOne);
+        console.log(whichOne);
     }
+
+    return (
+        <div className='app__pony'>
+            <PonysPlates text='Допомогти іграшкою' pony='1' ChangeWindow={ChangeWindow} />
+            <PonysPlates text='Долучитися до роботи однієї з фізичних кімнати' pony='2' ChangeWindow={ChangeWindow} />
+            <PonysPlates text='Стати керівником кімнати у своєму місті ' pony='3' ChangeWindow={ChangeWindow} />
+            <PonysPlates text='Підтримати проєкт' pony='4' ChangeWindow={ChangeWindow} />
+            {whichWindow === '2' &&
+                <FindRoom ChangeWindow={ChangeWindow} />
+            }
+        </div>
+    )
 }
 
 export default Pony

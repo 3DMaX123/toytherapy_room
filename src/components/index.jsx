@@ -9,6 +9,8 @@ import Pony from './Pony/Pony';
 import ThreeDRoom from './ThreeDRoom/ThreeDRoom';
 import Feedback from './Feedback/Feedback';
 import Gradients from './Gradients/Gradients';
+import Toy from './Toy/Toy';
+import FindRoom from './FindRoom/FindRoom';
 
 export{
     Footer,
@@ -21,5 +23,7 @@ export{
     Pony,
     ThreeDRoom,
     Feedback,
-    Gradients
+    Gradients,
+    Toy,
+    FindRoom
 }
