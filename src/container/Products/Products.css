@@ -1,40 +1,39 @@
 .app__products{
     background-color: white;
-    height: 44.271vw;
+    height: fit-content;
     width: 82.292vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.042vw;
-    grid-row-gap: 0vw;
+    grid-row-gap: 1vw;
 }
-.catalog__toys{
+.app__toy{
     height: 19.689vw;
     background-color: white;
     border-radius: 1.302vw;
     border: 0.156vw solid #D7BEFF;
     display: flex;
     justify-content: space-between;
-    padding: 17px 25px ;
+    padding: 0.885vw 1.302vw ;
     flex-direction: column;
     align-items: center;
 }
-.catalog__toysText{
+.toy__Text{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.catalog__toysText p{
+.toy__Text p{
     color: #8787C4;
     font-family: Neucha;
     font-size: 0.833vw;
 }
-.catalog__toys img{
+.app__toy img{
     display: block;
-
     width: 30%;
 
 }
-.catalog__toysButton{
+.toy__Button{
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -49,3 +48,14 @@
     cursor: pointer;
     color: #394253;
 }
+.catalog__toys_moreproducts{
+    text-decoration: underline;
+    color: #394253;
+    font-family: Neucha;
+    font-size: 0.833vw;
+    position: relative;
+    left: 38.263vw;
+    z-index: 1;
+    cursor: pointer;
+}
+

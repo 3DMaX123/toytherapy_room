@@ -1,16 +1,28 @@
 import React from 'react'
 import images from '../../constants/images'
-
+import {useState} from "react";
 import './PonysPlates.css';
+import FindRoom from "../../container/FindRoom/FindRoom";
 
 class PonysPlates extends React.Component {
+
   constructor(props){
     super(props);
     this.state = {
       text: this.props.Text,
       pony: this.props.Pony,
+      isModalOpen: false,
     }
   }
+
+  openModal = () => {
+    this.setState({ isModalOpen: true });
+  };
+
+  closeModal = () => {
+    this.setState({ isModalOpen: false });
+  };
+
 
   handleWhichPony(){
     if(this.state.pony === '1'){
@@ -52,9 +64,12 @@ class PonysPlates extends React.Component {
 
     render(){
       return (
-        <div className='pony__ponyPlates'>
+        <div className='pony__ponyPlates' onClick={this.openModal}>
           <p className='ponyPlates-text'>{this.state.text}</p>
           <img className={'ponyPlates__-pony' + this.handleClassNameWhichPony()} src={this.handleWhichPony()} style={this.handleStyle()} alt="Поні" />
+          {this.state.isModalOpen && (
+              <FindRoom onClose={this.closeModal} />
+          )}
         </div>
       )
     }

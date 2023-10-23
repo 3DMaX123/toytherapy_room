@@ -64,3 +64,13 @@
     width: 7.500vw;
     z-index: 1;
 }
+.catalog_map__products{
+    background-color: white;
+    height: fit-content;
+    width: 82.292vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.042vw;
+    grid-row-gap: 1vw;
+}
+

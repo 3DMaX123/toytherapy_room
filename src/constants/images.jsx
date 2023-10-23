@@ -33,6 +33,8 @@ import footer__clouds_phone from '../assets/footer__clouds_phone.svg';
 import catalog__props_cloud1 from '../assets/catalog__props_cloud1.png';
 import catalog__props_cloud2 from '../assets/catalog__props_cloud2.png';
 import bunny1 from '../assets/Bunny1.png'
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
 
 const images = {
     navbar__charity,
@@ -70,6 +72,8 @@ const images = {
     catalog__props_cloud1,
     catalog__props_cloud2,
     bunny1,
+    image1,
+    image2,
 };
 
 export default images;

@@ -1,10 +1,11 @@
 import './App.css';
-
 import {Catalog, MainPage} from './container';
 import { NavBar, Footer } from './components';
 import Partners from './components/Partners/Partners';
 import images from './constants/images';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Find from "./container/FindRoom/FindRoom";
+
 
 const router = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     {
         path: "/toytherapy_room/catalog",
         element: <Catalog />,
+    },
+    {
+        path: "/toytherapy_room/findroom",
+        element: <Find />,
     }
 ]);
 

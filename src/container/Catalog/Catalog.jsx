@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Catalog.css'
 import images from "../../constants/images";
 import {Link} from "react-router-dom";
 import Products from "../Products/Products";
+import dataForToys from "../../data/data for toys";
+
 
 const Catalog = () => {
+    const [showMore, setShowMore] = useState(8);
     return (
         <div className='app__catalog1'>
             <header className='catalog__Header'>
@@ -16,15 +19,12 @@ const Catalog = () => {
                 <img className='catalog__props_cloud3' src={images.catalog__props_cloud1} alt='Хмаринка 3'/>
                 <img className='catalog__props_cloud4' src={images.catalog__props_cloud2} alt='Хмаринка 4'/>
             </header>
-            {/*{props.map((prop) => (*/}
-            {/*    <div key={prop.id} className='catalog__products'>*/}
-            {/*        <p>{prop.name}</p>*/}
-            {/*        <p>оглянути</p>*/}
-            {/*    <img src={prop.img} alt=''/>*/}
-            {/*        <Link to={`/toytherapy_room/catalog/product/${props.product.id}`}>Хочу ось такого</Link>*/}
-            {/*    </div>*/}
-            {/*))}*/}
-            <Products />
+            <div className='catalog_map__products'>
+            {dataForToys.slice(0, showMore).map((prop) => (
+                <Products key={prop.id} data={prop} />
+            ))}
+            <p onClick={() => setShowMore((prev) => prev + 8)} className='catalog__toys_moreproducts'>Показати ще</p>
+            </div>
         </div>
     );
 };
