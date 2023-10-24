@@ -14,6 +14,7 @@
     backdrop-filter: blur(3.5px);
 
     z-index: 99;
+
 }
 
 .app_findroom{
@@ -28,11 +29,12 @@
     font-family: var(--font-additional);
     color: #394253;
 
-    border-radius: 36px;
+    border-radius: 1.412vw;
     box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
-    background-color: white;
 
     flex-direction: column;
+
+
 }
 
 .findRoom-gradient{
@@ -40,5 +42,40 @@
     width: 100%;
     height: 100%;
 
-    border-radius: 36px;
+    border-radius: 1.412vw;
+}
+.findroom_search{
+    width: 70%;
+    height: 5.208vw;
+    position: absolute;
+    top: 4.167vh;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.findroom_search_label{
+    color: #394253;
+    font-size: 2.4vw;
+    font-weight: 400;
+
+}
+.findroom_search_input{
+    border-radius: 18px;
+    background: #D7BEFF;
+    width: 26.428vw;
+    height: 2.209vw;
+    outline: none;
+    font-size: 0.941vw;
+    font-family: Neucha;
+    text-align: center;
+    border: none;
+}
+.findroom_rooms{
+    width: 80%;
+    height: 70%;
+    margin-top: 2.745vw;
+    z-index: 100;
+    overflow-y: scroll;
 }

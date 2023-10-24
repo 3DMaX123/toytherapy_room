@@ -9,26 +9,10 @@
     align-items: center;
     margin-bottom: 5vw;
 }
-.catalog__header p{
+.catalog__header_text{
     color: #9DA2AB;
     font-size: 0.833vw;
     font-family: Neucha;
-}
-.catalog__header button{
-    font-family: var(--font-additional);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.042vw;
-
-    color: var(--color-black);
-
-    padding: 0.781vw 2.552vw;
-
-    background: var(--color-pink);
-    box-shadow: var(--drop-shadow);
-    border-radius: 0.677vw;
-
-    cursor: pointer;
 }
 .catalog__props_cloud1{
     position: absolute;
@@ -60,7 +44,7 @@
     width: 7.500vw;
     z-index: 1;
 }
-.catalog__products{
+.catalog__toys{
     height: fit-content;
     width: 100%;
     display: grid;

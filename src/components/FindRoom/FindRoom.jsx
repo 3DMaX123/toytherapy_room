@@ -23,12 +23,14 @@ function FindRoom({ChangeWindow}) {
     return (
         <>
             <div className='app__findRoom_background' onClick={() => ChangeWindow(0)}>
+
                 <div className='app_findroom' onClick={(e) => e.stopPropagation()}>
-                    <div className='app_findroom_input'>
-                        <label htmlFor="search">Знайти кімнату у своєму місті </label>
-                        <input type="text" id="search" value={searchText} onChange={handleSearchChange} placeholder='Пошук' />
+
+                    <div className='findroom_search'>
+                        <label htmlFor="search" className='findroom_search_label'>Знайти кімнату у своєму місті </label>
+                        <input type="text" className='findroom_search_input' value={searchText} onChange={handleSearchChange} placeholder='Пошук' />
                     </div>
-                    <div className='Rooms'>
+                    <div className='findroom_rooms'>
                         {filteredData.map(item => (
                             <Rooms key={item.id} item={item} random={chooseRandomImage()}/>
                         ))}
