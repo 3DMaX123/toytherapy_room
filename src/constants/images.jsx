@@ -45,6 +45,7 @@ import aboutus_props_buttonImage from '../assets/aboutus_props_buttonImage.png';
 import aboutus_props_littleHeart from '../assets/LittleHeart.png';
 import aboutus_props_Heart from '../assets/Heart.png';
 import aboutus_props_Line from '../assets/Line.png'
+import Room from '../assets/3dRoom.png'
 
 const images = {
     navbar__charity,
@@ -94,6 +95,7 @@ const images = {
     aboutus_props_littleHeart,
     aboutus_props_Heart,
     aboutus_props_Line,
+    Room,
 };
 
 export default images;
