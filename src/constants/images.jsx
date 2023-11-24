@@ -35,6 +35,20 @@ import catalog__props_cloud2 from '../assets/catalog__props_cloud2.png';
 import bunny1 from '../assets/Bunny1.png'
 import findRoom__littleHeart from '../assets/findRoom__littleHeart.png'
 import findRoom__littleStar from '../assets/findRoom__littleStar.png'
+import bunny1 from '../assets/Bunny1.png';
+import findRoom__littleHeart from '../assets/findRoom__littleHeart.png';
+import findRoom__littleStar from '../assets/findRoom__littleStar.png';
+import aboutus__props_image1 from '../assets/aboutus_props_image1.png';
+import aboutus__props_image2 from '../assets/aboutus_props_image2.png';
+import aboutus__props_image3 from '../assets/aboutus_props_image3.png';
+import aboutus__props_image4 from '../assets/aboutus_props_image4.png';
+import aboutus__props_image5 from '../assets/aboutus_props_image5.png';
+import aboutus__props_image6 from '../assets/aboutus_props_image6.png';
+import aboutus_props_buttonImage from '../assets/aboutus_props_buttonImage.png';
+import aboutus_props_littleHeart from '../assets/LittleHeart.png';
+import aboutus_props_Heart from '../assets/Heart.png';
+import aboutus_props_Line from '../assets/Line.png'
+import Room from '../assets/3dRoom.png'
 
 const images = {
     navbar__charity,
@@ -74,6 +88,17 @@ const images = {
     bunny1,
     findRoom__littleHeart,
     findRoom__littleStar,
+    aboutus__props_image1,
+    aboutus__props_image2,
+    aboutus__props_image3,
+    aboutus__props_image4,
+    aboutus__props_image5,
+    aboutus__props_image6,
+    aboutus_props_buttonImage,
+    aboutus_props_littleHeart,
+    aboutus_props_Heart,
+    aboutus_props_Line,
+    Room
 };
 
 export default images;
