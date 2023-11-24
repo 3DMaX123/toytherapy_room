@@ -1,9 +1,10 @@
 import './App.css';
-import {Catalog, MainPage, } from './container';
+import {Catalog, MainPage} from './container';
 import { NavBar, Footer } from './components';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import AboutUs from './container/AboutUs/AboutUs'
 import ThreeDRoom from "./components/3dRoom/ThreeDRoom";
+
 
 const router = createBrowserRouter([
     {
