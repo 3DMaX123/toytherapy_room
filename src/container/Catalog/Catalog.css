@@ -1,0 +1,55 @@
+.app__catalog1{
+    height: 100%;
+    width: 100%;
+    margin-top: 1.042vw;
+}
+.catalog__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+.catalog__header_text{
+    color: #9DA2AB;
+    font-size: 0.833vw;
+    font-family: Neucha;
+}
+.catalog__props_cloud1{
+    position: absolute;
+    top: 6.573vw;
+    left: 12.396vw;
+    width: 5.052vw;
+    height: 3.253vw;
+    z-index: 1;
+}
+.catalog__props_cloud2{
+    position: absolute;
+    top: 2.771vw;
+    height: 4.829vw;
+    width: 7.500vw;
+    left: 24.583vw;
+}
+.catalog__props_cloud3{
+    position: absolute;
+    top: 1.979vw;
+    left: 57.094vw;
+    width: 5.573vw;
+    height: 3.589vw;
+}
+.catalog__props_cloud4{
+    position: absolute;
+    top: 5.115vw;
+    left: 65.573vw;
+    height: 4.829vw;
+    width: 7.500vw;
+    z-index: 1;
+}
+.catalog__toys{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.042vw;
+    grid-row-gap: 1vw;
+}
+

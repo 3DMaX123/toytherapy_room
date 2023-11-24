@@ -1,0 +1,360 @@
+[
+    {
+      "region": "Волинська обл.",
+      "city": "Луцьк",
+      "headSecondName": "Звенигородська",
+      "headFirstName": "Ольга",
+      "phone": "+38(067)-670-7702"
+    },
+    {
+      "region": "Дніпропетровська обл.",
+      "city": "Нікополь",
+      "headSecondName": "Черемнова",
+      "headFirstName": "Наталія",
+      "phone": "+38(095)-544-4582"
+    },
+    {
+      "region": "Дніпропетровська обл.",
+      "city": "Нікополь",
+      "headSecondName": "Колінько",
+      "headFirstName": "Ольга",
+      "phone": "+38(066)-903-4384"
+    },
+    {
+      "region": "Донецька обл.",
+      "city": "Покровськ",
+      "headSecondName": "Кірсанова",
+      "headFirstName": "Тетяна",
+      "phone": "+38(050)-872-3389"
+    },
+    {
+      "region": "Житомирська обл.",
+      "city": "Житомир",
+      "headSecondName": "Буніс",
+      "headFirstName": "Алла",
+      "phone": "+38(098)-970-6943"
+    },
+    {
+      "region": "Житомирська обл.",
+      "city": "Веприн",
+      "headSecondName": "Задерейко",
+      "headFirstName": "Олена",
+      "phone": "+38(097)-871-3147"
+    },
+    {
+      "region": "Житомирська обл.",
+      "city": "Овруч",
+      "headSecondName": "Шадура",
+      "headFirstName": "Ірина",
+      "phone": "+38(098)-277-3222"
+    },
+    {
+      "region": "Житомирська обл.",
+      "city": "Бердичів",
+      "headSecondName": "Чайківська",
+      "headFirstName": "Ольга",
+      "phone": "+38(097)-511-1418"
+    },
+    {
+      "region": "Житомирська обл.",
+      "city": "Радомишль",
+      "headSecondName": "Заславська",
+      "headFirstName": "Світлана",
+      "phone": "+38(063)-152-1825"
+    },
+    {
+      "region": "Закарпатська обл.",
+      "city": "Мукачево",
+      "headSecondName": "Муравйова",
+      "headFirstName": "Марія",
+      "phone": "+38(050)-592-4681"
+    },
+    {
+      "region": "Запорізька обл.",
+      "city": "Запоріжжя",
+      "headSecondName": "Конькова",
+      "headFirstName": "Юлія",
+      "phone": "+38(066)-143-1016"
+    },
+    {
+      "region": "Запорізька обл.",
+      "city": "Запоріжжя",
+      "headSecondName": "Єрьоменко",
+      "headFirstName": "Анна",
+      "phone": "+38(066)-871-6719"
+    },
+    {
+      "region": "Івано-Франківська",
+      "city": "Коломия",
+      "headSecondName": "Кривко",
+      "headFirstName": "Іванна",
+      "phone": "+38(097)-960-8693"
+    },
+    {
+      "region": "Київська обл.",
+      "city": "Біла Церква",
+      "headSecondName": "Наталія Трофименко",
+      "headFirstName": "",
+      "phone": "+38(096)-701-6609"
+    },
+    {
+      "region": "Київська обл.",
+      "city": "Ставище",
+      "headSecondName": "Некраш",
+      "headFirstName": "Людмила",
+      "phone": "+38(095)-817-5780"
+    },
+    {
+      "region": "Київська обл.",
+      "city": "Макарів",
+      "headSecondName": "Піванова",
+      "headFirstName": "Світлана",
+      "phone": "+38(097)-965-0669"
+    },
+    {
+      "region": "Київська обл.",
+      "city": "Буча",
+      "headSecondName": "Дьяченко",
+      "headFirstName": "Наталія",
+      "phone": "+38(050)-133-4466"
+    },
+    {
+      "region": "Київська обл.",
+      "city": "Бровари",
+      "headSecondName": "Москаленко",
+      "headFirstName": "Віта",
+      "phone": "+38(067)-239-7557"
+    },
+    {
+      "region": "Київ",
+      "city": "Дніпровський р-н",
+      "headSecondName": "Доманська",
+      "headFirstName": "Оксана",
+      "phone": "+38(096)-953-6563"
+    },
+    {
+      "region": "Київ",
+      "city": "Оболонський р-н",
+      "headSecondName": "Жданович",
+      "headFirstName": "Юлія",
+      "phone": "+38(099)-236-5965"
+    },
+    {
+      "region": "Київ",
+      "city": "Деснянський р-н",
+      "headSecondName": "Коваленко",
+      "headFirstName": "Анна",
+      "phone": "+38(067)-460-7005"
+    },
+    {
+      "region": "Київ",
+      "city": "Оболонський р-н",
+      "headSecondName": "Падій",
+      "headFirstName": "Ольга",
+      "phone": "+38(095)-087-8486"
+    },
+    {
+      "region": "Київ",
+      "city": "Київ",
+      "headSecondName": "Дятченко",
+      "headFirstName": "Діана",
+      "phone": "+38(050)-889-1610"
+    },
+    {
+      "region": "Кіровоградська обл.",
+      "city": "Кропивницький",
+      "headSecondName": "Гукова",
+      "headFirstName": "Ірина",
+      "phone": "+38(066)-749-3628"
+    },
+    {
+      "region": "Кіровоградська обл.",
+      "city": "Бобринець",
+      "headSecondName": "Каразей",
+      "headFirstName": "Світлана",
+      "phone": "+38(067)-495-2190"
+    },
+    {
+      "region": "Львівська обл.",
+      "city": "Рава-Руська",
+      "headSecondName": "Лещишин",
+      "headFirstName": "Галина",
+      "phone": "+38(096)-743-2055"
+    },
+    {
+      "region": "Львівська обл.",
+      "city": "Стрий",
+      "headSecondName": "Янів",
+      "headFirstName": "Лідія",
+      "phone": "+38(095)-035-8837"
+    },
+    {
+      "region": "Львівська обл.",
+      "city": "Львів",
+      "headSecondName": "Локоткова",
+      "headFirstName": "Світлана",
+      "phone": "+38(067)-398-4951"
+    },
+    {
+      "region": "Львівська обл.",
+      "city": "Трускавець",
+      "headSecondName": "Гулич",
+      "headFirstName": "Лідія",
+      "phone": "+38(096)-786-3659"
+    },
+    {
+      "region": "Миколаївська обл.",
+      "city": "Коблеве",
+      "headSecondName": "Пугачова",
+      "headFirstName": "Яна",
+      "phone": "+38(066)-053-6616"
+    },
+    {
+      "region": "Одеська обл.",
+      "city": "Одеса",
+      "headSecondName": "Півненко",
+      "headFirstName": "Наталія",
+      "phone": "+38(099)-106-7532"
+    },
+    {
+      "region": "Одеська обл.",
+      "city": "Чорноморськ",
+      "headSecondName": "Тітова",
+      "headFirstName": "Ірина",
+      "phone": "+38(093)-543-6182"
+    },
+    {
+      "region": "Полтавська обл.",
+      "city": "Полтава",
+      "headSecondName": "Гринько",
+      "headFirstName": "Валентина",
+      "phone": "+38(095)-724-8168"
+    },
+    {
+      "region": "Рівненська обл.",
+      "city": "Рівне",
+      "headSecondName": "Новосад",
+      "headFirstName": "Ірина",
+      "phone": "+38(096)-103-4660"
+    },
+    {
+      "region": "Рівненська обл.",
+      "city": "Костопіль",
+      "headSecondName": "Дорошкевич",
+      "headFirstName": "Тамара",
+      "phone": "+38(097)-143-9567"
+    },
+    {
+      "region": "Рівненська обл.",
+      "city": "Каноничі",
+      "headSecondName": "Швець",
+      "headFirstName": "Віта",
+      "phone": "+38(097)-868-4090"
+    },
+    {
+      "region": "Рівненська обл.",
+      "city": "Пісків",
+      "headSecondName": "Онищук",
+      "headFirstName": "Світлана",
+      "phone": "+38(096)-607-6472"
+    },
+    {
+      "region": "Тернопільська обл.",
+      "city": "Теребовля",
+      "headSecondName": "Ворончак",
+      "headFirstName": "Марія",
+      "phone": "+38(067)-182-9966"
+    },
+    {
+      "region": "Харківська обл.",
+      "city": "Зідьки",
+      "headSecondName": "Черкашина",
+      "headFirstName": "Оксана",
+      "phone": "+38(095)-358-0752"
+    },
+    {
+      "region": "Харківська обл.",
+      "city": "Первомайський",
+      "headSecondName": "Погорєлова",
+      "headFirstName": "Галина",
+      "phone": "+38(066)-411-3870"
+    },
+    {
+      "region": "Харківська обл.",
+      "city": "Богодухів",
+      "headSecondName": "Кириченко",
+      "headFirstName": "Наталія",
+      "phone": "+38(066)-141-1945"
+    },
+    {
+      "region": "Хмельницька обл.",
+      "city": "Хмельницький",
+      "headSecondName": "Козак",
+      "headFirstName": "Антоніна Антонівна",
+      "phone": "+38(097)-398-8631 вайбер/телеграм, +38(093)-627-4921 дзвінки"
+    },
+    {
+      "region": "Хмельницька обл.",
+      "city": "Кам'янець-Подільський",
+      "headSecondName": "Онищук",
+      "headFirstName": "Світлана",
+      "phone": "+38(067)-811-1016"
+    },
+    {
+      "region": "Черкаська обл.",
+      "city": "Умань",
+      "headSecondName": "Браславська",
+      "headFirstName": "Леся",
+      "phone": "+38(097)-489-4091"
+    },
+    {
+      "region": "Черкаська обл.",
+      "city": "Жаботин",
+      "headSecondName": "Чудна",
+      "headFirstName": "Людмила",
+      "phone": "+38(098)-787-6976"
+    },
+    {
+      "region": "Чернівецька обл.",
+      "city": "Хотин",
+      "headSecondName": "Фугело",
+      "headFirstName": "Юлія",
+      "phone": "+38(097)-967-4758"
+    },
+    {
+      "region": "Чернівецька обл.",
+      "city": "Хотин",
+      "headSecondName": "Дєдов",
+      "headFirstName": "Ольга",
+      "phone": "+38(066)-701-8553"
+    },
+    {
+      "region": "Чернівецька обл.",
+      "city": "Хотин",
+      "headSecondName": "Руснак",
+      "headFirstName": "Олександра",
+      "phone": "+38(067)-347-2649"
+    },
+    {
+      "region": "Чернігівська обл.",
+      "city": "Чернігів",
+      "headSecondName": "Закревська",
+      "headFirstName": "Євгенія",
+      "phone": "+38(063)-393-7290"
+    },
+    {
+      "region": "Чернігівська обл.",
+      "city": "Івківці",
+      "headSecondName": "Шевцова",
+      "headFirstName": "Олена",
+      "phone": "+38(066)-108-1104"
+    },
+    {
+      "region": "Чернігівська обл.",
+      "city": "Сновськ",
+      "headSecondName": "Куриліна",
+      "headFirstName": "Наталія",
+      "phone": "+38(068)-130-5300"
+    }
+  ]
+  

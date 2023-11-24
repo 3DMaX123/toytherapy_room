@@ -1,0 +1,66 @@
+.app_room{
+    width: 95%;
+    height: 4.159vw;
+    z-index: 100;
+    display: flex;
+    border-radius: 36px;
+    background: #D7BEFF;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1.176vw;
+    position: relative;
+    padding-right: 1.176vw;
+
+}
+.room_region{
+    width: 11.765vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.room_region_text{
+    font-size: 0.941vw;
+}
+.room_region_props{
+    font-size: 1.373vw;
+}
+.room_city{
+    width: 15.294vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.room_city_text{
+    font-size: 0.941vw;
+}
+.room_city_props{
+    font-size: 1.373vw;
+}
+.room_name{
+    width: 11.765vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.room_name_text{
+    font-size: 0.941vw;
+}
+.room_name_props{
+    font-size: 1.373vw;
+}
+.room_phone{
+    width: 11.765vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.room_phone_text{
+    font-size: 0.941vw;
+}
+.room_phone_props{
+    font-size: 1.373vw;
+}
+.room_randomImage{
+    width: 0.975vw;
+    height: 0.975vw;
+}

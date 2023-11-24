@@ -1,10 +1,8 @@
 import './App.css';
-
-import {Catalog, MainPage} from './container';
+import {Catalog, MainPage, } from './container';
 import { NavBar, Footer } from './components';
-import Partners from './components/Partners/Partners';
-import images from './constants/images';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import AboutUs from './container/AboutUs/AboutUs'
 
 const router = createBrowserRouter([
     {
@@ -14,15 +12,19 @@ const router = createBrowserRouter([
     {
         path: "/toytherapy_room/catalog",
         element: <Catalog />,
-    }
+    },
+    {
+        path: "/toytherapy_room/aboutus",
+        element: <AboutUs />,
+    },
 ]);
 
 function App() {
   return (
     <div className="app">
-      <NavBar />
+     {/*<NavBar />*/}
         <RouterProvider router={router} />
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }
