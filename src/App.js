@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <Catalog />,
     },
     {
-        path: "/toytherapy_room/aboutus",
+        path: "/toytherapy_room/about-us",
         element: <AboutUs />,
     },
     {
