@@ -1,0 +1,118 @@
+.app__contacts {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__backGround {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(3.5px);
+}
+
+.contacts__content {
+    display: flex;
+    width: 45.520vw;
+    height: 29.427vw;
+    background-color: white;
+    z-index: 11;
+    margin: 0;
+    border-radius: 1.8750vw;
+    box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contacts__content_title {
+    font-size: 3.125vw;
+    margin-top: 5.9vw;
+    margin-bottom: 4.1vw;
+}
+
+.contacts__content_buttonName {
+    display: flex;
+    background-color: #D7BEFF;
+    width: 40.104vw;
+    height: 5.937vw;
+    border-radius: 1.8750vw;
+    margin-bottom: 1.6146vw;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.contacts__buttonName-title {
+    font-size: 1.25vw;
+    margin-top: 1.1458vw;
+}
+
+.contacts__buttonName-content {
+    font-size: 1.8229vw;
+    margin-top: 0.625vw;
+    margin-bottom: 0.7292vw;
+}
+
+.contacts__content-buttonPhonNumber {
+    display: flex;
+    background-color: #D7BEFF;
+    width: 40.104vw;
+    height: 5.937vw;
+    border-radius: 1.8750vw;
+    margin-bottom: 3.020vw;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.contacts__buttonPhonNumber-title {
+    font-size: 1.25vw;
+    margin-top: 1.041vw;
+}
+
+
+.contacts__buttonPhonNumber-content {
+    font-size: 1.8229vw;
+    margin-top: 0.625vw;
+    margin-bottom: 0.937vw;
+}
+
+.payment__textSettings {
+    font-family: var(--font-additional);
+    font-style: normal;
+    color: #394253;
+}
+
+.contacts__content_gradient {
+    position: absolute;
+    width: 45.520vw;
+    height: 29.427vw;
+    z-index: -1;
+    border-radius: 1.8750vw;
+    opacity: 0.67;
+}
+
+.contacts__content_cloud {
+    position: absolute;
+    width: 45.520vw;
+    height: 29.427vw;
+    margin-top: 2vw;
+    z-index: -1;
+}
