@@ -11,7 +11,6 @@ const Pony = () => {
 
     const ChangeWindow = (whichOne) => {
         setWhichWindows(whichOne);
-        console.log(whichOne);
     }
 
     return (
