@@ -9,8 +9,7 @@ const Payment = () => {
   let navigate = useNavigate();
 
   return (
-      <div className='app__payment'>
-        <div className='payment__backGround' onClick={() => navigate(-1)}></div>
+      <div className='app__payment' onClick={() => navigate(-1)}>
         <div className='payment__content payment__text'>
           <div className='payment__content_title'>
             <p className='payment__title-title'>Підтримати проєкт</p>

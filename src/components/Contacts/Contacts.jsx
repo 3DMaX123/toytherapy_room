@@ -10,8 +10,7 @@ const Contacts = () => {
   let navigate = useNavigate();
 
   return (
-      <div className='app__contacts'>
-        <div className='contacts__backGround' onClick={() => navigate(-1)}></div>
+      <div className='app__contacts' onClick={() => navigate(-1)}>
         <div className='contacts__content payment__textSettings'>
           <p className='contacts__content_title '>Контактна інформація</p>
           <div className='contacts__content_buttonName'>
