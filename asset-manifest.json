@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.19b51918.css",
-    "main.js": "/toytherapy_room/static/js/main.43555d7f.js",
+    "main.css": "/toytherapy_room/static/css/main.22471985.css",
+    "main.js": "/toytherapy_room/static/js/main.8c9766b2.js",
     "static/media/3dRoom.png": "/toytherapy_room/static/media/3dRoom.4a21056e18b96d80b8b5.png",
     "static/media/aboutus_props_image4.png": "/toytherapy_room/static/media/aboutus_props_image4.ba135a448f3b2ddcadf1.png",
     "static/media/aboutus_props_image3.png": "/toytherapy_room/static/media/aboutus_props_image3.d59f37692d2cfd6f5efa.png",
@@ -10,7 +10,9 @@
     "static/media/aboutus_props_image2.png": "/toytherapy_room/static/media/aboutus_props_image2.0b4d7a843460ecfa6c85.png",
     "static/media/aboutus_props_image1.png": "/toytherapy_room/static/media/aboutus_props_image1.706866189157ac6a9c0e.png",
     "static/media/3Droom__roomImage.webp": "/toytherapy_room/static/media/3Droom__roomImage.2e6b72aa1e758c271573.webp",
+    "static/media/payment__clouds.svg": "/toytherapy_room/static/media/payment__clouds.63002b5351455153298f3cc01250638d.svg",
     "static/media/partners__img_phone.svg": "/toytherapy_room/static/media/partners__img_phone.2f698a5e9b42ab3665aee581043726cc.svg",
+    "static/media/contacts_backGround.svg": "/toytherapy_room/static/media/contacts_backGround.3107c6ab2bf24f5020e2a4fdcda47fe0.svg",
     "static/media/header_clouds_phone.svg": "/toytherapy_room/static/media/header_clouds_phone.ee3fb064d4e02a4db3e77ef35e7fb770.svg",
     "static/media/magickSpace__cloudsAndHearts_phone.svg": "/toytherapy_room/static/media/magickSpace__cloudsAndHearts_phone.9a15186e2fcb124339919bc1ccbf8d7d.svg",
     "static/media/feedback__props_phone.svg": "/toytherapy_room/static/media/feedback__props_phone.f6744e2c58980edffb113fa12d43c485.svg",
@@ -44,11 +46,11 @@
     "index.html": "/toytherapy_room/index.html",
     "static/media/header__bottomHeartAndZigZag-scroll.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-scroll.e96e2642b04ff99a4b46.webp",
     "static/media/header__textithHeart-heart.webp": "/toytherapy_room/static/media/header__textithHeart-heart.c292870b207da12ea5ad.webp",
-    "main.19b51918.css.map": "/toytherapy_room/static/css/main.19b51918.css.map",
-    "main.43555d7f.js.map": "/toytherapy_room/static/js/main.43555d7f.js.map"
+    "main.22471985.css.map": "/toytherapy_room/static/css/main.22471985.css.map",
+    "main.8c9766b2.js.map": "/toytherapy_room/static/js/main.8c9766b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b51918.css",
-    "static/js/main.43555d7f.js"
+    "static/css/main.22471985.css",
+    "static/js/main.8c9766b2.js"
   ]
 }
