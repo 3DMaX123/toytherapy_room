@@ -226,3 +226,18 @@
         height: 1.8vw;
     }
 }
+.header__header-button{
+    width: 215px;
+    height: 51px;
+    background-color: #D7BEFF;
+    border-radius: 13px;
+    color: #394253;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Neucha;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}

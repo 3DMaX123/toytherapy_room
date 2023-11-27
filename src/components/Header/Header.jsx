@@ -2,6 +2,8 @@ import React from 'react'
 import images from '../../constants/images';
 
 import './Header.css';
+import {Link} from "react-router-dom";
+import AboutUs from "../../container/AboutUs/AboutUs";
 
 class Header extends React.Component {
 
@@ -12,10 +14,13 @@ class Header extends React.Component {
                     <img className='header__clouds' src={images.header__clouds} alt='Хмаринки' />
                 </div>
                 <div className='header__mainContent_textAndLogo'>
+
                     <div className='header__textAndLogo'>
+
                         <div className='header__textAndLogo_header'>
                             <p className='header__header-header'>Наші кімнати</p>
                             <p className='header__header-note'>*магія всередині</p>
+
                         </div>
                         <div className='header__textAndLogo_description'>
                             <div className='flex'>
@@ -31,6 +36,7 @@ class Header extends React.Component {
                             </div>
                             <p className='header__description-fourText'>в якому можливо знайти силу для власного<br />відновлення та відчути новий подих</p>
                             <img className='header__bottomHeartAndZigZag_hearts-phone' src={images.header__bottomHeartAndZigZag_phone} alt='Сердця з зіг загом' />
+                            <Link to={'/toytherapy_room/about-us'} className='header__header-button'>Дізнатися більше</Link>
                         </div>
                     </div>
                     <div class="header__textAndLogo_phone">

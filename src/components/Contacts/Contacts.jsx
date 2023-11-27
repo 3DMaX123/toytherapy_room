@@ -3,13 +3,12 @@ import images from '../../constants/images';
 
 import './Contacts.css';
 
-class Contacts extends React.Component {
 
-  render() {
 
-    return (
+const Contacts = ({ChangeWindow}) => {
+  return (
       <div className='app__contacts'>
-        <div className='contacts__backGround'></div>
+        <div className='contacts__backGround' onClick={() => ChangeWindow(0)}></div>
         <div className='contacts__content payment__textSettings'>
           <p className='contacts__content_title '>Контактна інформація</p>
           <div className='contacts__content_buttonName'>
@@ -20,12 +19,12 @@ class Contacts extends React.Component {
             <p className='contacts__buttonPhonNumber-title '>телефон</p>
             <a className='contacts__buttonPhonNumber-content '>+38(067)-670-7702</a>
           </div>
-          <img className='contacts__content_gradient' src={images.contacts__backGround_gradient} alt='img' />
+          <img className='contacts__content_gradient' src={images.gradients__headerGrad} alt='img' />
           <img className='contacts__content_cloud' src={images.contacts__backGround} alt='img' />
         </div>
       </div>
-    )
-  }
-}
+  );
+};
 
-export default Contacts
+export default Contacts;
+

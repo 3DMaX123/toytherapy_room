@@ -3,13 +3,11 @@ import images from '../../constants/images';
 
 import './Payment.css';
 
-class Payment extends React.Component {
 
-  render() {
-
-    return (
+const Payment = ({ChangeWindow}) => {
+  return (
       <div className='app__payment'>
-        <div className='payment__backGround'></div>
+        <div className='payment__backGround' onClick={() => ChangeWindow(0)}></div>
         <div className='payment__content payment__text'>
           <div className='payment__content_title'>
             <p className='payment__title-title'>Підтримати проєкт</p>
@@ -36,12 +34,13 @@ class Payment extends React.Component {
             </div>
           </div>
           <img />
-          <img className='payment__content-gradient' src={images.payment__backGround_gradient} alt='img' />
+          <img className='payment__content-gradient' src={images.gradients__headerGrad} alt='img' />
           <img className='payment__content-backGround' src={images.payment__backGround_cloud} alt='img'/>
         </div>
       </div>
-    )
-  }
+  )
+
 }
 
 export default Payment
+

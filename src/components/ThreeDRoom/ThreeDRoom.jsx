@@ -2,6 +2,7 @@ import React from 'react'
 import images from '../../constants/images';
 
 import './ThreeDRoom.css';
+import {Link} from "react-router-dom";
 
 class ThreeDRoom extends React.Component {
   render(){
@@ -10,7 +11,7 @@ class ThreeDRoom extends React.Component {
         <img className='threeDRoom-stars' src={images.threeDRoom__stars} alt='Зірочки'/>
         <div className='threeDRoom_textAndButton'>
           <p className='threeDRoom_textAndButton-text'>Спробуйте поринути в дивовижний<br />3D простір для нашої кімнати</p>
-          <p className='threeDRoom_TextAndButton-button'>Поринути</p>
+            <Link to={'/toytherapy_room/3droom'} className='threeDRoom_TextAndButton-button'>Поринути</Link>
         </div>
       </div>
     )

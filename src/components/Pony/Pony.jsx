@@ -3,6 +3,8 @@ import { PonysPlates } from '../../components';
 
 import './Pony.css';
 import {FindRoom} from '../../components';
+import Payment from '../Payment/Payment'
+import Contacts from "../Contacts/Contacts";
 
 const Pony = () => {
     const [whichWindow, setWhichWindows] = useState();
@@ -20,6 +22,12 @@ const Pony = () => {
             <PonysPlates text='Підтримати проєкт' pony='4' ChangeWindow={ChangeWindow} />
             {whichWindow === '2' &&
                 <FindRoom ChangeWindow={ChangeWindow} />
+            }
+            {whichWindow === '4' &&
+                <Payment ChangeWindow={ChangeWindow} />
+            }
+            {whichWindow === '3' &&
+                <Contacts ChangeWindow={ChangeWindow} />
             }
         </div>
     )
