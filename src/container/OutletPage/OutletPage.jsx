@@ -1,17 +1,19 @@
 import React from 'react';
-import {Outlet, useLocation} from "react-router-dom";
-import {Footer, NavBar} from "../../components";
+import { Outlet, useLocation } from "react-router-dom";
+import { Footer, NavBar } from "../../components";
 
 const OutletPage = () => {
     let location = useLocation();
 
     return (
-        <div className="app">
-            {!location.pathname.includes('catalog') &&
+        <div className={!location.pathname.includes('3droom') ? 'app' : ''}>
+            {!location.pathname.includes('catalog') && !location.pathname.includes("3droom") &&
                 <NavBar />
             }
             <Outlet />
-            <Footer />
+            {!location.pathname.includes('3droom') &&
+                < Footer />
+            }
         </div>
     );
 };

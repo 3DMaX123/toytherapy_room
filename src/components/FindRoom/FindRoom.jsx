@@ -3,9 +3,11 @@ import data from '../../data/data for room.json'
 import './FindRoom.css'
 import Rooms from "../Rooms/Rooms";
 import images from '../../constants/images';
+import { useNavigate } from 'react-router-dom';
 
 
-function FindRoom({ChangeWindow}) {
+function FindRoom() {
+    let navigate = useNavigate();
     const [searchText, setSearchText] = useState('');
     const [filteredData, setFilteredData] = useState(data);
 
@@ -21,11 +23,8 @@ function FindRoom({ChangeWindow}) {
     }
 
     return (
-        <>
-            <div className='app__findRoom_background' onClick={() => ChangeWindow(0)}>
-
+            <div className='app__findRoom_background' onClick={() => navigate(-1)}>
                 <div className='app_findroom' onClick={(e) => e.stopPropagation()}>
-
                     <div className='findroom_search'>
                         <label htmlFor="search" className='findroom_search_label'>Знайти кімнату у своєму місті </label>
                         <input type="text" className='findroom_search_input' value={searchText} onChange={handleSearchChange} placeholder='Пошук' />
@@ -38,7 +37,6 @@ function FindRoom({ChangeWindow}) {
                     <img className='findRoom-gradient' src={images.gradients__headerGrad} />
                 </div>
             </div>
-        </>
     );
 }
 

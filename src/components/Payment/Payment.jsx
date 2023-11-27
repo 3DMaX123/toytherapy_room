@@ -2,12 +2,15 @@ import React from 'react'
 import images from '../../constants/images';
 
 import './Payment.css';
+import { useNavigate } from 'react-router-dom';
 
 
-const Payment = ({ChangeWindow}) => {
+const Payment = () => {
+  let navigate = useNavigate();
+
   return (
       <div className='app__payment'>
-        <div className='payment__backGround' onClick={() => ChangeWindow(0)}></div>
+        <div className='payment__backGround' onClick={() => navigate(-1)}></div>
         <div className='payment__content payment__text'>
           <div className='payment__content_title'>
             <p className='payment__title-title'>Підтримати проєкт</p>
@@ -35,7 +38,7 @@ const Payment = ({ChangeWindow}) => {
           </div>
           <img />
           <img className='payment__content-gradient' src={images.gradients__headerGrad} alt='img' />
-          <img className='payment__content-backGround' src={images.payment__backGround_cloud} alt='img'/>
+          <img className='payment__content-backGround' src={images.payment__clouds} alt='img'/>
         </div>
       </div>
   )

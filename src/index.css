@@ -44,3 +44,12 @@ body {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 } */
+
+@keyframes slowOpen{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

@@ -15,6 +15,7 @@
 
     z-index: 99;
 
+    animation: slowOpen .4s ease;
 }
 
 .app_findroom{
@@ -23,13 +24,14 @@
     justify-content: center;
     align-items: center;
 
-    width: 85%;
-    height: 93%;
+    width: 80%;
+    height: 80%;
 
     font-family: var(--font-additional);
     color: #394253;
 
     border-radius: 1.412vw;
+    background-color: var(--color-white);
     box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
 
     flex-direction: column;

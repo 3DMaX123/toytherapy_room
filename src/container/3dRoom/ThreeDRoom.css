@@ -1,4 +1,36 @@
-.threeDRoom_RotationSphere{
+.droom__buttons{
+    display: flex;
     position: absolute;
+    justify-content: space-between;
 
+    width: 100%;
+
+    margin: 45px 0;
+
+    z-index: 1;
+}
+
+.droom__buttons button{
+    all: unset;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.7vw 1.615vw;  
+    
+    font-family: var(--font-additional);
+    font-size: 1.1vw;
+    
+    background: var(--color-pink);
+    box-shadow: var(--drop-shadow);
+    border-radius: 0.677vw;
+
+    margin: 0 66px;
+
+    cursor: pointer;
+}
+
+.psv-navbar {
+    display: none!important;
 }
