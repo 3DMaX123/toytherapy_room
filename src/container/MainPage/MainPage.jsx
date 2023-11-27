@@ -5,6 +5,7 @@ import './MainPage.css';
 const MainPage = () => {
   return (
     <>
+      {window.scrollTo(0, 0)}
       <div className='app_mainPage'>
         <Header />
         <MagickSpace />

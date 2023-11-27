@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Catalog.css'
 import images from "../../constants/images";
 import { Link } from "react-router-dom";
-import {Toy} from "../../components";
+import { Toy } from "../../components";
 import dataForToys from "../../data/data for toys";
 
 
@@ -10,6 +10,7 @@ const Catalog = () => {
     const [showMore, setShowMore] = useState(8);
     return (
         <div className='app__catalog1'>
+            {window.scrollTo(0, 0)}
             <header className='catalog__header'>
                 <p className='catalog__header_text'>* всі іграшки безкоштовні</p>
                 <Link to={"/toytherapy_room"} className='catalog__textAndButton-button'>повернутися назад</Link>

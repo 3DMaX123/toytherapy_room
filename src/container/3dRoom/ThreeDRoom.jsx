@@ -11,6 +11,7 @@ const ThreeDRoom = () => {
 
     return (
         <div>
+            {window.scrollTo(0, 0)}
             <div className='droom__buttons'>
                 <button className='droom__buttons-returnBack' onClick={() => navigate(-1)}>повернутися назад</button>
                 <button className='droom__buttons-toCatalog' onClick={() => navigate("/toytherapy_room/catalog")}>відкрити каталог</button>
