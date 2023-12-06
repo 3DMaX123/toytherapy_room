@@ -11,6 +11,8 @@ import Feedback from './Feedback/Feedback';
 import Gradients from './Gradients/Gradients';
 import Toy from './Toy/Toy';
 import FindRoom from './FindRoom/FindRoom';
+import Payment from './Payment/Payment';
+import Contacts from './Contacts/Contacts';
 
 export{
     Footer,
@@ -25,5 +27,7 @@ export{
     Feedback,
     Gradients,
     Toy,
-    FindRoom
+    FindRoom,
+    Payment,
+    Contacts
 }
