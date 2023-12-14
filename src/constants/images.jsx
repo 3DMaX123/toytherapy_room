@@ -49,6 +49,7 @@ import Room from '../assets/3dRoom.png'
 import contacts__backGround from '../assets/contacts_backGround.svg';
 import payment__clouds from '../assets/payment__clouds.svg';
 
+
 const images = {
     navbar__charity,
     navbar__helpToy,

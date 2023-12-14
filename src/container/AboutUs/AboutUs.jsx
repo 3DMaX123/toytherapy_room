@@ -76,6 +76,7 @@ const AboutUs = () => {
             <div className='aboutUs__FooterButton'>
                 <Link to={'/toytherapy_room'} className='aboutUs__FooterButton_Button'><img src={images.aboutus_props_buttonImage}/>повернутися</Link>
             </div>
+
             <div className='Props__Images'>
                 <img alt="props" src={images.catalog__props_cloud1} className='aboutUs__cloudImage1' />
                 <img alt="props" src={images.catalog__props_cloud1} className='aboutUs__cloudImage2' />
