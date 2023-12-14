@@ -149,6 +149,7 @@
 
 .aboutUs_contactInfo-number{
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .aboutUs_contactInfoEmail{
@@ -165,6 +166,7 @@
 
 .aboutUs_contactInfo-fullEmail{
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .aboutUs__FooterButton{
