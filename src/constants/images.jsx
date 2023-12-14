@@ -36,11 +36,11 @@ import findRoom__littleHeart from '../assets/findRoom__littleHeart.png'
 import findRoom__littleStar from '../assets/findRoom__littleStar.png'
 import bunny1 from '../assets/Bunny1.png';
 import aboutUs__singleUnicorn from '../assets/aboutus_props_image1.png';
-import aboutus__props_image2 from '../assets/aboutus_props_image2.png';
-import aboutus__props_image3 from '../assets/aboutus_props_image3.png';
-import aboutus__props_image4 from '../assets/aboutus_props_image4.png';
-import aboutus__props_image5 from '../assets/aboutus_props_image5.png';
-import aboutus__props_image6 from '../assets/aboutus_props_image6.png';
+import aboutus__goal from '../assets/aboutus_props_image2.png';
+import aboutus__shelf_with_toys from '../assets/aboutus_props_image3.png';
+import aboutus__bears_on_rope from '../assets/aboutus_props_image4.png';
+import aboutus__props_bunnys from '../assets/aboutus_props_image5.png';
+import aboutus__props_room_with_toys from '../assets/aboutus_props_image6.png';
 import aboutus_props_buttonImage from '../assets/aboutus_props_buttonImage.png';
 import aboutus_props_littleHeart from '../assets/LittleHeart.png';
 import aboutus_props_Heart from '../assets/Heart.png';
@@ -88,11 +88,11 @@ const images = {
     findRoom__littleHeart,
     findRoom__littleStar,
     aboutUs__singleUnicorn,
-    aboutus__props_image2,
-    aboutus__props_image3,
-    aboutus__props_image4,
-    aboutus__props_image5,
-    aboutus__props_image6,
+    aboutus__goal,
+    aboutus__shelf_with_toys,
+    aboutus__bears_on_rope,
+    aboutus__props_bunnys,
+    aboutus__props_room_with_toys,
     aboutus_props_buttonImage,
     aboutus_props_littleHeart,
     aboutus_props_Heart,

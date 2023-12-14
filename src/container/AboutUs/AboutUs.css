@@ -35,7 +35,164 @@
     display: flex;
     justify-content: space-between;
 
-    margin-top: 88px;
+    margin-top: 4.583vw;
+}
+
+.aboutUs__goal{
+    margin-top: 4.7vw;
+}
+
+.aboutUs__goal-image{
+    height: 28.958vw;
+
+    object-fit:cover;
+}
+
+.aboutUs__shelf_with_toys{
+    margin-top: 13.542vw;
+
+}
+
+.aboutUs__shelf_with_toys-image{
+    height: 25.781vw;
+
+    object-fit:cover;
+}
+
+.aboutUs__expectedResults{
+    margin-top: 7.813vw;
+    gap: 3.594vw;
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.aboutUs__expectedResults h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.aboutUs__expectedResults-image{
+    margin-top: 4.167vw;
+
+    object-fit:cover;
+
+    height: 25.156vw;
+}
+
+.aboutUs__alreadyDone{
+    flex-direction: column;
+
+    margin-top: 7.083vw;
+
+    gap: 0;
+}
+
+.aboutUs__alreadyDone h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.aboutUs__alreadyDone_first{
+    display: flex;
+    flex-direction: row;
+    gap: 9.635vw;
+    margin-top: 4.427vw;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutUs__alreadyDone_first-image{
+    height: 28.958vw;
+
+    object-fit:cover;
+}
+
+.aboutUs__alreadyDone_second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 4.427vw;
+    margin-top: 7.813vw;
+}
+
+.aboutUs__alreadyDone_first-second{
+    height: 28.958vw;
+
+    object-fit:cover;
+}
+
+.aboutUs_contactInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Neucha;
+    font-size: 48px;
+    font-weight: 400;
+
+    margin-top: 7.969vw;
+
+    width: 97%;
+}
+
+.aboutUs_contactInfo-phone{
+    text-align: center;
+}
+
+.aboutUs_contactInfo-number{
+    text-decoration-line: underline;
+}
+
+.aboutUs_contactInfoEmail{
+    margin-top: 3.021vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Neucha;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.aboutUs_contactInfo-fullEmail{
+    text-decoration-line: underline;
+}
+
+.aboutUs__FooterButton{
+    margin-top: 8.802vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    cursor: pointer;
+}
+
+.aboutUs__FooterButton_Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7.896vw;
+
+    width: 13.281vw;
+    height: 3.021vw;
+
+
+    border-radius: 12px;
+    background: #D7BEFF;
+    box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
+
+    color: #394253;
+    font-family: Neucha;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
