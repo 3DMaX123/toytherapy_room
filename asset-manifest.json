@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.45fdcc38.css",
-    "main.js": "/toytherapy_room/static/js/main.9e4a4f92.js",
+    "main.css": "/toytherapy_room/static/css/main.013a9492.css",
+    "main.js": "/toytherapy_room/static/js/main.b39dd57b.js",
     "static/media/3dRoom.png": "/toytherapy_room/static/media/3dRoom.4a21056e18b96d80b8b5.png",
     "static/media/aboutus_props_image4.png": "/toytherapy_room/static/media/aboutus_props_image4.ba135a448f3b2ddcadf1.png",
     "static/media/aboutus_props_image3.png": "/toytherapy_room/static/media/aboutus_props_image3.d59f37692d2cfd6f5efa.png",
@@ -46,11 +46,11 @@
     "index.html": "/toytherapy_room/index.html",
     "static/media/header__bottomHeartAndZigZag-scroll.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-scroll.e96e2642b04ff99a4b46.webp",
     "static/media/header__textithHeart-heart.webp": "/toytherapy_room/static/media/header__textithHeart-heart.c292870b207da12ea5ad.webp",
-    "main.45fdcc38.css.map": "/toytherapy_room/static/css/main.45fdcc38.css.map",
-    "main.9e4a4f92.js.map": "/toytherapy_room/static/js/main.9e4a4f92.js.map"
+    "main.013a9492.css.map": "/toytherapy_room/static/css/main.013a9492.css.map",
+    "main.b39dd57b.js.map": "/toytherapy_room/static/js/main.b39dd57b.js.map"
   },
   "entrypoints": [
-    "static/css/main.45fdcc38.css",
-    "static/js/main.9e4a4f92.js"
+    "static/css/main.013a9492.css",
+    "static/js/main.b39dd57b.js"
   ]
 }
