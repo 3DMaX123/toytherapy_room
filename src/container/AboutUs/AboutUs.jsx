@@ -19,12 +19,12 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div >
-                    <img src={images.aboutus__props_image1} className='aboutUs__image' />
+                    <img alt="Картинка з іграшками" src={images.aboutus__props_image1} className='aboutUs__image' />
                 </div>
             </div>
             <div className='aboutUs__TextAndImage__Second'>
                 <div>
-                    <img src={images.aboutus__props_image2} className='aboutUs__image2' />
+                    <img alt="Картинка з іграшками" src={images.aboutus__props_image2} className='aboutUs__image2' />
                 </div>
                 <div className='aboutUs__TextAndImageSecond__Text'>
                     <p className='aboutUs__textDescription'>
@@ -46,7 +46,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div >
-                    <img src={images.aboutus__props_image3} className='aboutUs__image3' />
+                    <img alt="Картинка з іграшками" src={images.aboutus__props_image3} className='aboutUs__image3' />
                 </div>
             </div>
             <div className='aboutUs__ExpectedResults'>
@@ -61,14 +61,14 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div>
-                    <img src={images.aboutus__props_image4} className='aboutUs__image4' />
+                    <img alt="Картинка з іграшками" src={images.aboutus__props_image4} className='aboutUs__image4' />
                 </div>
             </div>
             <div className='aboutUs__AlreadyDone'>
                 <p className='aboutUs__AlreadyDone_HeaderText'>Що вже зроблено станом на сьогодні</p>
                 <div className='aboutUs__AlreadyDone_TextAndImage'>
                     <div >
-                        <img src={images.aboutus__props_image5} className='aboutUs__image5' />
+                        <img alt="Картинка з іграшками" src={images.aboutus__props_image5} className='aboutUs__image5' />
                     </div>
                     <div className='AlreadyDone_TextAndImage_Text'>
                         <p className='aboutUs__textDescription'>
@@ -90,7 +90,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div>
-                    <img src={images.aboutus__props_image6} className='aboutUs__image6' />
+                    <img alt="Картинка з іграшками" src={images.aboutus__props_image6} className='aboutUs__image6' />
                 </div>
             </div>
             <div className='aboutUs__ContactInformarion'>
@@ -109,36 +109,36 @@ const AboutUs = () => {
                 <p className='ContactInformarion_email'>therapyroomukraine7@gmail.com</p>
             </div>
             <div className='aboutUs__FooterButton'>
-                <Link to={'/toytherapy_room'} className='aboutUs__FooterButton_Button'><img src={images.aboutus_props_buttonImage} />повернутися</Link>
+                <Link to={'/toytherapy_room'} className='aboutUs__FooterButton_Button'><img alt="Стрілочка повернутись назад" src={images.aboutus_props_buttonImage} />повернутися</Link>
             </div>
             <div className='Props__Images'>
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage1' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage2' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage3' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart1' />
-                <img src={images.aboutus_props_Heart} className='aboutUs__Heart1' />
-                <img src={images.aboutus_props_Line} className='aboutUs__Line1' />
-                <img src={images.aboutus_props_Line} className='aboutUs__Line2' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage4' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage5' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart2' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart3' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart4' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage6' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage7' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart5' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage8' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage9' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage10' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage11' />
-                <img src={images.catalog__props_cloud1} className='aboutUs__cloudImage12' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart6' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart7' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart8' />
-                <img src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart9' />
-                <img src={images.aboutus_props_Heart} className='aboutUs__Heart2' />
-                <img src={images.aboutus_props_Heart} className='aboutUs__Heart3' />
-                <img src={images.aboutus_props_Heart} className='aboutUs__Heart4' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage1' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage2' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage3' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart1' />
+                <img alt="Пропси" src={images.aboutus_props_Heart} className='aboutUs__Heart1' />
+                <img alt="Пропси" src={images.aboutus_props_Line} className='aboutUs__Line1' />
+                <img alt="Пропси" src={images.aboutus_props_Line} className='aboutUs__Line2' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage4' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage5' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart2' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart3' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart4' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage6' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage7' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart5' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage8' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage9' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage10' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage11' />
+                <img alt="Пропси" src={images.catalog__props_cloud1} className='aboutUs__cloudImage12' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart6' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart7' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart8' />
+                <img alt="Пропси" src={images.aboutus_props_littleHeart} className='aboutUs__littleHeart9' />
+                <img alt="Пропси" src={images.aboutus_props_Heart} className='aboutUs__Heart2' />
+                <img alt="Пропси" src={images.aboutus_props_Heart} className='aboutUs__Heart3' />
+                <img alt="Пропси" src={images.aboutus_props_Heart} className='aboutUs__Heart4' />
             </div>
         </div>
     );

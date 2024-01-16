@@ -107,6 +107,38 @@
 .contacts__content_cloud {
     position: absolute;
     width: 90%;
-    margin-top: 2vw;
     z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+    .contacts__content {
+        width: 85%;
+        height: 35%;
+    }
+
+    .contacts__content_title {
+        font-size: 4.197vw;
+
+        margin-bottom: 45px;
+        margin-top: 0;
+    }
+
+    .contacts__content_information{
+        width: 64.748vw;
+        height: 7.194vw;
+
+        border-radius: 28px;
+    }
+
+    .contacts__content_buttonName{
+        margin-bottom: 18px;
+    }
+
+    .contacts__information-title{
+        font-size: 2.038vw;
+    }
+
+    .contacts__information-descr{
+        font-size: 2.998vw;
+    }
 }

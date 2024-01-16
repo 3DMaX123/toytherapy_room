@@ -187,6 +187,8 @@
 @media screen and (max-width: 992px) {
     .footer_navigation-text {
         font-size: 1.6vw;
+
+        border-radius: 8px;
     }
 
     .footer__mainContent-logo {

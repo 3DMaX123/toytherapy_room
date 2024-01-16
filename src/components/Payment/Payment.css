@@ -96,3 +96,32 @@
     z-index: -1;
     border-radius: 1.8750vw;
 }
+
+
+@media screen and (max-width: 992px) {
+    .payment__content{
+        width: 85%;
+        height: 50%;
+    }
+
+    .payment__title-title{
+        font-size: 4.197vw;
+    }
+
+    .payment__title-description{
+        font-size: 2.518vw;
+    }
+
+    .payment__button{
+        width: 64.748vw;
+        height: 7.194vw;
+    }
+
+    .payment__text-title{
+        font-size: 2.038vw;
+    }
+
+    .payment__text-content{
+        font-size: 2.998vw;
+    }
+}

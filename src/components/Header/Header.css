@@ -139,6 +139,22 @@
     display: none;
 }
 
+.header__header-button{
+    width: 215px;
+    height: 51px;
+    background-color: #D7BEFF;
+    border-radius: 13px;
+    color: #394253;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Neucha;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 992px) {
     .header__header-note {
         font-size: 1.3vw;
@@ -159,6 +175,17 @@
     .header__bottomHeartAndZigZag-scroll {
         width: 1.6vw;
         height: 3.8vw;
+    }
+
+    .header__header-button{
+        width: 170px;
+        height: 39px;
+        
+        font-size: 15px;
+
+        border-radius: 10px;
+
+        margin-top: 20px;
     }
 
 }
@@ -225,19 +252,4 @@
         width: 2vw;
         height: 1.8vw;
     }
-}
-.header__header-button{
-    width: 215px;
-    height: 51px;
-    background-color: #D7BEFF;
-    border-radius: 13px;
-    color: #394253;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Neucha;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 50px;
 }
