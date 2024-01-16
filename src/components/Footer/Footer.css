@@ -146,6 +146,43 @@
 .footer__phone{
     display: none;
 }
+@media screen and (max-width: 1920px) {
+    .footer__mainContent_navigation{
+        width: 70%;
+        align-items: center;
+    }
+
+    .footer__3dRoom-text{
+        height: 2.422vw;
+    }
+
+    .footer__toyCatalog-text{
+        height: 2.422vw;
+    }
+
+    .footer__chatiry-text{
+        height: 2.422vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__mainContent_navigation{
+        width: 70%;
+        align-items: center;
+    }
+
+    .footer__3dRoom-text{
+        height: 2.422vw;
+    }
+
+    .footer__toyCatalog-text{
+        height: 2.422vw;
+    }
+
+    .footer__chatiry-text{
+        height: 2.422vw;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .footer_navigation-text {
@@ -203,6 +240,23 @@
 
     .footer__credits_Phone a {
         font-size: 1.5vw;
+    }
+
+    .footer__mainContent_navigation{
+        width: 70%;
+        align-items: center;
+    }
+
+    .footer__3dRoom-text{
+        height: 2.422vw;
+    }
+
+    .footer__toyCatalog-text{
+        height: 2.422vw;
+    }
+
+    .footer__chatiry-text{
+        height: 2.422vw;
     }
 }
 
@@ -287,5 +341,15 @@
     }
 
 
+    .footer__3dRoom-text{
+        height: 3.516vw;
+    }
 
+    .footer__toyCatalog-text{
+        height: 3.516vw;
+    }
+
+    .footer__chatiry-text{
+        height: 3.516vw;
+    }
 }

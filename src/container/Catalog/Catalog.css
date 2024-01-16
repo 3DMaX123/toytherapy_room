@@ -53,3 +53,28 @@
     grid-row-gap: 1vw;
 }
 
+@media screen and (max-width: 688px) {
+    .catalog__header_text{
+        font-size: 2.326vw;
+    }
+
+    .catalog__toys{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px){
+    .catalog__header_text{
+        font-size: 0.959vw;
+    }
+
+    .catalog__toys{
+        /*grid-template-columns: repeat(2, 1fr);*/
+        gap: 4.264vw;
+    }
+
+}
+

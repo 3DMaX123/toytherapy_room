@@ -1,12 +1,12 @@
-.app__products{
-    background-color: white;
-    height: fit-content;
-    width: 82.292vw;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1.042vw;
-    grid-row-gap: 1vw;
-}
+/*.app__products{*/
+/*    background-color: white;*/
+/*    height: fit-content;*/
+/*    width: 82.292vw;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr);*/
+/*    grid-gap: 1.042vw;*/
+/*    grid-row-gap: 1vw;*/
+/*}*/
 .app__toy{
     height: 19.689vw;
     background-color: white;
@@ -59,3 +59,52 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 688px) {
+    .app__toy{
+        height: 28.443vw;
+        width: 28.443vw;
+        border-radius: 3.293vw;
+        width: 100%;
+    }
+
+    .toy__Text p{
+        font-size: 1.946vw;
+        margin-left: 1.497vw;
+    }
+
+    .toy__Button{
+        border-radius: 1.198vw;
+        background: #D7BEFF;
+        box-shadow: 0px 3px 15px 0px rgba(112, 144, 176, 0.20);
+
+        width: 160.14px;
+        height: 28px;
+        flex-shrink: 0;
+
+        color: #394253;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 400;
+
+        margin-bottom: 8px;
+    }
+
+    .catalog__toys_moreproducts{
+        font-size: 2.096vw;
+    }
+
+    }
+
+@media screen and (max-width: 992px){
+    .app__toy{
+        height: 226px;
+        width: 225px;
+        border-radius: 22px;
+        width: 100%;
+    }
+
+
+
+}

@@ -432,3 +432,22 @@
     border: 3px;
     angle: -0 deg;
 }
+
+@media screen and (max-width: 688px) {
+
+
+}
+
+@media screen and (max-width: 992px){
+
+    .aboutUs__image5{
+        width: 203px;
+        height: 247px;
+    }
+
+    .aboutUs__FooterButton_Button img{
+        width: 16px;
+        height: 17px;
+    }
+
+}
