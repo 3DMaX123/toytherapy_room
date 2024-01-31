@@ -9,8 +9,7 @@ import dataForToys from "../../data/data for toys";
 const Catalog = () => {
     const [showMore, setShowMore] = useState(8);
     return (
-        <div className='app__catalog1'>
-            {window.scrollTo(0, 0)}
+        <div className='app__catalog'>
             <header className='catalog__header'>
                 <p className='catalog__header_text'>* всі іграшки безкоштовні</p>
                 <Link to={"/toytherapy_room"} className='catalog__textAndButton-button'>повернутися назад</Link>
@@ -24,8 +23,8 @@ const Catalog = () => {
                 {dataForToys.slice(0, showMore).map((prop) => (
                     <Toy key={prop.id} data={prop} />
                 ))}
-                <p onClick={() => setShowMore((prev) => prev + 8)} className='catalog__toys_moreproducts'>Показати ще</p>
             </div>
+            <p onClick={() => setShowMore((prev) => prev + 8)} className='catalog__toys_moreproducts'>Показати ще</p>
         </div>
     );
 };

@@ -55,6 +55,13 @@
     height: 13.125vw;
 }
 
+
+@media screen and (max-width: 1400px){
+    .ponyPlates-text{
+        font-size: 1.5vw;
+    }
+}
+
 @media screen and (max-width: 992px){
     .pony__ponyPlates{
         width: 32.200vw;

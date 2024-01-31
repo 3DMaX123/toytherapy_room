@@ -34,3 +34,16 @@
 .psv-navbar {
     display: none!important;
 }
+
+@media screen and (max-width: 1400px){
+    .droom__buttons button{
+        font-size: 1.6vw;
+        border-radius: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .droom__buttons button{
+        font-size: 2vw;
+    }
+}

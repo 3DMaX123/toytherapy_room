@@ -64,32 +64,16 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1400px){
     .threeDRoom_TextAndButton-button{
-        font-size: 1.7vw;
+        font-size: 2vw;
 
         border-radius: .9vw;
     }
 }
 
-@media screen and (max-width: 688px){
-    .app__threeDRoom{
-        height: 60.280vw;
-    }
-
-    .threeDRoom-stars{
-        width: 85.104vw;
-        height: 40.031vw;
-    }
-
-    .threeDRoom_textAndButton-text{
-        font-size: 5.140vw;
-    }
-
+@media screen and (max-width: 992px){
     .threeDRoom_TextAndButton-button{
-        font-size: 3.738vw;
-        padding: 0.7vw 6.074vw ;
-        border-radius: 1.869vw;
-        border: 0.163vw solid var(--color-pink);
+        font-size: 2.2vw;
     }
 }

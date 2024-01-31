@@ -19,7 +19,7 @@
     display: flex;
     position: relative;
     width: 60%;
-    height: 65%;
+    height: clamp(600px, 70%, 900px);
     background-color: white;
     z-index: 11;
     margin: 0;
@@ -107,13 +107,19 @@
 .contacts__content_cloud {
     position: absolute;
     width: 90%;
+    height: 100%;
     z-index: -1;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
     .contacts__content {
         width: 85%;
-        height: 35%;
+        height: 50vw;
+        border-radius: 4.5vw;
+    }
+
+    .contacts__content_gradient {
+        border-radius: 4.5vw;
     }
 
     .contacts__content_title {

@@ -23,6 +23,17 @@
     color: var(--color-darkPink);
 }
 
+@media screen and (max-width: 1400px){
+
+    .poweredByWebElefont{
+        font-size: 1vw;
+    }
+
+    .poweredByWebELEFONT-webelefont{
+        font-size: 1.2vw;
+    }
+}
+
 @media screen and (max-width: 992px){
 
     .poweredByWebElefont{

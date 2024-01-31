@@ -1,15 +1,15 @@
-.app__navbar{
+.app__navbar {
     display: flex;
     justify-content: space-between;
 }
 
-.navbar__buttons_helpToy{
+.navbar__buttons_helpToy {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 0.417vw 1.615vw;   
-    
+    padding: 0.417vw 1.615vw;
+
     background: var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 0.677vw;
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-.navbar__buttons_helptoy-text{
+.navbar__buttons_helptoy-text {
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -28,24 +28,24 @@
     color: var(--color-black);
 }
 
-.navbar__buttons_helptoy-icon{
+.navbar__buttons_helptoy-icon {
     display: flex;
-    
+
     width: 1.563vw;
     height: 1.563vw;
 }
 
-.navbar__helpToyIcon{
+.navbar__helpToyIcon {
     margin-right: 0.677vw;
 }
 
-.navbar__buttons_charity{
+.navbar__buttons_charity {
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: 0.417vw 1.615vw;
-    
+
     background: var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 0.677vw;
@@ -53,55 +53,28 @@
     cursor: pointer;
 }
 
-.navbar__charityIcon{
+.navbar__charityIcon {
     margin-left: 0.677vw;
 }
 
-@media screen and (max-width: 992px){
-    .navbar__buttons_helptoy-text{
-        font-size: 1.3vw;
-    }
-
-    .navbar__buttons_helpToy{
-        padding: 1vw 2vw;
-
-        border-radius: 1.2vw;
-    }
-
-    .navbar__buttons_charity{
-        padding: 1vw 2vw;
-
-        border-radius: 1.2vw;
-    }
-
-    .navbar__buttons_helptoy-icon{
-        width: 1.6vw;
-        height: 1.6vw;
-    }
-}
-
-@media screen and (max-width: 688px){
+@media screen and (max-width: 1400px) {
     .app__navbar{
-        margin-bottom: 7.179vw;
-    }
-
-    .navbar__buttons_helpToy{
-        padding: 1.282vw 2.820vw;
-        border-radius: 12px;
-    }
-    
-    .navbar__buttons_charity{
-        padding: 1.794vw 2.820vw;
-
-        border-radius: 12px;
+        margin-bottom: 2.5vw;
     }
 
     .navbar__buttons_helptoy-text{
-        font-size: 4.102vw;
+        font-size: 1.5vw;
     }
 
     .navbar__buttons_helptoy-icon{
-        width: 5.128vw;
-        height: 5.128vw;
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .navbar__buttons_charity,
+    .navbar__buttons_helpToy{
+        padding: 0.9vw 1.9vw;
+
+        border-radius: 1vw;
     }
 }

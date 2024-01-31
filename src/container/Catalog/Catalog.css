@@ -1,20 +1,48 @@
-.app__catalog1{
+.app__catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: 100%;
     width: 100%;
     margin-top: 1.042vw;
+
+    flex-direction: column;
 }
-.catalog__header{
+
+.catalog__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+
     margin-bottom: 5vw;
 }
-.catalog__header_text{
+
+.catalog__textAndButton-button {
+    font-family: Neucha;
+    font-size: 1.2vw;
+
+    color: #394253;
+
+    padding: 0.6vw 2.7vw;
+
+    border-radius: .8vw;
+    border: 1.5px solid #D7BEFF;
+    background: #D7BEFF;
+    box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
+
+    cursor: pointer;
+}
+
+.catalog__header_text {
     color: #9DA2AB;
     font-size: 0.833vw;
     font-family: Neucha;
 }
-.catalog__props_cloud1{
+
+.catalog__props_cloud1 {
     position: absolute;
     top: 6.573vw;
     left: 12.396vw;
@@ -22,21 +50,24 @@
     height: 3.253vw;
     z-index: 1;
 }
-.catalog__props_cloud2{
+
+.catalog__props_cloud2 {
     position: absolute;
     top: 2.771vw;
     height: 4.829vw;
     width: 7.500vw;
     left: 24.583vw;
 }
-.catalog__props_cloud3{
+
+.catalog__props_cloud3 {
     position: absolute;
     top: 1.979vw;
     left: 57.094vw;
     width: 5.573vw;
     height: 3.589vw;
 }
-.catalog__props_cloud4{
+
+.catalog__props_cloud4 {
     position: absolute;
     top: 5.115vw;
     left: 65.573vw;
@@ -44,8 +75,8 @@
     width: 7.500vw;
     z-index: 1;
 }
-.catalog__toys{
-    height: fit-content;
+
+.catalog__toys {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -53,28 +84,35 @@
     grid-row-gap: 1vw;
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 1400px) {
+    .catalog__textAndButton-button{
+        font-size: 1.7vw;
+    }
+
     .catalog__header_text{
-        font-size: 2.326vw;
+        font-size: 1.4vw;
+    }
+
+    .catalog__toys_moreproducts{
+        font-size: 1.6vw;
     }
 
     .catalog__toys{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
     }
-
-
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
+    .catalog__textAndButton-button{
+        font-size: 1.9vw;
+        padding: .8vw 2.7vw;
+    }
+
     .catalog__header_text{
-        font-size: 0.959vw;
+        font-size: 1.8vw;
     }
 
-    .catalog__toys{
-        /*grid-template-columns: repeat(2, 1fr);*/
-        gap: 4.264vw;
+    .catalog__toys_moreproducts{
+        font-size: 1.9vw;
     }
-
 }
-

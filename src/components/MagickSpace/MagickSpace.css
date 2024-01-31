@@ -83,46 +83,8 @@
     color: var(--color-purpule);
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1400px){
     .magickSpace__text-note{
-        font-size: 1.4vw;
-    }
-}
-
-@media screen and (max-width: 688px){
-    .app__magickSpace{
-        align-items: center;
-    }
-
-    .magickSpace__clouds-cloudLeft{
-        display: none;
-    }
-    
-    .magickSpace__clouds-cloudRight{
-        display: none;
-    }
-
-    .magickSpace__cloudsAndHearts_phone{
-        display: block;
-    }
-
-    .magickSpace__text{
-        position: absolute;
-        font-size:  5vw;
-    }
-
-    .magickSpace__starAndText-stars{
-        width: 30.841vw;
-        height: 12.616vw;
-        top: -4vw;
-        left: -2vw;
-    }
-
-    .magickSpace__text-note{
-        font-size: 3.738vw;
-    }
-
-    .magickSpace__cloudsAndHearts_phone{
-        width: 100%;
+        font-size: 1.5vw;
     }
 }

@@ -35,19 +35,25 @@ import catalog__props_cloud2 from '../assets/catalog__props_cloud2.png';
 import findRoom__littleHeart from '../assets/findRoom__littleHeart.png'
 import findRoom__littleStar from '../assets/findRoom__littleStar.png'
 import bunny1 from '../assets/Bunny1.png';
-import aboutus__props_image1 from '../assets/aboutus_props_image1.png';
-import aboutus__props_image2 from '../assets/aboutus_props_image2.png';
-import aboutus__props_image3 from '../assets/aboutus_props_image3.png';
-import aboutus__props_image4 from '../assets/aboutus_props_image4.png';
-import aboutus__props_image5 from '../assets/aboutus_props_image5.png';
-import aboutus__props_image6 from '../assets/aboutus_props_image6.png';
-import aboutus_props_buttonImage from '../assets/aboutus_props_buttonImage.png';
-import aboutus_props_littleHeart from '../assets/LittleHeart.png';
-import aboutus_props_Heart from '../assets/Heart.png';
-import aboutus_props_Line from '../assets/Line.png'
 import Room from '../assets/3dRoom.png'
 import contacts__backGround from '../assets/contacts_backGround.svg';
 import payment__clouds from '../assets/payment__clouds.svg';
+import aboutus__unicorn from '../assets/aboutus_unicorn.png';
+import aboutus__bigWardrobeWithToys from '../assets/aboutus_bigWardrobeWithToys.png';
+import aboutus__smallWardrobeWithToys from '../assets/aboutus_smallWardrobeWithToys.png';
+import aboutus__toysDrying from '../assets/aboutus_toysDrying.png';
+import aboutus__toys from '../assets/aboutus_toys.png';
+import aboutus__roomWithToys from '../assets/aboutus_roomWithToys.png';
+import aboutus__returnArrow from '../assets/aboutus__returnArrow.png';
+import aboutUs__gradients_results from "../assets/aboutUs__gradients-results.webp";
+import aboutUs__gradients_header from "../assets/aboutUs__gradients-header.webp";
+import aboutUs__gradients_goal from "../assets/aboutUs__gradients-goal.webp";
+import aboutUs__gradients_alreadyDone from "../assets/aboutUs__gradients-alreadyDone.webp";
+import aboutUs__decorations_header from "../assets/aboutUs__decorations_header.svg"
+import aboutUs__decorations_goal from "../assets/aboutUs__decorations_goal.svg"
+import aboutUs__decorations_drying from "../assets/aboutUs__decorations_drying.svg"
+import aboutUs__decorations_results from "../assets/aboutUs__decorations_results.svg"
+import aboutUs__decorations_contacts from "../assets/aboutUs__decorations_contacts.svg"
 
 const images = {
     navbar__charity,
@@ -87,19 +93,25 @@ const images = {
     bunny1,
     findRoom__littleHeart,
     findRoom__littleStar,
-    aboutus__props_image1,
-    aboutus__props_image2,
-    aboutus__props_image3,
-    aboutus__props_image4,
-    aboutus__props_image5,
-    aboutus__props_image6,
-    aboutus_props_buttonImage,
-    aboutus_props_littleHeart,
-    aboutus_props_Heart,
-    aboutus_props_Line,
     Room,
     contacts__backGround,
-    payment__clouds
+    payment__clouds,
+    aboutus__unicorn,
+    aboutus__bigWardrobeWithToys,
+    aboutus__smallWardrobeWithToys,
+    aboutus__toysDrying,
+    aboutus__toys,
+    aboutus__roomWithToys,
+    aboutus__returnArrow,
+    aboutUs__gradients_results,
+    aboutUs__gradients_header,
+    aboutUs__gradients_goal,
+    aboutUs__gradients_alreadyDone,
+    aboutUs__decorations_header,
+    aboutUs__decorations_goal,
+    aboutUs__decorations_drying,
+    aboutUs__decorations_results,
+    aboutUs__decorations_contacts
 };
 
 export default images;

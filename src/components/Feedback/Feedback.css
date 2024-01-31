@@ -53,12 +53,20 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1400px){
     .feedback__textAndButton-button{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
         border-radius: .8vw;
     }
 }
+
+@media screen and (max-width: 992px){
+    .feedback__textAndButton-button{
+        font-size: 1.9vw;
+    }
+}
+
+
 
 @media screen and (max-width: 688px){
 

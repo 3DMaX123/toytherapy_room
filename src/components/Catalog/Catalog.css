@@ -1,22 +1,22 @@
-.app__catalog{
+.app__compCatalog{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
 }
 
-.catalog__props{
+.compCatalog__props{
     display: flex;
     
     width: 81.094vw;
     height: 33.490vw;
 }
 
-.catalog__props_phone{
+.compCatalog__props_phone{
     display: none;
 }
 
-.catalog__textAndButton{
+.compCatalog__textAndButton{
     display: flex;
     position: absolute;
     align-items: center;
@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.catalog__headerDescription-header{
+.compCatalog__headerDescription-header{
     font-family: var(--font-main);
     font-style: normal;
     font-weight: 700;
@@ -37,7 +37,7 @@
     color: var(--color-black);
 }
 
-.catalog__headerDescription-description{
+.compCatalog__headerDescription-description{
     font-family: var(--font-main);
     font-style: normal;
     font-weight: 500;
@@ -50,7 +50,7 @@
     color: var(--color-black);
 }
 
-.catalog__textAndButton-button{
+.compCatalog__textAndButton-button{
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -67,42 +67,16 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 992px){
-    .catalog__textAndButton-button{
-        font-size: 1.6vw;
+@media screen and (max-width: 1400px){
+    .compCatalog__textAndButton-button{
+        font-size: 1.5vw;
 
         border-radius: .9vw;
     }
 }
 
-@media screen and (max-width: 688px){
-
-    .catalog__props{
-        display: none;
-    }
-    
-    .catalog__props_phone{
-        display: block;
-        width: 74.065vw;
-    }
-
-    .catalog__headerDescription-header{
-        font-size: 8.644vw;
-    }
-    
-    .catalog__headerDescription-description{
-        font-size: 4.672vw;
-    }
-
-    .catalog__textAndButton-button{
-        font-size: 3.738vw;
-
-        padding: 1.635vw 3.971vw;
-
-        border-radius: 1.635vw;
-    }
-
-    .catalog__textAndButton{
-        margin-top: 4vw;
+@media screen and (max-width: 992px){
+    .compCatalog__textAndButton-button{
+        font-size: 1.9vw;
     }
 }
