@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.518a91f2.css",
-    "main.js": "/toytherapy_room/static/js/main.c4790178.js",
+    "main.css": "/toytherapy_room/static/css/main.c549dbd6.css",
+    "main.js": "/toytherapy_room/static/js/main.d7834556.js",
     "static/media/3dRoom.png": "/toytherapy_room/static/media/3dRoom.4a21056e18b96d80b8b5.png",
     "static/media/aboutus_toysDrying.png": "/toytherapy_room/static/media/aboutus_toysDrying.ba135a448f3b2ddcadf1.png",
     "static/media/aboutus_smallWardrobeWithToys.png": "/toytherapy_room/static/media/aboutus_smallWardrobeWithToys.d59f37692d2cfd6f5efa.png",
@@ -10,8 +10,9 @@
     "static/media/aboutus_bigWardrobeWithToys.png": "/toytherapy_room/static/media/aboutus_bigWardrobeWithToys.0b4d7a843460ecfa6c85.png",
     "static/media/aboutus_unicorn.png": "/toytherapy_room/static/media/aboutus_unicorn.706866189157ac6a9c0e.png",
     "static/media/3Droom__roomImage.webp": "/toytherapy_room/static/media/3Droom__roomImage.2e6b72aa1e758c271573.webp",
+    "static/media/partners__img_phone.svg": "/toytherapy_room/static/media/partners__img_phone.2cba19084ad8c48980fa3aa39b48f8a8.svg",
     "static/media/payment__clouds.svg": "/toytherapy_room/static/media/payment__clouds.63002b5351455153298f3cc01250638d.svg",
-    "static/media/partners__img_phone.svg": "/toytherapy_room/static/media/partners__img_phone.2f698a5e9b42ab3665aee581043726cc.svg",
+    "static/media/partners__-img.svg": "/toytherapy_room/static/media/partners__-img.5aa13de575c3b06a817a8e472fb8368d.svg",
     "static/media/contacts_backGround.svg": "/toytherapy_room/static/media/contacts_backGround.3107c6ab2bf24f5020e2a4fdcda47fe0.svg",
     "static/media/aboutUs__header_phoneDecorations.svg": "/toytherapy_room/static/media/aboutUs__header_phoneDecorations.fd0659d0d39c787170349da04988b93f.svg",
     "static/media/header_clouds_phone.svg": "/toytherapy_room/static/media/header_clouds_phone.ee3fb064d4e02a4db3e77ef35e7fb770.svg",
@@ -28,10 +29,11 @@
     "static/media/aboutUs__decorations_drying.svg": "/toytherapy_room/static/media/aboutUs__decorations_drying.a8bf3dc40408410e12e2eca5654c5d68.svg",
     "static/media/aboutUs__decorations_goalPhone.svg": "/toytherapy_room/static/media/aboutUs__decorations_goalPhone.04e0809ce3af45bc8bdec0cd4b490b46.svg",
     "static/media/phone__catalog_decorations.svg": "/toytherapy_room/static/media/phone__catalog_decorations.1cc795c7ea69987bc9a5bb297d7397e3.svg",
-    "static/media/partners__-img.webp": "/toytherapy_room/static/media/partners__-img.396cf3af04940558602e.webp",
     "static/media/Bunny1.png": "/toytherapy_room/static/media/Bunny1.71575a68518956a871f8.png",
+    "static/media/partners__geofondNation.svg": "/toytherapy_room/static/media/partners__geofondNation.1b312f6acf65d0c2822f913e6014a66c.svg",
     "static/media/aboutUs__gradients-results.webp": "/toytherapy_room/static/media/aboutUs__gradients-results.c688d400b85c8be00771.webp",
     "static/media/footer__clouds_phone.svg": "/toytherapy_room/static/media/footer__clouds_phone.532ce12a6b16b1ddb8001ac0647087c8.svg",
+    "static/media/partners__clickToKnowMore.svg": "/toytherapy_room/static/media/partners__clickToKnowMore.ec42213a5bf2e861e4018f0f49d4d686.svg",
     "static/media/aboutUs__gradients-alreadyDone.webp": "/toytherapy_room/static/media/aboutUs__gradients-alreadyDone.47d2b9c6c5bd50632a0b.webp",
     "static/media/aboutUs__gradients-header.webp": "/toytherapy_room/static/media/aboutUs__gradients-header.cb016cb96c0a95b18e9a.webp",
     "static/media/header__logotype.webp": "/toytherapy_room/static/media/header__logotype.8bcb61bd6c0de60b7a1c.webp",
@@ -42,6 +44,7 @@
     "static/media/footer__socialMediaArrow.svg": "/toytherapy_room/static/media/footer__socialMediaArrow.4127f738e97e6b616fdd9608f3290e70.svg",
     "static/media/ponyPlates__-ponyThree.webp": "/toytherapy_room/static/media/ponyPlates__-ponyThree.fc30353ff1f9af6903fc.webp",
     "static/media/ponyPlates__-ponyOne.webp": "/toytherapy_room/static/media/ponyPlates__-ponyOne.9e36652504bd6c04ddeb.webp",
+    "static/media/partners__initiator.svg": "/toytherapy_room/static/media/partners__initiator.aac59937ebc75519f7ca448542c5f611.svg",
     "static/media/ponyPlates__-ponyFour.webp": "/toytherapy_room/static/media/ponyPlates__-ponyFour.6722310f5726ab2ee45a.webp",
     "static/media/ponyPlates__-ponyTwo.webp": "/toytherapy_room/static/media/ponyPlates__-ponyTwo.d1f4b2045ea69ad8db16.webp",
     "static/media/gradients__catalogGrad.webp": "/toytherapy_room/static/media/gradients__catalogGrad.2c2341c19e8df6f51b52.webp",
@@ -64,11 +67,11 @@
     "index.html": "/toytherapy_room/index.html",
     "static/media/header__bottomHeartAndZigZag-scroll.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-scroll.e96e2642b04ff99a4b46.webp",
     "static/media/header__textithHeart-heart.webp": "/toytherapy_room/static/media/header__textithHeart-heart.c292870b207da12ea5ad.webp",
-    "main.518a91f2.css.map": "/toytherapy_room/static/css/main.518a91f2.css.map",
-    "main.c4790178.js.map": "/toytherapy_room/static/js/main.c4790178.js.map"
+    "main.c549dbd6.css.map": "/toytherapy_room/static/css/main.c549dbd6.css.map",
+    "main.d7834556.js.map": "/toytherapy_room/static/js/main.d7834556.js.map"
   },
   "entrypoints": [
-    "static/css/main.518a91f2.css",
-    "static/js/main.c4790178.js"
+    "static/css/main.c549dbd6.css",
+    "static/js/main.d7834556.js"
   ]
 }
