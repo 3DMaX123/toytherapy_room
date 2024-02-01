@@ -1,21 +1,96 @@
-.partners__-img{
+.app__partners {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__-img {
     width: 78.073vw;
     height: 23.542vw;
 
     margin-bottom: 1.771vw;
 }
 
-.partners__img_phone{
+.partners__img_phone {
     display: none;
 }
 
-@media screen and (max-width: 688px){
+.partners__geofond {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.partners__geofond-logo {
+    width: 24.01vw;
+
+    cursor: pointer;
+}
+
+.partners__geofond-initiator {
+    position: absolute;
+
+    width: 7.396vw;
+
+    top: -1.5vw;
+    right: -3.5vw;
+}
+
+.partners__geofond-clickMe {
+    position: absolute;
+
+    width: 7.552vw;
+
+    bottom: -4vw;
+    left: 6vw;
+}
+
+@media screen and (max-width: 1400px) {
+    .partners__geofond-initiator {
+        width: 10vw;
+
+        top: -3vw;
+        right: -5vw;
+    }
+
+    .partners__geofond-clickMe {
+        width: 11vw;
+
+        bottom: -4.5vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
     .partners__-img{
         display: none;
     }
 
     .partners__img_phone{
         display: block;
-        margin-top: 8vw;
+    }
+
+    .partners__geofond {
+        top: 50%;
+    }
+    
+    .partners__geofond-logo {
+        width: 38vw;
+    }
+
+    .partners__geofond-initiator {
+        width: 22vw;
+
+        top: -8.5vw;
+        right: -13.5vw;
+    }
+
+    .partners__geofond-clickMe {
+        width: 25vw;
+
+        bottom: -10vw;
+        left: 6vw;
     }
 }

@@ -66,6 +66,10 @@
     display: none;
 }
 
+.catalog__footerGrad{
+    display: none;
+}
+
 @media screen and (max-width: 1400px) {
     .catalog__textAndButton-button{
         font-size: 1.7vw;

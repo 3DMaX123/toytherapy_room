@@ -32,6 +32,13 @@
 
 }
 
+.payment__content_button {
+    display: flex;
+    gap: 1.5vw;
+
+    flex-direction: column;
+}
+
 .payment__text {
     font-family: var(--font-additional);
     font-style: normal;
@@ -137,7 +144,7 @@
         height: 112.617vw;
     }
 
-    .payment__content-backGround{
+    .payment__content-backGround {
         width: 100%;
     }
 
@@ -145,7 +152,7 @@
         font-size: 6.776vw;
     }
 
-    .payment__descriptionBr{
+    .payment__descriptionBr {
         display: none;
     }
 
@@ -165,7 +172,7 @@
         font-size: 5.374vw;
     }
 
-    .payment__content_button{
+    .payment__content_button {
         display: flex;
 
         width: 90%;

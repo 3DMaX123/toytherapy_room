@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css'
 import images from "../../constants/images";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
     const navigation = useNavigate()

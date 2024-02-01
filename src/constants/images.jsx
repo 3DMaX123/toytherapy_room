@@ -17,7 +17,11 @@ import pony__ponyPlatesTwo from '../assets/ponyPlates__-ponyTwo.webp';
 import pony__ponyPlatesThree from '../assets/ponyPlates__-ponyThree.webp';
 import pony__ponyPlatesFour from '../assets/ponyPlates__-ponyFour.webp';
 import feedback__props from '../assets/feedback__-props.webp';
-import partners__img from '../assets/partners__-img.webp';
+import partners__img from '../assets/partners__-img.svg';
+import partners__geofondNation from '../assets/partners__geofondNation.svg';
+import partners__initiator from '../assets/partners__initiator.svg';
+import partners__clickToKnowMore from '../assets/partners__clickToKnowMore.svg';
+import partners__img_phone from '../assets/partners__img_phone.svg';
 import gradients__headerGrad from '../assets/gradients__headerGrad.webp';
 import gradients__magickSpaceGrad from '../assets/gradients__magickSpaceGrad.webp';
 import gradients__threeDRoomGrad from '../assets/gradients__threeDRoomGrad.webp';
@@ -26,7 +30,6 @@ import gradients__feedbackGrad from '../assets/gradients__feedbackGrad.webp';
 import header_clouds_phone from '../assets/header_clouds_phone.svg';
 import magickSpace__cloudsAndHearts_phone from '../assets/magickSpace__cloudsAndHearts_phone.svg';
 import feedback__props_phone from '../assets/feedback__props_phone.svg';
-import partners__img_phone from '../assets/partners__img_phone.svg';
 import footer__clouds_phone from '../assets/footer__clouds_phone.svg';
 import findRoom__littleHeart from '../assets/findRoom__littleHeart.png'
 import findRoom__littleStar from '../assets/findRoom__littleStar.png';
@@ -83,6 +86,9 @@ const images = {
     pony__ponyPlatesFour,
     feedback__props,
     partners__img,
+    partners__geofondNation,
+    partners__initiator,
+    partners__clickToKnowMore,
     gradients__headerGrad,
     gradients__magickSpaceGrad,
     gradients__threeDRoomGrad,

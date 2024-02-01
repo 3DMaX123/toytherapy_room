@@ -35,9 +35,8 @@ const Payment = () => {
               <p className='payment__bankName-content payment__text-content'> АТ КБ "ПРИВАТБАНК"</p>
             </div>
           </div>
-          <img />
-          <img className='payment__content-gradient' src={images.gradients__headerGrad} alt='img' />
-          <img className='payment__content-backGround' src={images.payment__clouds} alt='img'/>
+          <img className='payment__content-gradient' src={images.gradients__headerGrad} alt='Градієнт' />
+          <img className='payment__content-backGround' src={images.payment__clouds} alt='хмаринки'/>
         </div>
       </div>
   )

@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 import images from '../../constants/images';
 
 import './Footer.css';
@@ -156,7 +156,7 @@ const Footer = () => {
                                 c0.81-0.09,1.6-0.36,2.32-0.79c1.23-0.7,1.96-1.77,2.14-3.06c0.17-1.27-0.21-2.46-1.13-3.47l-0.5-0.53
                                 c1.35-3.81,2.74-7.71,4.16-11.6l6.16-17.17l0.03-0.1C218.19,6.34,217.99,5.12,217.27,4.02z"/>
                 </svg>
-                <img className='footer__mainContent-cloud' src={images.footer__clouds_phone} alt='Хмаринка'/>
+                <img className='footer__mainContent-cloud' src={images.footer__clouds_phone} alt='Хмаринка' />
                 <div className='footer__mainContent_navigation'>
                     <Link to={"/toytherapy_room/3droom"} className='footer__3dRoom-text footer_navigation-text'>3D - кімната</Link>
                     <Link to={"/toytherapy_room/catalog"} className='footer__toyCatalog-text footer_navigation-text'>Каталог іграшок</Link>
@@ -165,12 +165,13 @@ const Footer = () => {
                 <div className='footer__mainContent_social'>
                     <img className='footer__mainContent_social-arrow' src={images.footer__socialMediaArrow} alt='Наші соціальні мережі ->' />
                     <div className='footer__social_socialMedia'>
-                        <svg className='footer__social_socialMedia-icons footer__social_socialMedia-facebook'
-                            fill='#8787C4' stroke='#8787C4' strokeWidth='1.2' version="1.1" id="Layer_1"
-                            xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                            viewBox="0 0 30 30">
-                            <g>
-                                <path className="st0" d="M29.54,14.88c-0.07-1.01-0.2-2.01-0.4-3.01c-0.46-2.3-1.44-4.37-2.92-6.18c-1.51-1.83-3.54-2.91-5.73-3.72
+                        <a target="_blank" href={"https://www.facebook.com/ToyTherapyRoom"}>
+                            <svg className='footer__social_socialMedia-icons footer__social_socialMedia-facebook'
+                                fill='#8787C4' stroke='#8787C4' strokeWidth='1.2' version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                viewBox="0 0 30 30">
+                                <g>
+                                    <path className="st0" d="M29.54,14.88c-0.07-1.01-0.2-2.01-0.4-3.01c-0.46-2.3-1.44-4.37-2.92-6.18c-1.51-1.83-3.54-2.91-5.73-3.72
                                     C18.7,1.33,16.85,1,14.97,0.8c-2.41-0.26-4.68,0.16-6.76,1.43C6.81,3.09,5.62,4.2,4.6,5.48c-2.85,3.58-4.09,7.71-4.16,12.24
                                     c-0.03,2.14,0.69,3.99,2.07,5.59c3.42,3.94,7.73,5.95,12.95,5.97c0.74,0,1.49-0.04,2.22-0.15c1.57-0.24,3.05-0.72,4.38-1.62
                                     c2.89-1.96,5.03-4.54,6.44-7.72C29.21,18.22,29.66,16.61,29.54,14.88z M16.75,19.3c-0.17,2.89-0.11,5.77-0.07,8.66
@@ -194,13 +195,15 @@ const Footer = () => {
                                     c-1.38-1.62-1.92-3.5-1.81-5.6c0.11-2.04,0.45-4.04,1.13-5.97c1.14-3.2,2.98-5.89,5.75-7.9c1.34-0.97,2.84-1.55,4.47-1.64
                                     c4.18-0.22,8.08,0.72,11.54,3.16c0.73,0.52,1.35,1.16,1.88,1.88c1.37,1.87,2.23,3.94,2.56,6.23
                                     C28.69,13.91,28.82,14.96,28.76,16.02z"/>
-                            </g>
-                        </svg>
-                        <svg className='footer__social_socialMedia-icons footer__social_socialMedia-instagram'
-                            fill='#8787C4' stroke='#8787C4' strokeWidth='0.6' version="1.1" id="Layer_1"
-                            xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                            viewBox="0 0 30 30">
-                            <path className="st0" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
+                                </g>
+                            </svg>
+                        </a>
+                        <a target="_blank" href={"https://www.instagram.com/toytherapyroom/"}>
+                            <svg className='footer__social_socialMedia-icons footer__social_socialMedia-instagram'
+                                fill='#8787C4' stroke='#8787C4' strokeWidth='0.6' version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                viewBox="0 0 30 30">
+                                <path className="st0" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
                                         c-0.14,1.28-0.06,5.3,0.17,7.89c0.06,0.64,0.11,2.1,0.13,3.22c0.04,3.02,0.28,4.56,0.85,5.47c0.27,0.43,2.57,2.67,3.06,2.98
                                         c0.86,0.54,1.94,0.75,4.68,0.89c1.01,0.05,2.29,0.15,2.83,0.21c1.43,0.17,5.99,0.17,7.59,0c2.96-0.31,3.79-0.58,5.54-1.79
                                         c0.89-0.61,1.37-1.04,1.58-1.4c0.23-0.38,0.51-1.21,0.79-2.29c0.69-2.67,0.76-3.88,0.65-11.36c-0.07-4.65-0.08-4.78-0.41-5.79
@@ -233,16 +236,16 @@ const Footer = () => {
                                         c1.23,0.39,2.11,1.17,2.5,2.18c0.22,0.57,0.19,1.68-0.05,2.4c-0.21,0.63-0.72,1.42-1.12,1.73c-0.75,0.59-1.33,0.78-2.36,0.78
                                         c-0.65,0-0.83-0.02-1.25-0.17c-0.56-0.2-0.72-0.3-1.63-1.04c-0.73-0.6-1-0.94-1.19-1.52c-0.26-0.79-0.15-1.39,0.51-2.76
                                         c0.68-1.4,1.47-1.85,3.19-1.8C15.61,11.02,15.86,11.05,16.29,11.19z"/>
-                            <defs>
-                                <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.41" y="0.16"
-                                    width="29.19" height="29.17">
-                                    <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
-                                </filter>
-                            </defs>
-                            <mask maskUnits="userSpaceOnUse" x="0.41" y="0.16" width="29.19" height="29.17"
-                                id="path-1-outside-1_503_99_00000010290962823248085740000015342786052791635889_">
-                                <rect x="0.07" y="-0.18" className="st1" width="30.05" height="30.05" />
-                                <path className="st2" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
+                                <defs>
+                                    <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.41" y="0.16"
+                                        width="29.19" height="29.17">
+                                        <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
+                                    </filter>
+                                </defs>
+                                <mask maskUnits="userSpaceOnUse" x="0.41" y="0.16" width="29.19" height="29.17"
+                                    id="path-1-outside-1_503_99_00000010290962823248085740000015342786052791635889_">
+                                    <rect x="0.07" y="-0.18" className="st1" width="30.05" height="30.05" />
+                                    <path className="st2" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
                                             c-0.14,1.28-0.06,5.3,0.17,7.89c0.06,0.64,0.11,2.1,0.13,3.22c0.04,3.02,0.28,4.56,0.85,5.47c0.27,0.43,2.57,2.67,3.06,2.98
                                             c0.86,0.54,1.94,0.75,4.68,0.89c1.01,0.05,2.29,0.15,2.83,0.21c1.43,0.17,5.99,0.17,7.59,0c2.96-0.31,3.79-0.58,5.54-1.79
                                             c0.89-0.61,1.37-1.04,1.58-1.4c0.23-0.38,0.51-1.21,0.79-2.29c0.69-2.67,0.76-3.88,0.65-11.36c-0.07-4.65-0.08-4.78-0.41-5.79
@@ -275,8 +278,8 @@ const Footer = () => {
                                             c1.23,0.39,2.11,1.17,2.5,2.18c0.22,0.57,0.19,1.68-0.05,2.4c-0.21,0.63-0.72,1.42-1.12,1.73c-0.75,0.59-1.33,0.78-2.36,0.78
                                             c-0.65,0-0.83-0.02-1.25-0.17c-0.56-0.2-0.72-0.3-1.63-1.04c-0.73-0.6-1-0.94-1.19-1.52c-0.26-0.79-0.15-1.39,0.51-2.76
                                             c0.68-1.4,1.47-1.85,3.19-1.8C15.61,11.02,15.86,11.05,16.29,11.19z"/>
-                            </mask>
-                            <path className="st3" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
+                                </mask>
+                                <path className="st3" d="M14.35,0.79c-1.59,0.13-5.29,0.5-5.91,0.6c-2.15,0.35-3.77,1-5.03,2.03C2.06,4.51,1.3,6,1.08,7.93
                                         c-0.14,1.28-0.06,5.3,0.17,7.89c0.06,0.64,0.11,2.1,0.13,3.22c0.04,3.02,0.28,4.56,0.85,5.47c0.27,0.43,2.57,2.67,3.06,2.98
                                         c0.86,0.54,1.94,0.75,4.68,0.89c1.01,0.05,2.29,0.15,2.83,0.21c1.43,0.17,5.99,0.17,7.59,0c2.96-0.31,3.79-0.58,5.54-1.79
                                         c0.89-0.61,1.37-1.04,1.58-1.4c0.23-0.38,0.51-1.21,0.79-2.29c0.69-2.67,0.76-3.88,0.65-11.36c-0.07-4.65-0.08-4.78-0.41-5.79
@@ -309,12 +312,13 @@ const Footer = () => {
                                         c1.23,0.39,2.11,1.17,2.5,2.18c0.22,0.57,0.19,1.68-0.05,2.4c-0.21,0.63-0.72,1.42-1.12,1.73c-0.75,0.59-1.33,0.78-2.36,0.78
                                         c-0.65,0-0.83-0.02-1.25-0.17c-0.56-0.2-0.72-0.3-1.63-1.04c-0.73-0.6-1-0.94-1.19-1.52c-0.26-0.79-0.15-1.39,0.51-2.76
                                         c0.68-1.4,1.47-1.85,3.19-1.8C15.61,11.02,15.86,11.05,16.29,11.19z"/>
-                        </svg>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
             <div className='footer__credits'>
-                <p className='footer__credits_Phone'>Телефон турботи: <a href='tel:099-541-6296'>099-541-6296</a> Марія
+                <p className='footer__credits_Phone'>Телефон турботи: <a href='tel:380951161669'>095-116-1669</a> Дарина
                 </p>
                 <PoweredByWebElefont />
             </div>
