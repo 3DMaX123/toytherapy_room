@@ -63,7 +63,6 @@
     width: 51.666vw;
     height: 5.4vw;
     border-radius: 1.8750vw;
-    margin-bottom: 1.406vw;
 
     align-items: center;
     justify-content: space-around;
@@ -129,5 +128,57 @@
 
     .payment__text-content {
         font-size: 2.998vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .payment__content {
+        width: 90%;
+        height: 112.617vw;
+    }
+
+    .payment__content-backGround{
+        width: 100%;
+    }
+
+    .payment__title-title {
+        font-size: 6.776vw;
+    }
+
+    .payment__descriptionBr{
+        display: none;
+    }
+
+    .payment__title-description {
+        font-size: 4.2vw;
+
+        width: 95%;
+
+        margin-bottom: 5.607vw;
+    }
+
+    .payment__text-title {
+        font-size: 3.972vw;
+    }
+
+    .payment__text-content {
+        font-size: 5.374vw;
+    }
+
+    .payment__content_button{
+        display: flex;
+
+        width: 90%;
+
+        gap: 3vw;
+
+        flex-direction: column;
+    }
+
+    .payment__button {
+        width: 100%;
+        height: 14.720vw;
+
+        border-radius: 5vw;
     }
 }

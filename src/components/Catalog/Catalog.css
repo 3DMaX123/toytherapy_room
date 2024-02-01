@@ -80,3 +80,33 @@
         font-size: 1.9vw;
     }
 }
+
+@media screen and (max-width: 688px){
+    .compCatalog__props{
+        display: none;
+    }
+
+    .compCatalog__props_phone{
+        display: block;
+    }
+
+    .compCatalog__headerDescription-header{
+        font-size: 8.645vw;
+    }
+
+    .compCatalog__HeaderDescription-br{
+        display: none;
+    }
+
+    .compCatalog__headerDescription-description{
+        font-size: 4.3vw;
+    }
+
+    .compCatalog__textAndButton-button{
+        font-size: 3.738vw;
+        
+        padding: 1.7vw 4.4vw;
+
+        border-radius: 2vw;
+    }
+}

@@ -1,4 +1,4 @@
-.app__magickSpace{
+.app__magickSpace {
     display: flex;
     position: relative;
     justify-content: center;
@@ -6,35 +6,36 @@
 
     width: 100%;
 
-    margin: 4vw 0;
+    margin-top: 4vw;
+    margin-bottom: 8vw;
 }
 
-.magickSpace__clouds{
+.magickSpace__clouds {
     display: flex;
-    position: relative;
+    position: absolute;
     justify-content: space-between;
     align-items: flex-end;
 
     width: 100%;
 }
 
-.magickSpace__clouds-cloudLeft{
+.magickSpace__clouds-cloudLeft {
     width: 16.615vw;
     height: 14.375vw;
 }
 
-.magickSpace__clouds-cloudRight{
+.magickSpace__clouds-cloudRight {
     width: 10.156vw;
     height: 18.333vw;
 }
 
-.magickSpace__cloudsAndHearts_phone{
+.magickSpace__cloudsAndHearts_phone {
     display: none;
 }
 
-.magickSpace__text{
+.magickSpace__text {
     display: flex;
-    position: absolute;
+    position: relative;
     align-items: flex-end;
 
     font-family: var(--font-main);
@@ -47,16 +48,16 @@
     flex-direction: column;
 }
 
-.magickSpace__text_textAndStars{
+.magickSpace__text_textAndStars {
     display: flex;
 }
 
-.magickSpace__textAndStars_starAndText{
+.magickSpace__textAndStars_starAndText {
     display: flex;
     position: relative;
 }
 
-.magickSpace__starAndText-stars{
+.magickSpace__starAndText-stars {
     position: absolute;
 
     width: 13.906vw;
@@ -66,15 +67,12 @@
     left: 0.6vw;
 }
 
-
-
-
 .magickSpace__starAndText-text {
     font-style: italic;
     margin: 0 0.8vw;
 }
 
-.magickSpace__text-note{
+.magickSpace__text-note {
     font-family: var(--font-additional);
     font-style: normal;
     font-weight: 400;
@@ -83,8 +81,59 @@
     color: var(--color-purpule);
 }
 
-@media screen and (max-width: 1400px){
-    .magickSpace__text-note{
+.magickSpace__clouds-cloudRightPhone {
+    display: none;
+    position: absolute;
+}
+
+@media screen and (max-width: 1400px) {
+    .magickSpace__text-note {
         font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .app__magickSpace {
+        margin-top: 15vw;
+        margin-bottom: 16vw;
+    }
+
+    .magickSpace__text {
+        font-size: 5.5vw;
+    }
+
+    .magickSpace__text-note {
+        font-size: 3.738vw;
+
+        margin-top: 1vw;
+    }
+
+    .magickSpace__clouds-cloudLeft {
+        display: none;
+    }
+
+    .magickSpace__starAndText-stars{
+        width: 24vw;
+        height: 12vw;
+        top: -2.8vw;
+    }
+
+    .magickSpace__clouds-cloudRightPhone {
+        display: block;
+        width: 22vw;
+        height: 38vw;
+
+        left: 8vw;
+        bottom: -15vw;
+    }
+
+    .magickSpace__clouds-cloudRight {
+        position: absolute;
+
+        width: 22vw;
+        height: 38vw;
+
+        bottom: -20vw;
+        right: 0;
     }
 }

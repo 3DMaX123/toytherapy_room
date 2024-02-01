@@ -1,5 +1,9 @@
 .app__header {
     display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
 
     flex-direction: column;
 }
@@ -12,18 +16,16 @@
 
 .header__mainContent_textAndLogo {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__textAndLogo_header {
-    display: inline-flex;
     position: relative;
-    align-items: baseline;
+    align-items: center;
 
     margin-bottom: 1.354vw;
 
-    flex-direction: column;
+    gap: 6.146vw;
+}
+
+.header__text_header{
+    position: relative;
 }
 
 .header__header-header {
@@ -48,7 +50,7 @@
     bottom: 0.677vw;
 }
 
-.header__textAndLogo_description {
+.header__text_description {
     display: flex;
     align-items: baseline;
 
@@ -138,10 +140,6 @@
     display: none;
 }
 
-.header__bottomHeartAndZigZag_hearts-phone {
-    display: none;
-}
-
 .header__header-button {
     background-color: #D7BEFF;
     border-radius: .7vw;
@@ -153,10 +151,22 @@
     justify-content: center;
     align-items: center;
     font-family: Neucha;
-    
+
     font-size: 1.042vw;
     cursor: pointer;
     margin-top: 2.604vw;
+
+    z-index: 2;
+}
+
+.header__button_decorationPhone{
+    display: none;
+
+    z-index: 1;
+}
+
+.header__bottomHeartAndZigZag-zigZagPgone{
+    display: none;
 }
 
 @media screen and (max-width: 1400px) {
@@ -165,20 +175,20 @@
         bottom: -0.3vw;
     }
 
-    .header__header-header{
-        font-size: 7.5vw;
+    .header__header-header {
+        font-size: 7vw;
     }
 
-    .header__description-fourText{
-        font-size: 2.5vw;
+    .header__description-firstText {
+        font-size: 2vw;
     }
 
-    .header__textithHeart-heart{
+    .header__textithHeart-heart {
         width: 1.3vw;
         height: 1.2vw;
     }
 
-    .header__header-button{
+    .header__header-button {
         font-size: 1.6vw;
         padding: 1vw 2.7vw;
         border-radius: 1.1vw;
@@ -186,7 +196,100 @@
 }
 
 @media screen and (max-width: 992px) {
-    .header__header-button{
+    .header__header-button {
         font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .header__mainContent_textAndLogo {
+        flex-direction: column-reverse;
+    }
+
+    .header__clouds {
+        display: none;
+    }
+
+    .header__clouds_phone {
+        display: block;
+        position: absolute;
+
+        top: 0;
+    }
+
+    .header__mainContent_textAndLogo{
+        margin-bottom: 7vw;
+    }
+
+    .header__textAndLogo-logo {
+        width: 61.682vw;
+        height: 59.112vw;
+
+        margin-bottom: 3vw;
+    }
+
+    .header__text_header{
+        margin-bottom: 2.7vw;
+    }
+
+    .header__textWithStars-stars {
+        width: 18vw;
+        top: -1.7vw;
+    }
+
+    .header__textithHeart-heart {
+        width: 2.3vw;
+        height: 2.3vw;
+    }
+
+    .header__header-header{
+        font-size: 13.084vw;
+    }
+
+    .header__header-note{
+        font-size: 3.037vw;
+    }
+
+    .header__text_description{
+        align-items: center;
+    }
+
+    .header__description-firstText {
+        font-size: 4.206vw;
+        margin-bottom: 2vw;
+    }
+
+    .header__header-button{
+        font-size: 3.738vw;
+        
+        padding: 1.9vw 4vw;
+
+        border-radius: 2vw;
+    }
+
+    .header__bottomHeartAndZigZag-hearts {
+        display: none;
+    }
+
+    .header__button_decorationPhone{
+        display: flex;
+        position: absolute;
+
+        bottom: 0;
+        width: 100%;
+    }
+
+    .header__bottomHeartAndZigZag-scroll,
+    .header__bottomHeartAndZigZag-zigZag{
+        display: none;
+    }
+
+    .header__bottomHeartAndZigZag-zigZagPgone{
+        display: block;
+    }
+
+    .header__bottomHeartsAndZigZag{
+        width: 100%;
+        margin-bottom: 10vw;
     }
 }

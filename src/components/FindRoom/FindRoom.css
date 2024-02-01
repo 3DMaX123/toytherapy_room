@@ -48,8 +48,6 @@
 }
 
 .findroom_search {
-    width: 70%;
-    height: 5.208vw;
     z-index: 100;
     display: flex;
     justify-content: space-evenly;
@@ -115,5 +113,44 @@
 
     .findroom_rooms {
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .app_findroom{
+        width: 95%;
+        height: 135vw;
+    }
+
+    .findroom_search{
+        flex-direction: column;
+    }
+
+    .findroom_search_label{
+        font-size: 6.776vw;
+
+        margin-top: 5vw;
+    }
+    
+    .findroom_search_input{
+        width: 60%;
+        height: 9vw;
+
+        font-size: 4.439vw;
+
+        border-radius: 4.206vw;
+    }
+
+    .findroom_rooms{
+        margin-top: 7.243vw;
+
+        display: grid;
+
+        gap: 2.336vw;
+
+        grid-template-columns: 1fr 1fr;
+        
+        height: 90%;
+        border-radius: 8.411vw;
     }
 }

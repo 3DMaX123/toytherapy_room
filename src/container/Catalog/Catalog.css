@@ -1,5 +1,6 @@
 .app__catalog {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
 
@@ -12,6 +13,7 @@
 
 .catalog__header {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
 
@@ -42,38 +44,14 @@
     font-family: Neucha;
 }
 
-.catalog__props_cloud1 {
+.catalog__clouds{
     position: absolute;
-    top: 6.573vw;
-    left: 12.396vw;
-    width: 5.052vw;
-    height: 3.253vw;
-    z-index: 1;
-}
+    width: 80%;
 
-.catalog__props_cloud2 {
-    position: absolute;
-    top: 2.771vw;
-    height: 4.829vw;
-    width: 7.500vw;
-    left: 24.583vw;
-}
-
-.catalog__props_cloud3 {
-    position: absolute;
-    top: 1.979vw;
-    left: 57.094vw;
-    width: 5.573vw;
-    height: 3.589vw;
-}
-
-.catalog__props_cloud4 {
-    position: absolute;
-    top: 5.115vw;
-    left: 65.573vw;
-    height: 4.829vw;
-    width: 7.500vw;
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .catalog__toys {
@@ -82,6 +60,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.042vw;
     grid-row-gap: 1vw;
+}
+
+.catalog__headerGrad{
+    display: none;
 }
 
 @media screen and (max-width: 1400px) {
@@ -114,5 +96,61 @@
 
     .catalog__toys_moreproducts{
         font-size: 1.9vw;
+    }
+}
+
+
+@media screen and (max-width: 688px) {
+    .catalog__textAndButton-button{
+        font-size: 3.738vw;
+
+        padding: 1.7vw 4.4vw;
+
+        border-radius: 2vw;
+    }
+
+    .catalog__header{
+        margin-bottom: 8.178vw;
+
+        gap: 3vw;
+
+        flex-direction: column;
+    }
+
+    .catalog__headerGrad,
+    .catalog__footerGrad{
+        display: block;
+        position: absolute;
+        
+        width: 100vw;
+        height: 500px;
+        
+        z-index: -1;
+    }
+    .catalog__headerGrad{
+        top: -20vw;
+    }
+
+    .catalog__footerGrad{
+        bottom: -50vw;
+    }
+
+    .catalog__header_text{
+        font-size: 2.336vw;
+    }
+
+    .catalog__clouds{
+        width: 100%;
+    }
+
+    .catalog__toys{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.505vw;
+    }
+
+    .catalog__toys_moreproducts{
+        font-size: 3.271vw;
+
+        margin-top: 6vw;
     }
 }

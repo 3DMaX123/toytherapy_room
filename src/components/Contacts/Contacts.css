@@ -148,3 +148,27 @@
         font-size: 2.998vw;
     }
 }
+
+@media screen and (max-width: 688px) {
+    .contacts__content{
+        width: 90%;
+        height: 62.383vw;
+    }
+
+    .contacts__content_title {
+        font-size: 6.776vw;
+    }
+
+    .contacts__information-title{
+        font-size: 3.972vw;
+    }
+
+    .contacts__information-descr{
+        font-size: 5.374vw;
+    }
+
+    .contacts__content_information{
+        width: 82.710vw;
+        height: 14.720vw;
+    }
+}

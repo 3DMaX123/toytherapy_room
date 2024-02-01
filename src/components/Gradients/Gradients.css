@@ -20,6 +20,7 @@
     border-radius: 7.292vw 7.292vw 0px 0px;
 }
 
+
 .gradients__ThreeDRoomGrad{
     margin-top: 2vw;
 }
@@ -36,13 +37,11 @@
 .gradients__partnersGrad{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+
+    border-radius: 6vw;
 }
 
 @media screen and (max-width: 992px){
-    .gradients__magickSpaceGrad{
-        margin-top: 8vw;
-    }
-
     .gradients__PonyMaxW992{
         display: block;
         
@@ -51,8 +50,6 @@
 
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
-        -webkit-transform: scaleY(-1);
-        transform: scaleY(-1);
     }
 
     .gradients__FeedbackGrad{
@@ -66,7 +63,32 @@
 
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
+    }
 
+}
+
+@media screen and (max-width: 688px){
+    .gradients__headerGrad{
+        height: 118.925vw;
+    }
+
+    .gradients__magickSpaceGrad{
+        height: 97.196vw;
+    }
+
+    .gradients__ThreeDRoomGrad{
+        display: none;
+    }
+
+    .gradients__CatalogGrad{
+        height: 110.047vw;
+
+        margin-top: 43vw;
+    }
+
+    .gradients__PonyMaxW992{
+        margin-top: 50vw;
+        height: 103vw;
     }
 
 }

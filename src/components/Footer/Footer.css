@@ -45,9 +45,9 @@
 
     font-family: var(--font-additional);
     font-size: 1.042vw;
-    
+
     color: var(--color-black);
-    
+
     border-radius: 1vw;
     border: 2px solid #D7BEFF;
     box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
@@ -62,15 +62,6 @@
     align-items: flex-end;
 }
 
-.footer__mainContent_social-arrow {
-    position: relative;
-
-    width: 6.406vw;
-    height: 3.594vw;
-
-    margin-bottom: 1.488vw;
-}
-
 .footer__social_socialMedia {
     display: flex;
 }
@@ -80,24 +71,14 @@
 }
 
 .footer__social_socialMedia-icons {
-    position: absolute;
-
     width: 1.823vw;
     height: 1.823vw;
 }
 
 .footer__social_socialMedia-facebook {
-    position: relative;
-
     left: -1.913vw;
 
     margin-right: 2.125vw;
-}
-
-.footer__social_socialMedia-instagram {
-    position: relative;
-
-    left: -1.913vw;
 }
 
 .footer__credits {
@@ -127,23 +108,41 @@
     cursor: pointer;
 }
 
-.footer__phone{
+.footer__mainContent_social-arrow {
+    position: absolute;
+    left: -6.5vw;
+    bottom: .7vw;
+
+    width: 6.406vw;
+    height: 3.594vw;
+}
+
+.footer__mainContent-cloud{
     display: none;
 }
 
 @media screen and (max-width: 1400px) {
-    .footer_navigation-text{
+    .footer_navigation-text {
         font-size: 1.4vw;
         height: 3vw;
     }
 
-    .footer__credits_Phone{
+    .footer__credits_Phone {
         font-size: 1.3vw;
     }
 
-    .footer_navigation-text{
+    .footer_navigation-text {
         height: 3vw;
     }
+
+    .footer__mainContent_social-arrow {
+        left: -9.5vw;
+        bottom: .7vw;
+
+        width: 10vw;
+        height: 7vw;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -163,12 +162,6 @@
         height: 3vw;
     }
 
-    .footer__mainContent_social-arrow {
-        width: 12vw;
-        height: 6.262vw;
-
-        left: 3vw;
-    }
 
     .footer__social_socialMedia-facebook {
         margin-right: 1.5vw;
@@ -196,28 +189,14 @@
         font-size: 1.5vw;
     }
 
-    .footer_navigation-text{
+    .footer_navigation-text {
         height: 3.3vw;
     }
 }
 
 @media screen and (max-width: 688px) {
-
-    .footer__phone{
-        display: block;
-    }
-
-    .footer__phone_navigationPhone {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .footer__phone_navigationPhone div {
-        border: 1.5px solid var(--color-pink);
-        border-radius: 1.635vw;
-        margin-right: 3.125vw;
-        cursor: pointer;
-        margin-top: 6vw;
+    .app__footer{
+        margin-top: 28vw;
     }
 
     .footer_navigationPhone-text {
@@ -232,23 +211,37 @@
         margin: 1.635vw 3.738vw;
     }
 
-    .footer__mainContentANDsocial {
-        display: none;
-    }
-
-    .footer__phone_logoAndSocial {
-        display: flex;
-        justify-content: space-between;
+    .footer__mainContent-logo{
+        width: 24.533vw;
+        height: 12.850vw;
     }
 
     .footer__logoANDsocial-logo {
         width: 22vw;
     }
 
+    .footer__mainContent_navigation{
+        top: -15vw;
+    }
+
+    .footer__mainContent_social-arrow{
+        width: 29.701vw;
+        height: 12.178vw;
+
+        left: -25vw;
+        bottom: 3vw;
+    }
+
     .footer__logoANDsocial-clouds {
         width: 14vw;
         margin-left: -6.5vw;
         margin-top: 4vw;
+    }
+
+    .footer__mainContent-cloud{
+        display: block;
+        width: 14.019vw;
+        height: 8.879vw;
     }
 
     .footer__credits_Phone {
@@ -259,38 +252,42 @@
         font-size: 3.077vw;
     }
 
-    .footer__mainContent_social-arrow {
-        width: 25.700vw;
-        height: 10vw;
-        left: -17vw;
-        top: 5vw;
-    }
-
-    .footer__phone-social {
-        margin-right: -12vw;
-    }
-
     .footer__social_socialMedia-facebook {
-        margin-right: 1.5vw;
-        width: 5vw;
-        height: 5vw;
+        margin-right: 5vw;
+        width: 7vw;
+        height: 7vw;
     }
 
     .footer__social_socialMedia-instagram {
-        width: 5vw;
-        height: 5vw;
+        width: 7vw;
+        height: 7vw;
     }
 
 
-    .footer__3dRoom-text{
+    .footer__3dRoom-text {
         height: 3.516vw;
     }
 
-    .footer__toyCatalog-text{
+    .footer__toyCatalog-text {
         height: 3.516vw;
     }
 
-    .footer__chatiry-text{
+    .footer__chatiry-text {
         height: 3.516vw;
+    }
+
+    .footer_navigation-text{
+        font-size: 3.505vw;
+    }
+
+    .footer__mainContent_navigation{
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .footer__mainContent_navigation a {
+        width: 80%;
+        height: 7vw;
+        border-radius: 1.635vw;
     }
 }

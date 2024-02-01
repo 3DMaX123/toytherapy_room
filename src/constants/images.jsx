@@ -24,18 +24,14 @@ import gradients__threeDRoomGrad from '../assets/gradients__threeDRoomGrad.webp'
 import gradients__catalogGrad from '../assets/gradients__catalogGrad.webp';
 import gradients__feedbackGrad from '../assets/gradients__feedbackGrad.webp';
 import header_clouds_phone from '../assets/header_clouds_phone.svg';
-import header__bottomHeartAndZigZag_phone from '../assets/header__bottomHeartAndZigZag_phone.svg';
 import magickSpace__cloudsAndHearts_phone from '../assets/magickSpace__cloudsAndHearts_phone.svg';
 import feedback__props_phone from '../assets/feedback__props_phone.svg';
 import partners__img_phone from '../assets/partners__img_phone.svg';
-import catalog__props_phone from '../assets/catalog__props_phone.svg';
 import footer__clouds_phone from '../assets/footer__clouds_phone.svg';
-import catalog__props_cloud1 from '../assets/catalog__props_cloud1.png';
-import catalog__props_cloud2 from '../assets/catalog__props_cloud2.png';
 import findRoom__littleHeart from '../assets/findRoom__littleHeart.png'
-import findRoom__littleStar from '../assets/findRoom__littleStar.png'
+import findRoom__littleStar from '../assets/findRoom__littleStar.png';
 import bunny1 from '../assets/Bunny1.png';
-import Room from '../assets/3dRoom.png'
+import Room from '../assets/3dRoom.png';
 import contacts__backGround from '../assets/contacts_backGround.svg';
 import payment__clouds from '../assets/payment__clouds.svg';
 import aboutus__unicorn from '../assets/aboutus_unicorn.png';
@@ -49,11 +45,22 @@ import aboutUs__gradients_results from "../assets/aboutUs__gradients-results.web
 import aboutUs__gradients_header from "../assets/aboutUs__gradients-header.webp";
 import aboutUs__gradients_goal from "../assets/aboutUs__gradients-goal.webp";
 import aboutUs__gradients_alreadyDone from "../assets/aboutUs__gradients-alreadyDone.webp";
-import aboutUs__decorations_header from "../assets/aboutUs__decorations_header.svg"
-import aboutUs__decorations_goal from "../assets/aboutUs__decorations_goal.svg"
-import aboutUs__decorations_drying from "../assets/aboutUs__decorations_drying.svg"
-import aboutUs__decorations_results from "../assets/aboutUs__decorations_results.svg"
-import aboutUs__decorations_contacts from "../assets/aboutUs__decorations_contacts.svg"
+import aboutUs__decorations_header from "../assets/aboutUs__decorations_header.svg";
+import aboutUs__decorations_goal from "../assets/aboutUs__decorations_goal.svg";
+import aboutUs__decorations_drying from "../assets/aboutUs__decorations_drying.svg";
+import aboutUs__decorations_results from "../assets/aboutUs__decorations_results.svg";
+import aboutUs__decorations_contacts from "../assets/aboutUs__decorations_contacts.svg";
+import phone__headerButton_decoration from "../assets/phone__headerButton_decoration.svg";
+import phone__headerZigZagAnd_decoration from "../assets/phone__headerZigZagAnd_decoration.svg";
+import phone__threeDRoomStars_decorations from "../assets/phone__threeDRoomStars_decorations.svg";
+import phone__catalog_decorations from "../assets/phone__catalog_decorations.svg";
+import footer__socialMediaArrow from "../assets/footer__socialMediaArrow.svg";
+import catalog__pageClouds from "../assets/catalog__pageClouds.svg";
+import aboutUs__header_phoneDecorations from "../assets/aboutUs__header_phoneDecorations.svg";
+import aboutUs__decorations_goalPhone from "../assets/aboutUs__decorations_goalPhone.svg";
+import aboutUs__decorations_dryingPhone from "../assets/aboutUs__decorations_dryingPhone.svg";
+import aboutUs__decorations_resultsPhone from "../assets/aboutUs__decorations_resultsPhone.svg";
+import aboutUs__decorations_contactsPhone from "../assets/aboutUs__decorations_contactsPhone.svg";
 
 const images = {
     navbar__charity,
@@ -82,14 +89,10 @@ const images = {
     gradients__catalogGrad,
     gradients__feedbackGrad,
     header_clouds_phone,
-    header__bottomHeartAndZigZag_phone,
     magickSpace__cloudsAndHearts_phone,
     feedback__props_phone,
     partners__img_phone,
-    catalog__props_phone,
     footer__clouds_phone,
-    catalog__props_cloud1,
-    catalog__props_cloud2,
     bunny1,
     findRoom__littleHeart,
     findRoom__littleStar,
@@ -111,7 +114,18 @@ const images = {
     aboutUs__decorations_goal,
     aboutUs__decorations_drying,
     aboutUs__decorations_results,
-    aboutUs__decorations_contacts
+    aboutUs__decorations_contacts,
+    phone__headerButton_decoration,
+    phone__headerZigZagAnd_decoration,
+    phone__threeDRoomStars_decorations,
+    phone__catalog_decorations,
+    footer__socialMediaArrow,
+    catalog__pageClouds,
+    aboutUs__header_phoneDecorations,
+    aboutUs__decorations_goalPhone,
+    aboutUs__decorations_dryingPhone,
+    aboutUs__decorations_resultsPhone,
+    aboutUs__decorations_contactsPhone
 };
 
 export default images;

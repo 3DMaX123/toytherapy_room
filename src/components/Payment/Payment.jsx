@@ -13,7 +13,7 @@ const Payment = () => {
         <div className='payment__content payment__text' onClick={(e) => e.stopPropagation()}>
           <div className='payment__content_title'>
             <p className='payment__title-title'>Підтримати проєкт</p>
-            <p className='payment__title-description'>Використовуючи ці реквізити Ви можете допогти команді проєкту розвиватися <br/>
+            <p className='payment__title-description'>Використовуючи ці реквізити Ви можете допогти команді проєкту розвиватися <br className='payment__descriptionBr' />
               надалі і відкривати кімнати з іграшками в інших містах
             </p>
           </div>

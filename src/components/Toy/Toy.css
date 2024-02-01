@@ -18,7 +18,7 @@
     font-size: 0.833vw;
 
     color: #8787C4;
-    
+
     width: 100%;
 
 }
@@ -30,9 +30,11 @@
 }
 
 .toy__Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-family: var(--font-additional);
-    font-style: normal;
-    font-weight: 400;
     font-size: 1.042vw;
     width: 100%;
     height: 1.135vw;
@@ -58,51 +60,67 @@
 }
 
 
-@media screen and (max-width: 1400px){
-    .toy__Text{
+@media screen and (max-width: 1400px) {
+    .toy__Text {
         font-size: 1.6vw;
     }
 
-    .app__toy{
+    .app__toy {
         height: 29vw;
     }
 
-    .toy__Button{
+    .toy__Button {
         font-size: 1.6vw;
         height: 2.1vw;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .toy__Text{
+    .toy__Text {
         font-size: 1.8vw;
     }
 
-    .app__toy{
+    .app__toy {
         height: 32vw;
     }
 
-    .toy__Button{
+    .toy__Button {
         font-size: 1.8vw;
-        height: 2.7vw;
     }
 }
 
 @media screen and (max-width: 688px) {
     .app__toy {
-        height: 28.443vw;
-        width: 28.443vw;
-        border-radius: 3.293vw;
         width: 100%;
+        height: 44.393vw;
+
+        padding: 2.570vw 3.271vw;
+
+        border-radius: 5.140vw;
+
+        border-width: 1.5px;
+
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        box-sizing: border-box;
+        /* Opera/IE 8+ */
     }
 
-    .toy__Text p {
-        font-size: 1.946vw;
-        margin-left: 1.497vw;
+    .toy__Text{
+        font-size: 3.037vw;
     }
 
-    .catalog__toys_moreproducts {
-        font-size: 2.096vw;
+    .toy__Button{
+        font-size: 3.738vw;
+
+        height: 8vw;
+
+        padding: 0;
+
+        border-radius: 2vw;
     }
+
 
 }

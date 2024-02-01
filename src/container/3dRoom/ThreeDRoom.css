@@ -1,16 +1,17 @@
 .droom__buttons{
     display: flex;
     position: absolute;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     width: 100%;
 
-    margin: 45px 0;
+    margin-top: 45px;
 
     z-index: 1;
 }
 
-.droom__buttons button{
+.droom__buttons-returnBack,
+.droom__buttons-toCatalog{
     all: unset;
 
     display: flex;
@@ -25,8 +26,6 @@
     background: var(--color-pink);
     box-shadow: var(--drop-shadow);
     border-radius: 0.677vw;
-
-    margin: 0 66px;
 
     cursor: pointer;
 }
@@ -45,5 +44,15 @@
 @media screen and (max-width: 992px){
     .droom__buttons button{
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 688px){
+    .droom__buttons button{
+        font-size: 3.738vw;
+
+        padding: 1.9vw 4vw;
+
+        border-radius: 2vw;
     }
 }

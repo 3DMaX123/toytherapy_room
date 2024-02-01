@@ -58,23 +58,48 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .app__navbar{
+    .app__navbar {
         margin-bottom: 2.5vw;
     }
 
-    .navbar__buttons_helptoy-text{
+    .navbar__buttons_helptoy-text {
         font-size: 1.5vw;
     }
 
-    .navbar__buttons_helptoy-icon{
+    .navbar__buttons_helptoy-icon {
         width: 2vw;
         height: 2vw;
     }
 
     .navbar__buttons_charity,
-    .navbar__buttons_helpToy{
+    .navbar__buttons_helpToy {
         padding: 0.9vw 1.9vw;
 
         border-radius: 1vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
+
+    .app__navbar{
+        margin-bottom: 6vw;
+    }
+
+    .navbar__buttons_helptoy-text,
+    .navbar__buttons_helptoy-text {
+        font-size: 3.738vw;
+    }
+
+    .navbar__buttons_helptoy-icon,
+    .navbar__buttons_helptoy-icon {
+        width: 5.841vw;
+        height: 5.841vw;
+    }
+
+    .navbar__buttons_charity,
+    .navbar__buttons_helpToy {
+        padding: 1.4vw 3vw;
+
+        border-radius: 2.2vw;
     }
 }

@@ -9,7 +9,7 @@
     font-family: var(--font-main);
 }
 
-.app__aboutUs > div {
+.app__aboutUs>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     margin-bottom: 2.083vw;
 }
 
-.aboutUs__thirtyProcentresizedImage{
+.aboutUs__thirtyProcentresizedImage {
     width: 30%;
 }
 
@@ -32,16 +32,16 @@
     position: relative;
 }
 
-.aboutUs__smallWardrobeWithToys{
-    width: 45%!important;
+.aboutUs__smallWardrobeWithToys {
+    width: 45% !important;
 }
 
-.aboutUs__toyDrying{
-    width: 100%!important;
+.aboutUs__toyDrying {
+    width: 100% !important;
 }
 
-.aboutUs__roomWithToys{
-    width: 45%!important;
+.aboutUs__roomWithToys {
+    width: 45% !important;
 }
 
 .aboutUs__-paragraph,
@@ -119,12 +119,12 @@
     height: 1.875vw;
 }
 
-.aboutUs__zigZags{
+.aboutUs__zigZags {
     width: 100%;
     margin-bottom: 6.250vw;
 }
 
-.aboutUs__decorations{
+.aboutUs__decorations {
     position: absolute;
     left: 0;
     right: 0;
@@ -132,40 +132,40 @@
     z-index: -5;
 }
 
-.aboutUs__decorations_header{
+.aboutUs__decorations_header {
     width: 80%;
 }
 
-.aboutUs__gradients{
+.aboutUs__gradients {
     position: absolute;
 
     width: 100%;
     height: 100%;
-    
+
     opacity: 0.67;
     z-index: -6;
 }
 
-.aboutUs__gradients > img{
+.aboutUs__gradients>img {
     position: absolute;
     width: 100%;
 }
 
-.aboutUs__gradients-header{
+.aboutUs__gradients-header {
     top: 0;
     border-radius: 14vw 14vw 0 0;
 }
 
-.aboutUs__gradients-goal{
+.aboutUs__gradients-goal {
     top: 78.125vw;
 }
 
-.aboutUs__gradients-results{
-    top: 114.583vw; 
+.aboutUs__gradients-results {
+    top: 114.583vw;
     z-index: -7;
 }
 
-.aboutUs__gradients-alreadyDone{
+.aboutUs__gradients-alreadyDone {
     top: 192.708vw;
 }
 
@@ -178,8 +178,18 @@
     transform: scaleX(-1);
 }
 
-@media screen and (max-width: 1400px){
-    .aboutUs__-returnButton{
+.aboutUs__gradients-alreadyDonePhone,
+.aboutUs__gradients-alreadyDonePhone{
+    display: none;
+    width: 100%;
+}
+
+.aboutUs__decorationsPhone{
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .aboutUs__-returnButton {
         font-size: 1.9vw;
 
         padding: 1vw 2.708vw;
@@ -190,5 +200,161 @@
     .aboutUs__returnButton-returnIcon {
         width: 2.5vw;
         height: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .aboutUs__decorationsPhone{
+        display: flex;
+        position: absolute;
+    }
+
+    .aboutUs__header {
+        font-size: 10.514vw;
+
+        margin-bottom: 5vw;
+    }
+
+    .aboutUs__textBlock {
+        flex-direction: column;
+
+        gap: 6vw;
+        margin-bottom: 12vw;
+    }
+
+    .aboutUs__aboutUsTextBlock{
+        flex-direction: column-reverse;
+    }
+
+    .aboutUs__thirtyProcentresizedImage {
+        width: 60%;
+    }
+
+    .aboutUs__smallWardrobeWithToys {
+        width: 90% !important;
+    }
+
+    .aboutUs__forWhatTextBlock {
+        flex-direction: column-reverse;
+    }
+
+    .aboutUs__-paragraph {
+        font-size: 4.206vw;
+
+        text-align: center;
+
+        width: 100%;
+    }
+
+    .aboutUs__-paragraphList {
+        font-size: 4.206vw;
+        width: 90%;
+    }
+
+    .aboutUs__-paragraphList li {
+        margin-bottom: 3vw;
+    }
+
+    .aboutUs__-subHeader {
+        font-size: 6vw;
+
+        text-align: center;
+        margin: 0;
+    }
+
+    .aboutUs__resultsSubHeader {
+        margin-bottom: 6vw;
+    }
+
+    .aboutUs__toyDrying {
+        height: 40vw;
+        object-fit: cover;
+        border-radius: 5vw;
+    }
+
+    .aboutUs__roomWithToys {
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    .aboutUs__contacts {
+        flex-direction: column;
+    }
+
+    .aboutUs__contacts-title {
+        font-size: 3.738vw;
+    }
+
+    .aboutUs__contacts-text {
+        font-size: 4.206vw;
+    }
+
+    .aboutUs__-returnButton {
+        font-size: 3.738vw;
+        border-radius: 2vw;
+        padding: 1.7vw 4.4vw;
+
+        z-index: 2;
+    }
+
+    .aboutUs__returnButton-returnIcon {
+        width: 3.972vw;
+        height: 3.972vw;
+    }
+
+    .aboutUs__zigZags {
+        display: none;
+    }
+
+    .aboutUs__gradients-header {
+        height: 101vw;
+    }
+
+    .aboutUs__gradients-goal {
+        top: 105vw;
+        height: 100vw;
+    }
+
+    .aboutUs__gradients-results {
+        top: 202vw;
+        height: 170vw;
+    }
+
+    .aboutUs__gradients-alreadyDone {
+        top: 346vw;
+        height: 172vw;
+    }
+
+    .aboutUs__gradients-resultsPhone{
+        display: flex;
+        height: 150vw;
+        top: 535vw;
+    }
+
+    .aboutUs__gradients-alreadyDonePhone{
+        display: flex;
+        height: 154vw;
+        bottom: 56vw;
+    }
+
+    .aboutUs__gradients-bottomGrad{
+        height: 60vw;
+    }
+
+    .aboutUs__decorations{
+        display: none;
+    }
+
+    .aboutUs__decorations_headerPhone{
+        top: -10vw;
+    }
+
+    .aboutUs__decorations_resultsPhone{
+        top: -25vw;
+    }
+
+    .aboutUs__decorations_contactsPhone{
+        top: -10vw;
+        z-index: 1;
     }
 }
