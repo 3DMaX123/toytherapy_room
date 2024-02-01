@@ -22,17 +22,17 @@ const NavBar = () => {
         {location.hash === '#find-room' &&
             <FindRoom />
         }
-        {location.hash === '#become-owner' &&
+        {(location.hash === '#become-owner' || location.hash === "#support-by-toy") &&
             <Contacts />
         }
         {location.hash === '#support' &&
             <Payment />
         }
             <div className='app__navbar'>
-                <div className='navbar__buttons_helpToy'>
+                <a href="#support-by-toy" className='navbar__buttons_helpToy'>
                     <img className='navbar__buttons_helptoy-icon navbar__helpToyIcon' src={images.navbar__helpToy} alt='Bear with toy'/>
                     <p className='navbar__buttons_helptoy-text'>допомогти іграшкою</p>
-                </div>
+                </a>
                 <a href='#support' className='navbar__buttons_charity'>
                     <p className='navbar__buttons_helptoy-text' >підтримати проєкт</p>
                     <img className="navbar__buttons_helptoy-icon navbar__charityIcon" src={images.navbar__charity} alt="Charity heart"/>
