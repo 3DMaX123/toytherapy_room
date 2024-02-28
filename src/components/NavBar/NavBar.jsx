@@ -12,11 +12,7 @@ import Contacts from '../Contacts/Contacts';
 
 const NavBar = () => {
     let location = useLocation();
-    const [whichWindow, setWhichWindows] = useState();
 
-    const ChangeWindow = (whichOne) => {
-        setWhichWindows(whichOne);
-    }
     return (
         <>
         {location.hash === '#find-room' &&

@@ -23,20 +23,21 @@ function FindRoom() {
     }
 
     return (
-            <div className='app__findRoom_background' onClick={() => navigate(-1)}>
-                <div className='app_findroom' onClick={(e) => e.stopPropagation()}>
-                    <div className='findroom_search'>
-                        <label htmlFor="search" className='findroom_search_label'>Знайти кімнату у своєму місті </label>
-                        <input type="text" className='findroom_search_input' value={searchText} onChange={handleSearchChange} placeholder='Пошук' />
-                    </div>
-                    <div className='findroom_rooms'>
-                        {filteredData.map(item => (
-                            <Rooms key={item.id} item={item} random={chooseRandomImage()}/>
-                        ))}
-                    </div>
-                    <img className='findRoom-gradient' src={images.gradients__headerGrad} />
+        <div className='app__findRoom'>
+            <div className='findRoom_back' onClick={() => navigate(-1)}></div>
+            <div className='findRoom__form' onClick={(e) => e.stopPropagation()}>
+                <div className='findroom_search'>
+                    <label htmlFor="search" className='findroom_search_label'>Знайти кімнату у своєму місті </label>
+                    <input type="text" className='findroom_search_input' value={searchText} onChange={handleSearchChange} placeholder='Пошук' />
                 </div>
+                <div className='findroom_rooms'>
+                    {filteredData.map(item => (
+                        <Rooms key={item.id} item={item} random={chooseRandomImage()} />
+                    ))}
+                </div>
+                <img className='findRoom-gradient' src={images.gradients__headerGrad} />
             </div>
+        </div>
     );
 }
 

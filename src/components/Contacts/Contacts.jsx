@@ -10,8 +10,10 @@ const Contacts = () => {
   let navigate = useNavigate();
 
   return (
-      <div className='app__contacts' onClick={() => navigate(-1)}>
-        <div className='contacts__content payment__textSettings' onClick={(e) => e.stopPropagation()}>
+    <div className='app__contacts'>
+      <div className='contacts__back' onClick={() => navigate(-1)}></div>
+      <div className='contacts__form' onClick={(e) => e.stopPropagation()}>
+        <div className='contacts__content payment__textSettings'>
           <p className='contacts__content_title '>Контактна інформація</p>
           <div className='contacts__content_buttonName contacts__content_information'>
             <p className='contacts__buttonName-title contacts__information-title'>ім’я</p>
@@ -25,6 +27,7 @@ const Contacts = () => {
           <img className='contacts__content_cloud' src={images.contacts__backGround} alt='img' />
         </div>
       </div>
+    </div>
   );
 };
 

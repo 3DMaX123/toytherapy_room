@@ -1,24 +1,32 @@
-.app__findRoom_background {
+.app__findRoom {
     display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
 
+    width: 100%;
+    height: 100%;
+
     top: 0;
     left: 0;
 
+    animation: slowOpen .4s ease;
+    z-index: 10;
+}
+
+.findRoom_back {
     width: 100%;
     height: 100vh;
 
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(3.5px);
 
-    z-index: 99;
+    z-index: 10;
 
     animation: slowOpen .4s ease;
 }
 
-.app_findroom {
+.findRoom__form {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -34,9 +42,9 @@
     background-color: var(--color-white);
     box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.20);
 
+    overflow: auto;
     flex-direction: column;
-
-
+    z-index: 11;
 }
 
 .findRoom-gradient {
@@ -83,7 +91,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .app_findroom {
+    .findRoom__form {
         width: 85%;
         height: 70%;
 
@@ -117,22 +125,22 @@
 }
 
 @media screen and (max-width: 688px) {
-    .app_findroom{
+    .findRoom__form {
         width: 95%;
         height: 135vw;
     }
 
-    .findroom_search{
+    .findroom_search {
         flex-direction: column;
     }
 
-    .findroom_search_label{
+    .findroom_search_label {
         font-size: 6.776vw;
 
         margin-top: 5vw;
     }
-    
-    .findroom_search_input{
+
+    .findroom_search_input {
         width: 60%;
         height: 9vw;
 
@@ -141,7 +149,7 @@
         border-radius: 4.206vw;
     }
 
-    .findroom_rooms{
+    .findroom_rooms {
         margin-top: 7.243vw;
 
         display: grid;
@@ -149,7 +157,7 @@
         gap: 2.336vw;
 
         grid-template-columns: 1fr 1fr;
-        
+
         height: 90%;
         border-radius: 8.411vw;
     }
