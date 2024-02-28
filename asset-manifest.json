@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/toytherapy_room/static/css/main.c549dbd6.css",
-    "main.js": "/toytherapy_room/static/js/main.14795217.js",
+    "main.css": "/toytherapy_room/static/css/main.f086a9c4.css",
+    "main.js": "/toytherapy_room/static/js/main.10f1226a.js",
     "static/media/3dRoom.png": "/toytherapy_room/static/media/3dRoom.4a21056e18b96d80b8b5.png",
     "static/media/aboutus_toysDrying.png": "/toytherapy_room/static/media/aboutus_toysDrying.ba135a448f3b2ddcadf1.png",
     "static/media/aboutus_smallWardrobeWithToys.png": "/toytherapy_room/static/media/aboutus_smallWardrobeWithToys.d59f37692d2cfd6f5efa.png",
@@ -67,11 +67,11 @@
     "index.html": "/toytherapy_room/index.html",
     "static/media/header__bottomHeartAndZigZag-scroll.webp": "/toytherapy_room/static/media/header__bottomHeartAndZigZag-scroll.e96e2642b04ff99a4b46.webp",
     "static/media/header__textithHeart-heart.webp": "/toytherapy_room/static/media/header__textithHeart-heart.c292870b207da12ea5ad.webp",
-    "main.c549dbd6.css.map": "/toytherapy_room/static/css/main.c549dbd6.css.map",
-    "main.14795217.js.map": "/toytherapy_room/static/js/main.14795217.js.map"
+    "main.f086a9c4.css.map": "/toytherapy_room/static/css/main.f086a9c4.css.map",
+    "main.10f1226a.js.map": "/toytherapy_room/static/js/main.10f1226a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c549dbd6.css",
-    "static/js/main.14795217.js"
+    "static/css/main.f086a9c4.css",
+    "static/js/main.10f1226a.js"
   ]
 }
